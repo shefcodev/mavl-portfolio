@@ -136,7 +136,7 @@ export const socials = [
   },
   {
     name: "email",
-    url: "mailto:shefcodev@gmail.com",
+    url: "mailto:Marvellousolabode@gmail.com",
   },
   {
     name: "linkedin",

@@ -48,32 +48,32 @@ const ContactForm = () => {
     <Form {...form}>
       <motion.form
         onSubmit={form.handleSubmit(onSubmit)}
-        className='w-full sm:w-[574px] lg:max-w-[516px] flex flex-col gap-10'
+        className="w-full sm:w-[574px] lg:max-w-[516px] flex flex-col gap-10"
         {...motionValues}
       >
         <FormInput
-          name='name'
+          name="name"
           control={form.control}
-          label='Name'
-          placeholder='Marvelous Olabode'
+          label="Name"
+          placeholder="Marvelous Olabode"
         />
         <FormInput
-          name='email'
+          name="email"
           control={form.control}
-          label='Email'
-          placeholder='marvolousolabode@gmail.com'
+          label="Email"
+          placeholder="Marvellousolabode@gmail.com"
         />
         <FormInput
-          name='message'
+          name="message"
           control={form.control}
-          label='Message'
-          placeholder='Message here'
+          label="Message"
+          placeholder="Message here"
         />
         <Button
-          type='submit'
-          className='bg-transparent rounded-xl text-white border border-white py-2.5'
+          type="submit"
+          className="bg-transparent rounded-xl text-white border border-white py-2.5"
         >
-          <span className='font-montserrat font-bold'>Submit</span>
+          <span className="font-montserrat font-bold">Submit</span>
         </Button>
       </motion.form>
     </Form>
