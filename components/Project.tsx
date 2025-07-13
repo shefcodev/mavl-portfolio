@@ -94,7 +94,7 @@ const Project = ({
               alt={title}
               width={500}
               height={150}
-              className='size-[300px] lg:w-full rounded-xl'
+              className='size-fit lg:w-full rounded-xl'
             />
           </Link>
 

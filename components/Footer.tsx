@@ -10,7 +10,7 @@ const Footer = () => {
         <main className='flex-center flex-col'>
           <motion.p className='footer-p' {...motionValues}>
             <span className='font-bold text-base'>©</span>{' '}
-            {new Date().getFullYear()} Shefcodev
+            {new Date().getFullYear()} Marvellous
           </motion.p>
           <motion.p className='footer-p' {...motionValues}>
             All rights reserved.

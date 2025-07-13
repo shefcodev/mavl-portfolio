@@ -124,15 +124,11 @@ export const contact = {
 export const socials = [
   {
     name: "whatsapp",
-    url: "https://wa.me/+2348161882295",
-  },
-  {
-    name: "x",
-    url: "https://www.x.com/xhefco",
+    url: "https://wa.me/+2348071895503",
   },
   {
     name: "github",
-    url: "https://www.github.com/shefcodev",
+    url: "https://www.github.com/marvelcruz",
   },
   {
     name: "email",
@@ -140,11 +136,7 @@ export const socials = [
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/sherifjimoh",
-  },
-  {
-    name: "instagram",
-    url: "https://www.instagram.com/xhefco",
+    url: "https://www.linkedin.com/in/marvellousdolabode",
   },
 ];
 
