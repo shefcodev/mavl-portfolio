@@ -10,7 +10,7 @@ export const links = [
 ];
 
 export const details = {
-  aboutTitle: "Hey, I'm Marvel!",
+  aboutTitle: "Hey, I'm Marvellous!",
   aboutSubtitle: "Your Strategic Virtual Assistant and CRM automation Partner",
   aboutDesc:
     "I empower businesses to thrive. I combine administrative expertise, workflow automation, and data-driven insights. My goal is to make your operations smoother and more efficient. Let’s connect and create something awesome.",
