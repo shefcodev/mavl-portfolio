@@ -5,7 +5,7 @@ export const links = [
   { title: "About", href: "#about" },
   { title: "Stacks", href: "#stacks" },
   { title: "Projects", href: "#projects" },
-  { title: "Designs", href: "#designs" }
+  { title: "Designs", href: "#designs" },
   { title: "Resume", href: "#resume" },
   { title: "Contact", href: "#contact" },
 ];
@@ -54,6 +54,139 @@ export const stacks = {
 
 export const projects = {
   title: "Projects",
+  description:
+    "Here, you'll find a collection of key works that highlight my expertise in frontend development. These projects represent the culmination of my skills, creativity, and passion for creating exceptional web experiences.",
+  projects: [
+    {
+      id: "port1",
+      title: "Detail",
+      description:
+        "Quickbooks certification",
+      url: "https://hilink-travel-app-gamma.vercel.app/",
+      gitLink: "https://github.com/shefcodev/hilink-travel-app.git",
+      src: "/images/Image3a.png",
+      stacks: [""],
+    },
+    {
+      id: "port2",
+      title: "Detail",
+      description:
+        "Managed and executed Facebook content strategy across 18 BNI chapters, aligning branding and engagement. Developed campaigns that promoted local chapter events, spotlighted members, and drove consistent growth across the board.",
+      url: "https://havco-bank.vercel.app",
+      gitLink: "https://github.com/shefcodev/havco_banking_app.git",
+      src: "/images/Facebook.png",
+      stacks: [""],
+    },
+    {
+      id: "port3", 
+      title: "Detail",
+      description:
+        "Led the LinkedIn strategy for all 18 BNI chapters. Created and scheduled member highlights, event promotions, and leadership messages to build professional credibility and increase community visibility.",
+      url: "https://corebot-neon.vercel.app/",
+      gitLink: "https://github.com/shefcodev/corebot.git",
+      src: "/images/Linkedin social.png",
+      stacks: [""],
+    },
+    {
+      id: "port4",
+      title: "Detail",
+      description:
+        "Handled full-cycle bookkeeping and reconciliations across 18 BNI chapters using QuickBooks. Maintained up-to-date financials, streamlined payment processing,and ensured financial accuracy chapter-wide.",
+      url: "https://hilink-travel-app-gamma.vercel.app/",
+      gitLink: "https://github.com/shefcodev/hilink-travel-app.git",
+      src: "/images/Quickbooks dasboard.png",
+      stacks: [""],
+    },
+    {
+      id: "port5",
+      title: "Detail",
+      description:
+        "Coordinated, scheduled, and managed calendars for meetings and events across all 18 chapters. Ensured smooth communication flows between directors, leadership teams, and members.",
+      url: "https://nike-clone-app-lake.vercel.app/",
+      gitLink: "https://github.com/shefcodev/nike-clone-app.git",
+      src: "/images/Calendar Management.png",
+      stacks: [""],
+    },
+    {
+      id: "port6",
+      title: "Detail",
+      description:
+        "Coordinated, scheduled, and managed calendars for meetings and events across all 18 chapters. Ensured smooth communication flows between directors, leadership teams, and members.",
+      url: "https://nike-clone-app-lake.vercel.app/",
+      gitLink: "https://github.com/shefcodev/nike-clone-app.git",
+      src: "/images/port4.png",
+      stacks: [""],
+    },
+    {
+      id: "port6",
+      title: "Detail",
+      description:
+        "Coordinated, scheduled, and managed calendars for meetings and events across all 18 chapters. Ensured smooth communication flows between directors, leadership teams, and members.",
+      url: "https://nike-clone-app-lake.vercel.app/",
+      gitLink: "https://github.com/shefcodev/nike-clone-app.git",
+      src: "/images/port4.png",
+      stacks: [""],
+    },{
+      id: "port6",
+      title: "Detail",
+      description:
+        "Coordinated, scheduled, and managed calendars for meetings and events across all 18 chapters. Ensured smooth communication flows between directors, leadership teams, and members.",
+      url: "https://nike-clone-app-lake.vercel.app/",
+      gitLink: "https://github.com/shefcodev/nike-clone-app.git",
+      src: "/images/port4.png",
+      stacks: [""],
+    },{
+      id: "port6",
+      title: "Detail",
+      description:
+        "Coordinated, scheduled, and managed calendars for meetings and events across all 18 chapters. Ensured smooth communication flows between directors, leadership teams, and members.",
+      url: "https://nike-clone-app-lake.vercel.app/",
+      gitLink: "https://github.com/shefcodev/nike-clone-app.git",
+      src: "/images/port4.png",
+      stacks: [""],
+    },{
+      id: "port6",
+      title: "Detail",
+      description:
+        "Coordinated, scheduled, and managed calendars for meetings and events across all 18 chapters. Ensured smooth communication flows between directors, leadership teams, and members.",
+      url: "https://nike-clone-app-lake.vercel.app/",
+      gitLink: "https://github.com/shefcodev/nike-clone-app.git",
+      src: "/images/port4.png",
+      stacks: [""],
+    },{
+      id: "port6",
+      title: "Detail",
+      description:
+        "Coordinated, scheduled, and managed calendars for meetings and events across all 18 chapters. Ensured smooth communication flows between directors, leadership teams, and members.",
+      url: "https://nike-clone-app-lake.vercel.app/",
+      gitLink: "https://github.com/shefcodev/nike-clone-app.git",
+      src: "/images/port4.png",
+      stacks: [""],
+    },{
+      id: "port6",
+      title: "Detail",
+      description:
+        "Coordinated, scheduled, and managed calendars for meetings and events across all 18 chapters. Ensured smooth communication flows between directors, leadership teams, and members.",
+      url: "https://nike-clone-app-lake.vercel.app/",
+      gitLink: "https://github.com/shefcodev/nike-clone-app.git",
+      src: "/images/port4.png",
+      stacks: [""],
+    },{
+      id: "port6",
+      title: "Detail",
+      description:
+        "Coordinated, scheduled, and managed calendars for meetings and events across all 18 chapters. Ensured smooth communication flows between directors, leadership teams, and members.",
+      url: "https://nike-clone-app-lake.vercel.app/",
+      gitLink: "https://github.com/shefcodev/nike-clone-app.git",
+      src: "/images/port4.png",
+      stacks: [""],
+    },
+  ],
+};
+// add projects to the projects prop of the object below
+
+export const designs = {
+  title: "Designs",
   description:
     "Here, you'll find a collection of key works that highlight my expertise in frontend development. These projects represent the culmination of my skills, creativity, and passion for creating exceptional web experiences.",
   projects: [
