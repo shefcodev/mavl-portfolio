@@ -197,6 +197,16 @@ export const designs = {
     "Here, you'll find a collection of key works that highlight my expertise in frontend development. These Designs represent the culmination of my skills, creativity, and passion for creating exceptional experiences.",
   projects: [
     {
+      id: "port0.1",
+      title: "Detail",
+      description:
+        "ArcTri",
+      url: "https://nike-clone-app-lake.vercel.app/",
+      gitLink: "https://github.com/shefcodev/nike-clone-app.git",
+      src: "/images/10.png",
+      stacks: [""],
+    },
+    {
       id: "port1",
       title: "Detail",
       description:
