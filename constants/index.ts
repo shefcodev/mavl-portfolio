@@ -194,10 +194,10 @@ export const designs = {
       id: "port1",
       title: "Detail",
       description:
-        "Quickbooks certification",
+        "Vivace",
       url: "https://hilink-travel-app-gamma.vercel.app/",
       gitLink: "https://github.com/shefcodev/hilink-travel-app.git",
-      src: "/images/Image3a.png",
+      src: "/images/11.png",
       stacks: [""],
     },
     {
