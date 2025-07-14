@@ -8,12 +8,12 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/ui/carousel';
-import { projects } from '@/constants';
+import { designs } from '@/constants';
 import Project from '@/components/Project';
 import { motionValues } from '@/lib/utils';
 
 const Projects = () => {
-  const { title, description, projects: projects_ } = projects;
+  const { title, description, projects: projects_ } = designs;
 
   return (
     <section id='projects' className='section section_px section-gap'>
