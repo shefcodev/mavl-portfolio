@@ -11,7 +11,7 @@ export const links = [
 
 export const details = {
   aboutTitle: "Hey, I'm Marvellous!",
-  aboutSubtitle: "Your Strategic Virtual Assistant and CRM automation Partner Executive Virtual Assistant | CRM & Automation Workflow Specialist | JavaScript & ReactJS | Project & Product Management | Tech-Driven Admin Support | Product Design | Social Media Management | Graphic Design",
+  aboutSubtitle: "Your Strategic Virtual Assistant and CRM automation Partner — Expert in Executive Support, Workflow Automation, JavaScript & ReactJS, Project & Product Management, Tech-Driven Administration, Product Design, Social Media, and Graphic Design.",
   aboutDesc:
     "I empower businesses to thrive. I combine administrative expertise, workflow automation, and data-driven insights. My goal is to make your operations smoother and more efficient. Let’s connect and create something awesome.",
 };
