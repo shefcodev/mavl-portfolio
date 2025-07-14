@@ -200,7 +200,7 @@ export const designs = {
       id: "port0.1",
       title: "Detail",
       description:
-        "ArcTri",
+        "Vivace",
       url: "https://nike-clone-app-lake.vercel.app/",
       gitLink: "https://github.com/shefcodev/nike-clone-app.git",
       src: "/images/10.png",
@@ -304,6 +304,16 @@ export const designs = {
       url: "https://nike-clone-app-lake.vercel.app/",
       gitLink: "https://github.com/shefcodev/nike-clone-app.git",
       src: "/images/20.png",
+      stacks: [""],
+    },
+    {
+      id: "port6",
+      title: "Detail",
+      description:
+        "Iphone",
+      url: "https://nike-clone-app-lake.vercel.app/",
+      gitLink: "https://github.com/shefcodev/nike-clone-app.git",
+      src: "/images/Iphone burger.png",
       stacks: [""],
     },
   ],
