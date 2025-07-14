@@ -350,6 +350,25 @@ export const supports = [
       "Blog Writing, Newsletters & Email Copywriting",
     ],
   },
+  {
+    title: "Frontend Development & UI/UX Design",
+    values: [
+      "Responsive Web Development (JavaScript, ReactJS, Tailwind CSS)",
+      "UI/UX Wireframing, Prototyping & User-Centric Design",
+      "Web App Interface Development & Optimization",
+      "Design Systems & Component Libraries",
+    ],
+  },
+  {
+    title: "Creative & Visual Design",
+    values: [
+      "Social Media Graphics & Content Creation",
+      "Marketing Collaterals (Presentations, Flyers, Brochures)",
+      "Branding & Visual Identity Design",
+      "Graphic Design for Digital Campaigns",
+    ],
+  },
+  
 ];
 
 export const works = {
