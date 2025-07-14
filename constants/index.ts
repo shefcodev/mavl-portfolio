@@ -138,37 +138,7 @@ export const projects = {
       stacks: [""],
     },
     {
-      id: "port6",
-      title: "Detail",
-      description:
-        "Coordinated, scheduled, and managed calendars for meetings and events across all 18 chapters. Ensured smooth communication flows between directors, leadership teams, and members.",
-      url: "https://nike-clone-app-lake.vercel.app/",
-      gitLink: "https://github.com/shefcodev/nike-clone-app.git",
-      src: "/images/port4.png",
-      stacks: [""],
-    },
-    {
-      id: "port6",
-      title: "Detail",
-      description:
-        "Coordinated, scheduled, and managed calendars for meetings and events across all 18 chapters. Ensured smooth communication flows between directors, leadership teams, and members.",
-      url: "https://nike-clone-app-lake.vercel.app/",
-      gitLink: "https://github.com/shefcodev/nike-clone-app.git",
-      src: "/images/port4.png",
-      stacks: [""],
-    },
-    {
-      id: "port6",
-      title: "Detail",
-      description:
-        "Coordinated, scheduled, and managed calendars for meetings and events across all 18 chapters. Ensured smooth communication flows between directors, leadership teams, and members.",
-      url: "https://nike-clone-app-lake.vercel.app/",
-      gitLink: "https://github.com/shefcodev/nike-clone-app.git",
-      src: "/images/port4.png",
-      stacks: [""],
-    },
-    {
-      id: "port6",
+      id: "port9",
       title: "Detail",
       description:
         "Coordinated, scheduled, and managed calendars for meetings and events across all 18 chapters. Ensured smooth communication flows between directors, leadership teams, and members.",
@@ -267,7 +237,7 @@ export const designs = {
       stacks: [""],
     },
     {
-      id: "port6",
+      id: "port7",
       title: "Detail",
       description:
         " Logofolio",
@@ -277,7 +247,7 @@ export const designs = {
       stacks: [""],
     },
     {
-      id: "port6",
+      id: "port8",
       title: "Detail",
       description:
         "Touring advert",
@@ -287,7 +257,7 @@ export const designs = {
       stacks: [""],
     },
     {
-      id: "port6",
+      id: "port9",
       title: "Detail",
       description:
         "ArcTri",
@@ -297,7 +267,7 @@ export const designs = {
       stacks: [""],
     },
     {
-      id: "port6",
+      id: "port10",
       title: "Detail",
       description:
         "ArcTri",
@@ -307,7 +277,7 @@ export const designs = {
       stacks: [""],
     },
     {
-      id: "port6",
+      id: "port11",
       title: "Detail",
       description:
         "Iphone",
