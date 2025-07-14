@@ -60,6 +60,16 @@ export const projects = {
       id: "port1",
       title: "Detail",
       description:
+        "Quickbooks certification",
+      url: "https://hilink-travel-app-gamma.vercel.app/",
+      gitLink: "https://github.com/shefcodev/hilink-travel-app.git",
+      src: "/images/Image3a.png",
+      stacks: [""],
+    },
+    {
+      id: "port1",
+      title: "Detail",
+      description:
         "Managed and executed Facebook content strategy across 18 BNI chapters, aligning branding and engagement. Developed campaigns that promoted local chapter events, spotlighted members, and drove consistent growth across the board.",
       url: "https://havco-bank.vercel.app",
       gitLink: "https://github.com/shefcodev/havco_banking_app.git",
@@ -90,10 +100,10 @@ export const projects = {
       id: "port4",
       title: "Detail",
       description:
-        "Quickbooks certification",
-      url: "https://hilink-travel-app-gamma.vercel.app/",
-      gitLink: "https://github.com/shefcodev/hilink-travel-app.git",
-      src: "/images/Image3a.png",
+        "Managed and executed Facebook content strategy across 18 BNI chapters, aligning branding and engagement. Developed campaigns that promoted local chapter events, spotlighted members, and drove consistent growth across the board.",
+      url: "https://havco-bank.vercel.app",
+      gitLink: "https://github.com/shefcodev/havco_banking_app.git",
+      src: "/images/port1.png",
       stacks: [""],
     },
     {
