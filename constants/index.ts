@@ -93,7 +93,7 @@ export const projects = {
         "Handled full-cycle bookkeeping and reconciliations across 18 BNI chapters using QuickBooks. Maintained up-to-date financials, streamlined payment processing,and ensured financial accuracy chapter-wide.",
       url: "https://hilink-travel-app-gamma.vercel.app/",
       gitLink: "https://github.com/shefcodev/hilink-travel-app.git",
-      src: "/images/port3.png",
+      src: "/images/Quickbooks dashboard.png",
       stacks: [""],
     },
     {
