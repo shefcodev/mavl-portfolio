@@ -158,7 +158,7 @@ export const projects = {
 export const designs = {
   title: "Designs",
   description:
-    "Here, you'll find a collection of key works that highlight my expertise in frontend development. These Designs represent the culmination of my skills, creativity, and passion for creating exceptional experiences.",
+    "Here, you'll find a collection of key works that highlight my expertise. These Designs represent the culmination of my skills, creativity, and passion for creating exceptional experiences.",
   projects: [
     {
       id: "port0.1",
