@@ -104,7 +104,7 @@ export const projects = {
         "Built and managed automation in Keap (Infusionsoft) to handle membership renewal flows, reducing admin workload, improving follow-up consistency, and retaining more members.",
       url: "https://nike-clone-app-lake.vercel.app/",
       gitLink: "https://github.com/shefcodev/nike-clone-app.git",
-      src: "/images/Keap.png",
+      src: "/images/keap.png",
       stacks: [""],
     },
     {
