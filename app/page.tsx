@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import About from "@/components/About";
 import Stacks from "@/components/Stacks";
 import Projects from "@/components/Projects";
-import Designs from "@/components/Projects";
+import Designs from "@/components/Designs";
 import Resume from "@/components/Resume";
 import Contact from "@/components/Contact";
 import Work from "@/components/Work";

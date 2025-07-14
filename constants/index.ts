@@ -5,6 +5,7 @@ export const links = [
   { title: "About", href: "#about" },
   { title: "Stacks", href: "#stacks" },
   { title: "Projects", href: "#projects" },
+  { title: "Designs", href: "#designs" }
   { title: "Resume", href: "#resume" },
   { title: "Contact", href: "#contact" },
 ];
@@ -107,7 +108,71 @@ export const projects = {
       stacks: [""],
     },
     {
-      id: "port7",
+      id: "port6",
+      title: "Detail",
+      description:
+        "Coordinated, scheduled, and managed calendars for meetings and events across all 18 chapters. Ensured smooth communication flows between directors, leadership teams, and members.",
+      url: "https://nike-clone-app-lake.vercel.app/",
+      gitLink: "https://github.com/shefcodev/nike-clone-app.git",
+      src: "/images/port4.png",
+      stacks: [""],
+    },
+    {
+      id: "port6",
+      title: "Detail",
+      description:
+        "Coordinated, scheduled, and managed calendars for meetings and events across all 18 chapters. Ensured smooth communication flows between directors, leadership teams, and members.",
+      url: "https://nike-clone-app-lake.vercel.app/",
+      gitLink: "https://github.com/shefcodev/nike-clone-app.git",
+      src: "/images/port4.png",
+      stacks: [""],
+    },{
+      id: "port6",
+      title: "Detail",
+      description:
+        "Coordinated, scheduled, and managed calendars for meetings and events across all 18 chapters. Ensured smooth communication flows between directors, leadership teams, and members.",
+      url: "https://nike-clone-app-lake.vercel.app/",
+      gitLink: "https://github.com/shefcodev/nike-clone-app.git",
+      src: "/images/port4.png",
+      stacks: [""],
+    },{
+      id: "port6",
+      title: "Detail",
+      description:
+        "Coordinated, scheduled, and managed calendars for meetings and events across all 18 chapters. Ensured smooth communication flows between directors, leadership teams, and members.",
+      url: "https://nike-clone-app-lake.vercel.app/",
+      gitLink: "https://github.com/shefcodev/nike-clone-app.git",
+      src: "/images/port4.png",
+      stacks: [""],
+    },{
+      id: "port6",
+      title: "Detail",
+      description:
+        "Coordinated, scheduled, and managed calendars for meetings and events across all 18 chapters. Ensured smooth communication flows between directors, leadership teams, and members.",
+      url: "https://nike-clone-app-lake.vercel.app/",
+      gitLink: "https://github.com/shefcodev/nike-clone-app.git",
+      src: "/images/port4.png",
+      stacks: [""],
+    },{
+      id: "port6",
+      title: "Detail",
+      description:
+        "Coordinated, scheduled, and managed calendars for meetings and events across all 18 chapters. Ensured smooth communication flows between directors, leadership teams, and members.",
+      url: "https://nike-clone-app-lake.vercel.app/",
+      gitLink: "https://github.com/shefcodev/nike-clone-app.git",
+      src: "/images/port4.png",
+      stacks: [""],
+    },{
+      id: "port6",
+      title: "Detail",
+      description:
+        "Coordinated, scheduled, and managed calendars for meetings and events across all 18 chapters. Ensured smooth communication flows between directors, leadership teams, and members.",
+      url: "https://nike-clone-app-lake.vercel.app/",
+      gitLink: "https://github.com/shefcodev/nike-clone-app.git",
+      src: "/images/port4.png",
+      stacks: [""],
+    },{
+      id: "port6",
       title: "Detail",
       description:
         "Coordinated, scheduled, and managed calendars for meetings and events across all 18 chapters. Ensured smooth communication flows between directors, leadership teams, and members.",
