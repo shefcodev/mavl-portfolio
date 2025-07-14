@@ -46,7 +46,11 @@ export const stacks = {
     "Pinterest",
     "LinkedIn",
     "X",
-    "Reddit",
+    "React",
+    "HTML & XML",
+    "CSS & TailWind CSS",
+    "Javascript & Nodejs",
+    "Reddit", 
   ],
 };
 
