@@ -67,17 +67,17 @@ export const projects = {
       stacks: [""],
     },
     {
-      id: "port1",
+      id: "port2",
       title: "Detail",
       description:
         "Managed and executed Facebook content strategy across 18 BNI chapters, aligning branding and engagement. Developed campaigns that promoted local chapter events, spotlighted members, and drove consistent growth across the board.",
       url: "https://havco-bank.vercel.app",
       gitLink: "https://github.com/shefcodev/havco_banking_app.git",
-      src: "/images/port1.png",
+      src: "/images/Facebook.png",
       stacks: [""],
     },
     {
-      id: "port2",
+      id: "port3", 
       title: "Detail",
       description:
         "Led the LinkedIn strategy for all 18 BNI chapters. Created and scheduled member highlights, event promotions, and leadership messages to build professional credibility and increase community visibility.",
@@ -87,7 +87,7 @@ export const projects = {
       stacks: [""],
     },
     {
-      id: "port3",
+      id: "port4",
       title: "Detail",
       description:
         "Handled full-cycle bookkeeping and reconciliations across 18 BNI chapters using QuickBooks. Maintained up-to-date financials, streamlined payment processing,and ensured financial accuracy chapter-wide.",
@@ -97,7 +97,7 @@ export const projects = {
       stacks: [""],
     },
     {
-      id: "port4",
+      id: "port5",
       title: "Detail",
       description:
         "Managed and executed Facebook content strategy across 18 BNI chapters, aligning branding and engagement. Developed campaigns that promoted local chapter events, spotlighted members, and drove consistent growth across the board.",
@@ -107,7 +107,7 @@ export const projects = {
       stacks: [""],
     },
     {
-      id: "port5",
+      id: "port6",
       title: "Detail",
       description:
         "Coordinated, scheduled, and managed calendars for meetings and events across all 18 chapters. Ensured smooth communication flows between directors, leadership teams, and members.",
@@ -117,7 +117,7 @@ export const projects = {
       stacks: [""],
     },
     {
-      id: "port6",
+      id: "port7",
       title: "Detail",
       description:
         "Coordinated, scheduled, and managed calendars for meetings and events across all 18 chapters. Ensured smooth communication flows between directors, leadership teams, and members.",
