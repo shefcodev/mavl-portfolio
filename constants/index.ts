@@ -124,7 +124,7 @@ export const projects = {
         "Designed and deployed member feedback surveys using Alchemer. Collected valuable insights for improving chapter operations and member experiences.",
       url: "https://nike-clone-app-lake.vercel.app/",
       gitLink: "",
-      src: "/images/Gohighlevel.png",
+      src: "/images/alchemer.png",
       stacks: [""],
     },
     {
