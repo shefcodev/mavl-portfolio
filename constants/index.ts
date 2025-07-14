@@ -126,7 +126,8 @@ export const projects = {
       gitLink: "https://github.com/shefcodev/nike-clone-app.git",
       src: "/images/port4.png",
       stacks: [""],
-    },{
+    },
+    {
       id: "port6",
       title: "Detail",
       description:
@@ -135,7 +136,8 @@ export const projects = {
       gitLink: "https://github.com/shefcodev/nike-clone-app.git",
       src: "/images/port4.png",
       stacks: [""],
-    },{
+    },
+    {
       id: "port6",
       title: "Detail",
       description:
@@ -144,7 +146,8 @@ export const projects = {
       gitLink: "https://github.com/shefcodev/nike-clone-app.git",
       src: "/images/port4.png",
       stacks: [""],
-    },{
+    },
+    {
       id: "port6",
       title: "Detail",
       description:
@@ -153,7 +156,8 @@ export const projects = {
       gitLink: "https://github.com/shefcodev/nike-clone-app.git",
       src: "/images/port4.png",
       stacks: [""],
-    },{
+    },
+    {
       id: "port6",
       title: "Detail",
       description:
@@ -162,7 +166,8 @@ export const projects = {
       gitLink: "https://github.com/shefcodev/nike-clone-app.git",
       src: "/images/port4.png",
       stacks: [""],
-    },{
+    },
+    {
       id: "port6",
       title: "Detail",
       description:
@@ -171,7 +176,8 @@ export const projects = {
       gitLink: "https://github.com/shefcodev/nike-clone-app.git",
       src: "/images/port4.png",
       stacks: [""],
-    },{
+    },
+    {
       id: "port6",
       title: "Detail",
       description:
@@ -204,30 +210,30 @@ export const designs = {
       id: "port2",
       title: "Detail",
       description:
-        "Managed and executed Facebook content strategy across 18 BNI chapters, aligning branding and engagement. Developed campaigns that promoted local chapter events, spotlighted members, and drove consistent growth across the board.",
+        "Fuse",
       url: "https://havco-bank.vercel.app",
       gitLink: "https://github.com/shefcodev/havco_banking_app.git",
-      src: "/images/Facebook.png",
+      src: "/images/12.png",
       stacks: [""],
     },
     {
       id: "port3", 
       title: "Detail",
       description:
-        "Led the LinkedIn strategy for all 18 BNI chapters. Created and scheduled member highlights, event promotions, and leadership messages to build professional credibility and increase community visibility.",
+        "Fuse",
       url: "https://corebot-neon.vercel.app/",
       gitLink: "https://github.com/shefcodev/corebot.git",
-      src: "/images/Linkedin social.png",
+      src: "/images/Fuse.png",
       stacks: [""],
     },
     {
       id: "port4",
       title: "Detail",
       description:
-        "Handled full-cycle bookkeeping and reconciliations across 18 BNI chapters using QuickBooks. Maintained up-to-date financials, streamlined payment processing,and ensured financial accuracy chapter-wide.",
+        "Solbase",
       url: "https://hilink-travel-app-gamma.vercel.app/",
       gitLink: "https://github.com/shefcodev/hilink-travel-app.git",
-      src: "/images/Quickbooks dasboard.png",
+      src: "/images/14.png",
       stacks: [""],
     },
     {
@@ -259,7 +265,8 @@ export const designs = {
       gitLink: "https://github.com/shefcodev/nike-clone-app.git",
       src: "/images/port4.png",
       stacks: [""],
-    },{
+    },
+    {
       id: "port6",
       title: "Detail",
       description:
@@ -268,7 +275,8 @@ export const designs = {
       gitLink: "https://github.com/shefcodev/nike-clone-app.git",
       src: "/images/port4.png",
       stacks: [""],
-    },{
+    },
+    {
       id: "port6",
       title: "Detail",
       description:
@@ -277,7 +285,8 @@ export const designs = {
       gitLink: "https://github.com/shefcodev/nike-clone-app.git",
       src: "/images/port4.png",
       stacks: [""],
-    },{
+    },
+    {
       id: "port6",
       title: "Detail",
       description:
@@ -286,7 +295,8 @@ export const designs = {
       gitLink: "https://github.com/shefcodev/nike-clone-app.git",
       src: "/images/port4.png",
       stacks: [""],
-    },{
+    },
+    {
       id: "port6",
       title: "Detail",
       description:
@@ -295,7 +305,8 @@ export const designs = {
       gitLink: "https://github.com/shefcodev/nike-clone-app.git",
       src: "/images/port4.png",
       stacks: [""],
-    },{
+    },
+    {
       id: "port6",
       title: "Detail",
       description:
@@ -304,7 +315,8 @@ export const designs = {
       gitLink: "https://github.com/shefcodev/nike-clone-app.git",
       src: "/images/port4.png",
       stacks: [""],
-    },{
+    },
+    {
       id: "port6",
       title: "Detail",
       description:
