@@ -114,7 +114,7 @@ export const projects = {
         "Monitored automation performance and email campaigns to improve open rates and automate repetitive tasks across chapters.",
       url: "https://nike-clone-app-lake.vercel.app/",
       gitLink: "https://github.com/shefcodev/nike-clone-app.git",
-      src: "/images/Keap 2.png",
+      src: "/images/keap 2.png",
       stacks: [""],
     },
     {
