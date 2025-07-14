@@ -144,17 +144,7 @@ export const projects = {
         "Coordinated, scheduled, and managed calendars for meetings and events across all 18 chapters. Ensured smooth communication flows between directors, leadership teams, and members.",
       url: "https://nike-clone-app-lake.vercel.app/",
       gitLink: "https://github.com/shefcodev/nike-clone-app.git",
-      src: "/images/port4.png",
-      stacks: [""],
-    },
-    {
-      id: "port6",
-      title: "Detail",
-      description:
-        "Coordinated, scheduled, and managed calendars for meetings and events across all 18 chapters. Ensured smooth communication flows between directors, leadership teams, and members.",
-      url: "https://nike-clone-app-lake.vercel.app/",
-      gitLink: "https://github.com/shefcodev/nike-clone-app.git",
-      src: "/images/port4.png",
+      src: "/images/Calendar Management.png",
       stacks: [""],
     },
   ],
