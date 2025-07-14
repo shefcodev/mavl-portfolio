@@ -114,7 +114,7 @@ export const projects = {
         "Monitored automation performance and email campaigns to improve open rates and automate repetitive tasks across chapters.",
       url: "https://nike-clone-app-lake.vercel.app/",
       gitLink: "https://github.com/shefcodev/nike-clone-app.git",
-      src: "/images/Keap2.png",
+      src: "/images/Keap 2.png",
       stacks: [""],
     },
     {
@@ -134,7 +134,7 @@ export const projects = {
         "Built CRM pipelines and automation sequences using GoHighLevel. Supported lead tracking, membership follow-ups, and appointment bookings.",
       url: "https://nike-clone-app-lake.vercel.app/",
       gitLink: "https://github.com/shefcodev/nike-clone-app.git",
-      src: "/images/Gohighlevel.png",
+      src: "/images/Gohighlevel2.png",
       stacks: [""],
     },
     {
