@@ -57,7 +57,7 @@ export const stacks = {
 // add projects to the projects prop of the object below
 
 export const projects = {
-  title: "Projects",
+  title: "Projects and Certificates",
   description:
     "Here, you'll find a collection of key works that highlight my expertise in frontend development. These projects represent the culmination of my skills, creativity, and passion for creating exceptional web experiences.",
   projects: [
@@ -89,6 +89,16 @@ export const projects = {
       url: "",
       gitLink: "",
       src: "/images/Linkedin social.png",
+      stacks: [""],
+    },
+    {
+      id: "port3", 
+      title: "Detail",
+      description:
+        "Asana Workflow Certificate.",
+      url: "",
+      gitLink: "",
+      src: "/images/Asana2.png",
       stacks: [""],
     },
     {
