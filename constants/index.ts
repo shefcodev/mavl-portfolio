@@ -62,8 +62,8 @@ export const projects = {
       title: "Detail",
       description:
         "Quickbooks certification",
-      url: "https://hilink-travel-app-gamma.vercel.app/",
-      gitLink: "https://github.com/shefcodev/hilink-travel-app.git",
+      url: "",
+      gitLink: "",
       src: "/images/Image3a.png",
       stacks: [""],
     },
