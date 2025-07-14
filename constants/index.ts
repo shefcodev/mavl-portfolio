@@ -83,7 +83,7 @@ export const projects = {
         "Led the LinkedIn strategy for all 18 BNI chapters. Created and scheduled member highlights, event promotions, and leadership messages to build professional credibility and increase community visibility.",
       url: "https://corebot-neon.vercel.app/",
       gitLink: "https://github.com/shefcodev/corebot.git",
-      src: "/images/port2.png",
+      src: "/images/Linkedin social.png",
       stacks: [""],
     },
     {
