@@ -286,7 +286,7 @@ export const designs = {
 export const resume = {
   title: "Resume",
   description:
-    "My professional journey in frontend development is captured in the resume you're about to view, highlighting my skills, experience and achievements. In the resume, you'll find a detailed roadmap of my career progression and the value I bring to web development projects.",
+    "My professional journey is captured in the resume you're about to view, highlighting my skills, experience and achievements. In the resume, you'll find a detailed roadmap of my career progression and the value I bring to projects.",
 };
 
 export const contact = {
