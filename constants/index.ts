@@ -317,11 +317,11 @@ export const designs = {
         "The brand voice is intentional, confident, and a touch playful — much like its nail art. Neat n Nailed embraces white space, vibrant colors, and a style that’s both polished and full of personality.",
       url: "",
       gitLink: "",
-      src: "/images/Neat and Nailed 3.png",
+      src: "/images/Neat and Nail 3.png",
       stacks: [""],
     },
     {
-      id: "port4",
+      id: "port15",
       title: "Detail",
       description:
         "Solbase",
@@ -331,7 +331,7 @@ export const designs = {
       stacks: [""],
     },
     {
-      id: "port5",
+      id: "port16",
       title: "Detail",
       description:
         "Solbase",
@@ -341,7 +341,7 @@ export const designs = {
       stacks: [""],
     },
     {
-      id: "port6",
+      id: "port17",
       title: "Detail",
       description:
         " Solbase ",
@@ -351,7 +351,7 @@ export const designs = {
       stacks: [""],
     },
     {
-      id: "port7",
+      id: "port18",
       title: "Detail",
       description:
         " Logofolio",
