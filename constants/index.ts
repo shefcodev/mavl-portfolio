@@ -440,16 +440,7 @@ export const designs = {
       src: "/images/20.png",
       stacks: [""],
     },
-    {
-      id: "port25",
-      title: "Detail",
-      description:
-        "Iphone Images",
-      url: "",
-      gitLink: "",
-      src: "/images/Iphone burger.png",
-      stacks: [""],
-    },
+
   ],
 };
 
