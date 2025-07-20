@@ -271,7 +271,7 @@ export const designs = {
       stacks: [""],
     },
     {
-      id: "port2",
+      id: "port10",
       title: "Detail",
       description:
         "Fuse",
@@ -281,13 +281,43 @@ export const designs = {
       stacks: [""],
     },
     {
-      id: "port3", 
+      id: "port11", 
       title: "Detail",
       description:
         "Fuse",
       url: "",
       gitLink: "",
       src: "/images/Fuse.png",
+      stacks: [""],
+    },
+    {
+      id: "port12", 
+      title: "Detail",
+      description:
+        "Neat n Nailed is a modern nail studio that celebrates clean lines, bold details, and creative self-expression. Fusing precision with playful color, it offers more than a manicure — it delivers a visual statement.",
+      url: "",
+      gitLink: "",
+      src: "/images/Neat and Nailed.png",
+      stacks: [""],
+    },
+    {
+      id: "port13", 
+      title: "Detail",
+      description:
+        "With a love for minimalism and edgy design, Neat n Nailed blends sleek simplicity with striking accents. It proves that clean can be bold and every nail can tell its own unique story.",
+      url: "",
+      gitLink: "",
+      src: "/images/Neat and Nailed 2.png",
+      stacks: [""],
+    },
+    {
+      id: "port14", 
+      title: "Detail",
+      description:
+        "The brand voice is intentional, confident, and a touch playful — much like its nail art. Neat n Nailed embraces white space, vibrant colors, and a style that’s both polished and full of personality.",
+      url: "",
+      gitLink: "",
+      src: "/images/Neat and Nailed 3.png",
       stacks: [""],
     },
     {
