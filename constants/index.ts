@@ -155,6 +155,16 @@ export const projects = {
       id: "port9",
       title: "Detail",
       description:
+        "Built my portfolio with JavaScript (ES6+) and ReactJS.",
+      url: "",
+      gitLink: "",
+      src: "/images/React.png",
+      stacks: [""],
+    },
+    {
+      id: "port10",
+      title: "Detail",
+      description:
         "Coordinated, scheduled, and managed calendars for meetings and events across all 18 chapters. Ensured smooth communication flows between directors, leadership teams, and members.",
       url: "",
       gitLink: "",
