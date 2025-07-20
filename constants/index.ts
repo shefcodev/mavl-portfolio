@@ -14,7 +14,7 @@ export const details = {
   aboutTitle: "Hey, I'm Marvellous!",
   aboutSubtitle: "Your Strategic Virtual Assistant and CRM automation Partner — Expert in Executive Support, Workflow Automation, JavaScript & ReactJS, Project & Product Management, Tech-Driven Administration, Product Design, Social Media, and Graphic Design.",
   aboutDesc:
-    "I help businesses thrive by combining administrative expertise, workflow automation, and data-driven insights, all designed to streamline operations and boost efficiency. I’m passionate about partnering with ethical, growth-minded entrepreneurs who value accountability, lifelong learning, and meaningful business relationships. By leveraging my skills in referral marketing and sales, I create strategic alliances, drive referrals, and unlock new revenue opportunities for my clients. Let’s connect and build something remarkable. When I’m not designing, you’ll find me playing football, listening to jazz, or catching up on anime. I’d love the chance to bring my skills and creativity to your team. Outside of work,  I enjoy football, listening to jazz, and watching anime. ",
+    "I help businesses grow by combining admin expertise, workflow automation, and data-driven insights to streamline operations and boost efficiency. I love working with ethical, growth-minded entrepreneurs and using my skills in referral marketing to drive partnerships and unlock new opportunities. Let’s connect and build something remarkable. Outside work, I enjoy football, jazz, and anime.",
 };
 
 // My expertise lies in crafting clean, efficient code that not only meets but exceeds user expectations.
