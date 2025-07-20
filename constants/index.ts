@@ -214,7 +214,7 @@ export const designs = {
       id: "port4",
       title: "Detail",
       description:
-        "The identity centers on a high-contrast palette of fresh greens and punchy pinks. Green stands for health and freshness, while pink adds a playful, unexpected twist — capturing the brand’s belief that vegan living is diverse, flavorful, and far from boring.",
+        "At its core, Green Grub is about redefining plant-based living — turning every meal into a colorful, flavorful experience. It’s not just about food; it’s about attitude, creativity, and making every bite a bold statement of joy and celebration.",
       url: "",
       gitLink: "",
       src: "/images/Greencrub 4.png",
