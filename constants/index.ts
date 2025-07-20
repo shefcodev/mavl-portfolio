@@ -221,7 +221,7 @@ export const designs = {
       stacks: [""],
     },
     {
-      id: "port0.1",
+      id: "port5",
       title: "Detail",
       description:
         "Vivace",
@@ -231,13 +231,43 @@ export const designs = {
       stacks: [""],
     },
     {
-      id: "port1",
+      id: "port6",
       title: "Detail",
       description:
         "Vivace",
       url: "",
       gitLink: "",
       src: "/images/11.png",
+      stacks: [""],
+    },
+    {
+      id: "port7",
+      title: "Detail",
+      description:
+        "The goal was to create a premium digital experience that reflects Bozin’s expertise in high-end interior design. The look needed to be luxurious, modern, and immersive — matching Bozin’s reputation in Dubai for quality renovations, bespoke styling, and curated inspiration.",
+      url: "https://bozindesign.ae/",
+      gitLink: "",
+      src: "/images/BOZEN 1.png",
+      stacks: [""],
+    },
+    {
+      id: "port8",
+      title: "Detail",
+      description:
+        "Bozin, based in Dubai, specializes in luxury interiors, renovations, design, and styling. The website was crafted to mirror their refined aesthetic while offering an intuitive, elevated browsing experience that speaks to their high standards.",
+      url: "https://bozindesign.ae/",
+      gitLink: "",
+      src: "/images/BOZEN 2.png",
+      stacks: [""],
+    },
+    {
+      id: "port9",
+      title: "Detail",
+      description:
+        "I used a clean layout, ample white space, and elegant typography to highlight Bozin’s work and design philosophy. The fully responsive site delivers smooth transitions and a polished, calming user experience across all devices.",
+      url: "https://bozindesign.ae/",
+      gitLink: "",
+      src: "/images/BOZEN 3.png",
       stacks: [""],
     },
     {
