@@ -181,6 +181,46 @@ export const designs = {
     "Here, you'll find a collection of key works that highlight my expertise. These Designs represent the culmination of my skills, creativity, and passion for creating exceptional experiences.",
   projects: [
     {
+      id: "port1",
+      title: "Detail",
+      description:
+        "Green Grub is a vegan restaurant on a mission to change how people see plant-based eating. While many vegan brands stick to earthy tones and muted palettes, Green Grub goes bold — proving vegan food can be vibrant, fun, and full of attitude.",
+      url: "",
+      gitLink: "",
+      src: "/images/Greencrub 1.png",
+      stacks: [""],
+    },
+    {
+      id: "port2",
+      title: "Detail",
+      description:
+        "The identity centers on a high-contrast palette of fresh greens and punchy pinks. Green stands for health and freshness, while pink adds a playful, unexpected twist — capturing the brand’s belief that vegan living is diverse, flavorful, and far from boring.",
+      url: "",
+      gitLink: "",
+      src: "/images/Greencrub 2.png",
+      stacks: [""],
+    },
+    {
+      id: "port3",
+      title: "Detail",
+      description:
+        "Green Grub speaks with a casual, witty, and upbeat voice — never preaching, always inviting. Whether you're vegan or just curious, it pops with personality and proves that plant-based eating isn’t a sacrifice… it’s a joyful celebration.",
+      url: "",
+      gitLink: "",
+      src: "/images/Greencrub 3.png",
+      stacks: [""],
+    },
+    {
+      id: "port4",
+      title: "Detail",
+      description:
+        "The identity centers on a high-contrast palette of fresh greens and punchy pinks. Green stands for health and freshness, while pink adds a playful, unexpected twist — capturing the brand’s belief that vegan living is diverse, flavorful, and far from boring.",
+      url: "",
+      gitLink: "",
+      src: "/images/Greencrub 4.png",
+      stacks: [""],
+    },
+    {
       id: "port0.1",
       title: "Detail",
       description:
