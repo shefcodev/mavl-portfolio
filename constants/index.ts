@@ -351,7 +351,37 @@ export const designs = {
       stacks: [""],
     },
     {
+      id: "port19",
+      title: "Detail",
+      description:
+        " Revo Spot — short for Revolutionary Spot — isn’t just another grill kitchen. It’s an experience built around bold flavors, fiery vibes, and a mission to become the go-to destination for shawarma, grilled meats, and good times.",
+      url: "",
+      gitLink: "",
+      src: "/images/Revol.png",
+      stacks: [""],
+    },
+    {
       id: "port18",
+      title: "Detail",
+      description:
+        " The brand comes alive through a high-energy visual identity anchored in bold red — evoking heat, passion, and a vibrant urban atmosphere. It’s all about flavor, fire, and creating a place where people gather, eat, and vibe.",
+      url: "",
+      gitLink: "",
+      src: "/images/Revol 2.png",
+      stacks: [""],
+    },
+    {
+      id: "port18",
+      title: "Detail",
+      description:
+        " At its core is a custom mascot that captures Revo Spot’s rebellious, cheeky spirit. With bold typography and a confident, street-smart tone, the brand makes a lasting impression — proving Revo Spot isn’t just a meal, it’s a revolution on a plate.",
+      url: "",
+      gitLink: "",
+      src: "/images/Revol 3.png",
+      stacks: [""],
+    },
+    {
+      id: "port19",
       title: "Detail",
       description:
         " Logofolio",
@@ -361,7 +391,7 @@ export const designs = {
       stacks: [""],
     },
     {
-      id: "port8",
+      id: "port20",
       title: "Detail",
       description:
         "Touring advert",
@@ -371,7 +401,27 @@ export const designs = {
       stacks: [""],
     },
     {
-      id: "port9",
+      id: "port21",
+      title: "Detail",
+      description:
+        "Vyrux Solutions is a cybersecurity and consulting firm focused on securing enterprise IT infrastructures and creating a more resilient digital world. With a mission to deliver security and reliability, Vyrux envisions a future where all connected devices are protected within a safe, global digital village.",
+      url: "",
+      gitLink: "",
+      src: "/images/Cybersecurity 1.png",
+      stacks: [""],
+    },
+    {
+      id: "port22",
+      title: "Detail",
+      description:
+        "Anchored by a tech-forward logo with a shield hidden in white space — symbolizing invisible protection — Vyrux’s brand reflects precision, trust, and expertise. Its services span IT audits, cyber risk strategy, consulting, software development, and agrotech solutions, positioning the firm as a strong, clear partner in today’s complex digital landscape.",
+      url: "",
+      gitLink: "",
+      src: "/images/Cybersecurity.png",
+      stacks: [""],
+    },
+    {
+      id: "port23",
       title: "Detail",
       description:
         "ArcTri",
@@ -381,7 +431,7 @@ export const designs = {
       stacks: [""],
     },
     {
-      id: "port10",
+      id: "port24",
       title: "Detail",
       description:
         "ArcTri",
@@ -391,10 +441,10 @@ export const designs = {
       stacks: [""],
     },
     {
-      id: "port11",
+      id: "port25",
       title: "Detail",
       description:
-        "Iphone",
+        "Iphone Images",
       url: "",
       gitLink: "",
       src: "/images/Iphone burger.png",
