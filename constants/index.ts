@@ -15,14 +15,14 @@ export const details = {
   aboutSubtitle: "Your Strategic Virtual Assistant | Online Business Manager | Business Support Specialist",
   aboutDesc: [
     "I help businesses **grow smarter** by merging administrative expertise with automation and data-driven insights—streamlining operations, cutting inefficiencies, and unlocking opportunities.",
-
+    "",
     "**My Skills:**",
     "▸ Executive Support & Tech-Driven Administration",
     "▸ Workflow Automation (JavaScript/ReactJS)", 
     "▸ Project & Product Management",
     "▸ Product Design, Social Media, & Graphic Design",
-
-    "Passionate about collaborating with **ethical, growth-minded entrepreneurs**. Let’s build something remarkable!",
+    "",
+    "Passionate about collaborating with **ethical, growth-minded entrepreneurs**. Let's build something remarkable!",
     "⚡ **Fun Fact:** Football | Jazz | Anime"
   ]
 };
