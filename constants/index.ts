@@ -10,7 +10,7 @@ export const links = [
   { title: "Contact", href: "#contact" },
 ];
 
-eexport const details = {
+export const details = {
   aboutTitle: "Hey, I'm Marvellous!",
   aboutSubtitle: "Your Strategic Virtual Assistant and CRM automation Partner — Expert in Executive Support, Workflow Automation, JavaScript & ReactJS, Project & Product Management, Tech-Driven Administration, Product Design, Social Media, and Graphic Design.",
   aboutDesc:
