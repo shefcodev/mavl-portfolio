@@ -30,30 +30,38 @@ export const details = {
 // My expertise lies in crafting clean, efficient code that not only meets but exceeds user expectations.
 
 export const stacks = {
-  title: "Tools & Tech Stack",
-  description: "Modern toolkit for building smooth, fast, and user-friendly solutions:",
-  categories: [
-    {
-      title: "Productivity & CRM",
-      tools: ["Asana", "Zapier", "GoHighLevel", "Keap/Infusionsoft", "Hubspot", "QuickBooks"]
-    },
-    {
-      title: "Design & Content",
-      tools: ["Canva", "CapCut", "WordPress", "Tableau", "Alchemer", "Eventbrite"]
-    },
-    {
-      title: "Development",
-      tools: ["React", "JavaScript/Node.js", "HTML/XML", "CSS/Tailwind", "SQL"]
-    },
-    {
-      title: "Social & AI",
-      tools: ["ChatGPT", "LinkedIn", "Facebook", "Instagram", "YouTube", "Pinterest", "X (Twitter)", "Reddit"]
-    },
-    {
-      title: "Google Suite",
-      tools: ["Gmail", "Google Drive"]
-    }
-  ]
+  title: "Tools & Softwares",
+  description:
+    "I use modern tools and technologies to build great website and web apps. My toolkit includes tools, programming languages and frameworks that help me create smooth, fast and user-friendly frontend solutions.",
+  tools: [
+    "Asana",
+    "Zapier",
+    "GoHighLevel",
+    "Keap/Infusionsoft",
+    "Alchemer",
+    "ChatGPT",
+    "Hubspot",
+    "QuickBooks",
+    "Tableau",
+    "WordPress",
+    "Eventbrite",
+    "CapCut",
+    "Canva",
+    "Gmail",
+    "SQL",
+    "Google Drive",
+    "Facebook",
+    "Youtube",
+    "Instagram",
+    "Pinterest",
+    "LinkedIn",
+    "X",
+    "React",
+    "HTML & XML",
+    "CSS & TailWind CSS",
+    "Javascript & Nodejs",
+    "Reddit", 
+  ],
 };
 
 // add projects to the projects prop of the object below
