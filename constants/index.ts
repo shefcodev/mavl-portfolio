@@ -14,9 +14,9 @@ export const details = {
   aboutTitle: "Hey, I’m Marvellous!",
   aboutSubtitle: "Your Strategic Virtual Assistant | Online Business Manager | Business Support Specialist",
   aboutDesc: [
-    "I help businesses **grow smarter** by merging administrative expertise with automation and data-driven insights—streamlining operations, cutting inefficiencies, and unlocking opportunities.",
-    "Passionate about collaborating with **ethical, growth-minded entrepreneurs**, I thrive on using referral marketing strategies to forge powerful partnerships. Let’s connect and build something remarkable!",
-    "When I’m not optimizing workflows: ⚽ Football enthusiast | 🎷 Jazz lover | 🎌 Anime fan"
+    "I help businesses grow smarter by merging administrative expertise with automation and data-driven insights—streamlining operations, cutting inefficiencies, and unlocking opportunities.",
+    " Passionate about collaborating with ethical, growth-minded entrepreneurs, I thrive on using referral marketing strategies to forge powerful partnerships. Let’s connect and build something remarkable!",
+    "  When I’m not optimizing workflows: ⚽ Football enthusiast | 🎷 Jazz lover | 🎌 Anime fan"
   ]
 };
 // My expertise lies in crafting clean, efficient code that not only meets but exceeds user expectations.
