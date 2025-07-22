@@ -16,7 +16,11 @@ export const details = {
   aboutDesc: [
     "I help businesses **grow smarter** by merging administrative expertise with automation and data-driven insights — streamlining operations, cutting inefficiencies, and unlocking opportunities.",
     "",
-    "**My Skills:**\n▸ Executive Support & Tech-Driven Administration\n▸ Workflow Automation (JavaScript/ReactJS)\n▸ Project & Product Management\n▸ Product Design, Social Media, & Graphic Design",
+    "**My Skills:**",
+    "▸ Executive Support & Tech-Driven Administration",
+    "▸ Workflow Automation (JavaScript/ReactJS)",
+    "▸ Project & Product Management",
+    "▸ Product Design, Social Media, & Graphic Design",
     "",
     "Passionate about collaborating with **ethical, growth-minded entrepreneurs**. Let's build something remarkable!",
     "⚡ **Fun Fact:** Football | Jazz | Anime"
