@@ -11,10 +11,19 @@ export const links = [
 ];
 
 export const details = {
-  aboutTitle: "Hey, I'm Marvellous!",
-  aboutSubtitle: "Your Strategic Virtual Assistant and CRM automation Partner — Expert in Executive Support, Workflow Automation, JavaScript & ReactJS, Project & Product Management, Tech-Driven Administration, Product Design, Social Media, and Graphic Design.",
-  aboutDesc:
-    "I help businesses grow by combining admin expertise, workflow automation, and data-driven insights to streamline operations and boost efficiency. I love working with ethical, growth-minded entrepreneurs and using my skills in referral marketing to drive partnerships and unlock new opportunities. Let’s connect and build something remarkable. Outside work, I enjoy football, jazz, and anime.",
+  aboutTitle: "Hey, I’m Marvellous!",
+  aboutSubtitle: "Your Strategic Virtual Assistant & CRM Automation Partner",
+  aboutDesc: [
+    "I help businesses **grow smarter** by merging administrative expertise with automation and data-driven insights—streamlining operations, cutting inefficiencies, and unlocking opportunities.",
+    "Passionate about collaborating with **ethical, growth-minded entrepreneurs**, I thrive on using referral marketing strategies to forge powerful partnerships. Let’s connect and build something remarkable!",
+    "When I’m not optimizing workflows: ⚽ Football enthusiast | 🎷 Jazz lover | 🎌 Anime fan"
+  ],
+  expertise: [
+    "Executive Support & Tech-Driven Administration",
+    "Workflow Automation (JavaScript/ReactJS)",
+    "Project & Product Management",
+    "Product Design, Social Media, & Graphic Design"
+  ]
 };
 
 // My expertise lies in crafting clean, efficient code that not only meets but exceeds user expectations.
