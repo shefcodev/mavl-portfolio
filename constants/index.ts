@@ -17,12 +17,6 @@ export const details = {
     "I help businesses **grow smarter** by merging administrative expertise with automation and data-driven insights—streamlining operations, cutting inefficiencies, and unlocking opportunities.",
     "Passionate about collaborating with **ethical, growth-minded entrepreneurs**, I thrive on using referral marketing strategies to forge powerful partnerships. Let’s connect and build something remarkable!",
     "When I’m not optimizing workflows: ⚽ Football enthusiast | 🎷 Jazz lover | 🎌 Anime fan"
-  ],
-  expertise: [
-    "Executive Support & Tech-Driven Administration",
-    "Workflow Automation (JavaScript/ReactJS)",
-    "Project & Product Management",
-    "Product Design, Social Media, & Graphic Design"
   ]
 };
 // My expertise lies in crafting clean, efficient code that not only meets but exceeds user expectations.
