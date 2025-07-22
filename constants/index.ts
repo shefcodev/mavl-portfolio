@@ -12,17 +12,18 @@ export const links = [
 
 export const details = {
   aboutTitle: "Hey, I’m Marvellous!",
-  aboutSubtitle: "Your Strategic Virtual Assistant | Online Business Manager | Business Support Specialist",
+  aboutSubtitle: "Your Strategic Virtual Assistant & CRM Automation Partner",
   aboutDesc: [
     "I help businesses **grow smarter** by merging administrative expertise with automation and data-driven insights—streamlining operations, cutting inefficiencies, and unlocking opportunities.",
-    "Passionate about collaborating with **ethical, growth-minded entrepreneurs**, I thrive on using referral marketing strategies to forge powerful partnerships. Let’s connect and build something remarkable!",
-    "When I’m not optimizing workflows: ⚽ Football enthusiast | 🎷 Jazz lover | 🎌 Anime fan"
-  ],
-  expertise: [
-    "Executive Support & Tech-Driven Administration",
-    "Workflow Automation (JavaScript/ReactJS)",
-    "Project & Product Management",
-    "Product Design, Social Media, & Graphic Design"
+
+    "**My Skills:**",
+    "▸ Executive Support & Tech-Driven Administration",
+    "▸ Workflow Automation (JavaScript/ReactJS)", 
+    "▸ Project & Product Management",
+    "▸ Product Design, Social Media, & Graphic Design",
+
+    "Passionate about collaborating with **ethical, growth-minded entrepreneurs**. Let’s build something remarkable!",
+    "⚡ **Fun Fact:** Football | Jazz | Anime"
   ]
 };
 
