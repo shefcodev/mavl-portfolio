@@ -594,16 +594,28 @@ export const workPlans = {
   desc: "I focus on understanding your unique needs. Then I deliver tailored solutions.",
   values: [
     {
-      title: "Discovery & Planning",
-      desc: "We'll define your goals and outline the best strategy for your business.",
+      title: "We Know How You Work. And Wha's In Your Way",
+      desc: "You didn’t start your business to chase paperwork. You started it to build, create, and provide. We understand the rhythm of your day and the chaos that admin tasks can cause. That’s why we tailor our support to fit your flow—so you stay focused on the job, not the paperwork.",
     },
     {
-      title: "Execution & Optimization",
-      desc: "I implement solutions, continuously monitoring and refining for peak performance.",
+      title: "Real Systems Built for Real Life",
+      desc: "Forget overcomplicated software and corporate fluff. We bring the kind of streamlined systems and workflows that actually work for busy trades businesses. Simple, effective tools that keep your jobs organized, your team informed, and your business moving forward.",
     },
     {
-      title: "Reporting & Growth",
-      desc: "Regular reports track progress. I identify new opportunities for your growth.",
+      title: "A Reliable Partner, Not Just Another Contractor",
+      desc: "When you work with Joines Administration, you’re not getting a nameless assistant—you’re gaining a committed partner. We show up consistently, communicate clearly, and treat your business with the same care and attention as you do. No ghosting, no dropped balls—just real support, every time.",
+    },
+    {
+      title: "Built to Help You Grow (Without the Burnout)",
+      desc: "Whether you’re running a one-man show or leading a small crew, we’re here to help you grow at a pace that makes sense for you. From getting your processes dialed in to scaling your operations, we help you build a business that’s sustainable and profitable—without sacrificing your family time or your sanity.",
+    },
+    {
+      title: "We Speak Your Language",
+      desc: "We don’t need a crash course on your industry. We’ve worked with contractors, electricians, builders, and more. So we understand your lingo, your deadlines, and your client expectations. No need to explain the difference between a quote and an estimate, we’re already on the same page.",
+    },
+    {
+      title: "We Understand the Trade Life",
+      desc: " Early mornings, tight timelines, and last-minute changes—your day never goes exactly as planned. We understand the hustle because we’ve worked alongside trades business owners long enough to know what throws a wrench in your schedule. Our support is designed to flex with your day, not complicate it.",
     },
   ],
 };
