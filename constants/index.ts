@@ -479,7 +479,7 @@ export const socials = [
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/marvellousdolabode",
+    url: "https://www.linkedin.com/in/marvellousolabode/",
   },
 ];
 
