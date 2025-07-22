@@ -625,16 +625,28 @@ export const services = {
   desc: "I focus on understanding your unique needs. Then I deliver tailored solutions.",
   values: [
     {
+      title: "Fractional Business Management",
+      desc: "High-level operational leadership without the commitment of a full-time hire. I manage your backend operations, streamline your systems, and lead your team — keeping everything aligned while you focus on growth.",
+    },
+    {
+      title: "Remote Administration",
+      desc: "Reliable, day-to-day administrative support that keeps your business moving. From managing inboxes and documents to handling quotes, invoicing, and follow-ups — I take care of the details behind the scenes.",
+    },
+    {
+      title: "Power Project Days",
+      desc: "Need fast, focused support? In just one day, I help clear your backlog or tackle high-priority tasks like vendor research, purchase order management, inbox cleanups, and system updates — giving your operations a quick, impactful boost.",
+    },
+    {
       title: "Customer Support Excellence",
-      desc: "Deliver exceptional service with prompt email, live chat, and ticketing system management. Ensure customer satisfaction and build lasting relationships.",
+      desc: "Deliver top-tier client service with prompt, professional handling of emails, live chats, and ticket systems — ensuring customer satisfaction and loyalty.",
     },
     {
       title: "Workflow Automation Wizardry",
-      desc: "Automate repetitive tasks to boost efficiency and reduce manual errors. Integrate cloud software for seamless data flow and process optimization.",
+      desc: "Automate repetitive tasks, integrate cloud software, and streamline your workflows — boosting efficiency and minimizing manual errors.",
     },
     {
       title: "Financial Management Simplified",
-      desc: "Gain clear insights into your finances. Optimize cash flow and ensure accurate reporting. The chart illustrates the significant value provided across various financial management services. Cash flow optimization and QuickBooks reconciliation show the highest impact.",
+      desc: "Keep a clear view of your business finances with cash flow optimization, accurate reporting, and QuickBooks reconciliation — helping you make informed decisions with confidence.",
     },
   ],
 };
