@@ -12,13 +12,15 @@ export const links = [
 
 export const details = {
   aboutTitle: "Hey, I’m Marvellous!",
-  aboutSubtitle: "Your Strategic Virtual Assistant | Online Business Manager | Business Support Specialist",
+  aboutSubtitle: "Creative Virtual Assistant | Online Business Manager | Business Support Specialist",
   aboutDesc: [
-    "I help businesses grow smarter by merging administrative expertise with automation and data-driven insights—streamlining operations, cutting inefficiencies, and unlocking opportunities.",
-    " Passionate about collaborating with ethical, growth-minded entrepreneurs, I thrive on using referral marketing strategies to forge powerful partnerships. Let’s connect and build something remarkable!",
-    "  When I’m not optimizing workflows: Football enthusiast | Afrobeats, Amapiano and Jazz lover |  Anime fan"
+    "Meet Marvellous — offering a unique blend of administrative acumen, technological proficiency, and data-driven insight to propel businesses toward optimized growth. As a strategic virtual assistant and online business manager, I streamline operations, eliminate inefficiencies, and identify untapped opportunities for ethical, growth-oriented entrepreneurs.",
+    "Going beyond traditional administrative support, I leverage automation and data analytics to provide a comprehensive approach to business management. My broad skillset includes project and product management, IT support, and creative solutions such as graphic design and social media management. This versatility allows for seamless integration into diverse business needs, ensuring a tailored strategy for each client.",
+    "I'm also particularly adept at cultivating powerful partnerships through referral marketing strategies. This proactive approach fosters a collaborative environment, extends your business reach, and solidifies long-term success. Let’s connect and build something truly remarkable together!",
+    "When I’m not optimizing workflows: Football enthusiast | Afrobeats, Amapiano & Jazz lover | Anime fan"
   ]
 };
+
 // My expertise lies in crafting clean, efficient code that not only meets but exceeds user expectations.
 
 export const stacks = {
