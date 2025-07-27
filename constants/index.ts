@@ -14,11 +14,11 @@ export const details = {
   aboutTitle: "Hey, I’m Marvellous!",
   aboutSubtitle: "Creative Virtual Assistant | Online Business Manager | Business Support Specialist",
   aboutDesc: [
-    "Meet Marvellous — offering a unique blend of administrative acumen, technological proficiency, and data-driven insight to propel businesses toward growth. As a  virtual assistant and online business partner, I streamline operations, eliminate inefficiencies, and identify untapped opportunities for ethical, growth-oriented entrepreneurs.",
-    "Going beyond traditional administrative support, I leverage automation and IT & Customer support to provide a comprehensive approach to business management. My broad skillset includes PROJECT & PRODUCT management, IT SUPPORT, and creative solutions such as GRAPHOC DESIGN and SOCIAL MEDIA MANAGEMENT. This versatility allows for seamless idea integration into diverse business needs, ensuring a tailored strategy for each client.",
-    "This proactive approach fosters a collaborative environment, extends your business reach, and solidifies long-term success.", 
+    "Meet Marvellous — offering a unique blend of administrative acumen, technological proficiency, and data-driven insight to propel businesses toward growth. As a virtual assistant and online business partner, I streamline operations, eliminate inefficiencies, and identify untapped opportunities for ethical, growth-oriented entrepreneurs.",
+    "Going beyond traditional administrative support, I leverage automation and IT & Customer support to provide a comprehensive approach to business management. My broad skillset includes PROJECT & PRODUCT management, IT SUPPORT, and creative solutions such as GRAPHIC DESIGN and SOCIAL MEDIA MANAGEMENT. This versatility allows for seamless idea integration into diverse business needs, ensuring a tailored strategy for each client.",
+    "his proactive approach fosters a collaborative environment, extends your business reach, and solidifies long-term success.", 
     "Let’s connect and build something truly remarkable together!",
-    "When I’m not being all crrativley adminintstarive, I enjoy playing soccer and lostening to Afrobeats, Amapiano & Jazz"
+    "When I’m not being all creatively administrative, I enjoy playing soccer and listening to Afrobeats, Amapiano & Jazz"
   ]
 };
 
