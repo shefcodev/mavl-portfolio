@@ -14,10 +14,11 @@ export const details = {
   aboutTitle: "Hey, I’m Marvellous!",
   aboutSubtitle: "Creative Virtual Assistant | Online Business Manager | Business Support Specialist",
   aboutDesc: [
-    "Meet Marvellous — offering a unique blend of administrative acumen, technological proficiency, and data-driven insight to propel businesses toward optimized growth. As a strategic virtual assistant and online business manager, I streamline operations, eliminate inefficiencies, and identify untapped opportunities for ethical, growth-oriented entrepreneurs.",
-    "Going beyond traditional administrative support, I leverage automation and data analytics to provide a comprehensive approach to business management. My broad skillset includes project and product management, IT support, and creative solutions such as graphic design and social media management. This versatility allows for seamless integration into diverse business needs, ensuring a tailored strategy for each client.",
-    "I'm also particularly adept at cultivating powerful partnerships through referral marketing strategies. This proactive approach fosters a collaborative environment, extends your business reach, and solidifies long-term success. Let’s connect and build something truly remarkable together!",
-    "When I’m not optimizing workflows: Football enthusiast | Afrobeats, Amapiano & Jazz lover | Anime fan"
+    "Meet Marvellous — offering a unique blend of administrative acumen, technological proficiency, and data-driven insight to propel businesses toward growth. As a  virtual assistant and online business partner, I streamline operations, eliminate inefficiencies, and identify untapped opportunities for ethical, growth-oriented entrepreneurs.",
+    "Going beyond traditional administrative support, I leverage automation and IT & Customer support to provide a comprehensive approach to business management. My broad skillset includes PROJECT & PRODUCT management, IT SUPPORT, and creative solutions such as GRAPHOC DESIGN and SOCIAL MEDIA MANAGEMENT. This versatility allows for seamless idea integration into diverse business needs, ensuring a tailored strategy for each client.",
+    "This proactive approach fosters a collaborative environment, extends your business reach, and solidifies long-term success.", 
+    "Let’s connect and build something truly remarkable together!",
+    "When I’m not being all crrativley adminintstarive, I enjoy playing soccer and lostening to Afrobeats, Amapiano & Jazz"
   ]
 };
 
