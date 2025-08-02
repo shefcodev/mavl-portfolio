@@ -65,7 +65,7 @@ const Project = ({
   };
 
   return (
-    <Card className='size-fit border border-white rounded-xl p-4 lg:p-6'>
+    <Card className='w-4/5 h-fit border border-white rounded-xl p-4 lg:p-6'>
       <div className='project-wrapper'>
         <div className='project-detail_wrapper'>
           <div className='flex-between px-3'>
@@ -81,38 +81,21 @@ const Project = ({
           </div>
 
           {showDescription && (
-            <div className='px-3 max-w-[500px]'>
+            <div className='px-3'>
               <p className='project-p'>{description}</p>
             </div>
           )}
         </div>
-
-        <div className='flex flex-col gap-4'>
+        <div className='w-full flex flex-col gap-4'>
           <Link href={url}>
             <Image
               src={src}
               alt={title}
               width={500}
               height={150}
-              className='size-fit lg:w-full rounded-xl'
+              className='w-full lg:w-full rounded-xl'
             />
           </Link>
-
-          <div className='flex-between'>
-            {/* <div className='flex gap-[1px] sm:gap-1 md:gap-2'>
-              <Link href={url} className='cursor-pointer'>
-                <IoEyeOutline className='text-color-1 size-5' />
-              </Link>
-
-              <Link href={gitLink} className='cursor-pointer'>
-                <FiGithub className='text-color-1 size-5' />
-              </Link>
-            </div>
-
-            <div className=''>
-              <ProjectStacks id={id} className='text-color-1 size-5' />
-            </div> */}
-          </div>
         </div>
       </div>
     </Card>
