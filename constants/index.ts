@@ -116,7 +116,7 @@ export const projects = {
         "Contributed to the operational and member engagement strategies that led to BNI Alberta South receiving Executive Directors of the Year (2024) at the BNI Canada USA Conference; personally recognized by regional leadership for behind-the-scenes support.",
       url: "",
       gitLink: "",
-      src: "Moji.png",
+      src: "/images/Moji.png",
       stacks: [""],
     },
     {
