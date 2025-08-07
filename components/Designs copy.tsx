@@ -8,15 +8,15 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/ui/carousel';
-import Recognition from '@/components/Recognition';
-import { recognitions } from '@/constants';
+import { designs } from '@/constants';
+import Project from '@/components/Project';
 import { motionValues } from '@/lib/utils';
 
-const Recognitions = () => {
-  const { title, description, recognitions: recognitions_ } = recognitions;
+const Projects = () => {
+  const { title, description, projects: projects_ } = designs;
 
   return (
-    <section id='recognitions' className='section section_px section-gap'>
+    <section id='designs' className='section section_px section-gap'>
       <main className='flex flex-col gap-8 lg:gap-8'>
         <div className='flex-center flex-col gap-8'>
           <motion.h2 className='section-h2' {...motionValues}>
@@ -31,11 +31,11 @@ const Recognitions = () => {
         <motion.div {...motionValues}>
           <Carousel className='w-full' orientation='horizontal'>
             <CarouselContent>
-              {recognitions_.map((recognition: RecognitionProp, index: number) => (
-  <CarouselItem key={index} className='flex-center'>
-    <Recognition recognition={recognition} />
-  </CarouselItem>
-))}
+              {projects_.map((project: ProjectProp, index: number) => (
+                <CarouselItem key={index} className='flex-center'>
+                  <Project project={project} />
+                </CarouselItem>
+              ))}
             </CarouselContent>
             <CarouselPrevious className='carousel-left_button' />
             <CarouselNext className='carousel-right_button' />
@@ -46,4 +46,4 @@ const Recognitions = () => {
   );
 };
 
-export default Recognitions;
+export default Projects;
