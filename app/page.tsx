@@ -18,6 +18,7 @@ export default function Home() {
       <Stacks />
       <Projects />
       <Designs />
+      <Recognition />
       <Work />
       <Stories />
       <WorkPlans />
