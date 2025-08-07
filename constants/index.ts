@@ -102,6 +102,7 @@ export const stacks = {
   ],
 };
 
+
 // add projects to the projects prop of the object below
 
 export const projects = {
@@ -231,6 +232,27 @@ export const projects = {
     },
   ],
 };
+
+// add projects to the projects prop of the object below
+
+export const Recognition = {
+  title: "Recognition",
+  description:
+    "Here, you'll find a collection of key works that highlight my expertise. These Recognitions represent the culmination of my skills, creativity, and passion for creating exceptional experiences.",
+  projects: [
+    {
+      id: "port1",
+      title: "Detail",
+      description:
+        "Contributed to the operational and member engagement strategies that led to BNI Alberta South receiving Executive Directors of the Year (2024) at the BNI Canada USA Conference; personally recognized by regional leadership for behind-the-scenes support.",
+      url: "",
+      gitLink: "",
+      src: "/images/Moji.png",
+      stacks: [""],
+    },
+     ],
+};
+
 // add projects to the projects prop of the object below
 
 export const designs = {
