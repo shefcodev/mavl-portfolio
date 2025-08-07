@@ -49,6 +49,7 @@ const About = () => {
               <li className="about-desc font-bold">Technical & IT Support</li>
               <li className="about-desc font-bold">Graphic Design & Social Media Management</li>
                <li className="about-desc font-bold">Typeform Programmer / Alchemer Specialist</li>
+               <li className="about-desc font-bold">COMMUNITY MANAGER / WEB3</li>
             </ul>
             <p className="about-desc mb-2">This versatility enables me to translate big ideas into actionable strategies tailored to your unique goals and challenges.</p>
             <p className="about-desc mb-2">My proactive, collaborative approach extends your reach, strengthens your systems, and lays the foundation for long-term, sustainable growth.
