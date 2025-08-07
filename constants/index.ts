@@ -114,16 +114,6 @@ export const projects = {
       id: "port1",
       title: "Detail",
       description:
-        "Contributed to the operational and member engagement strategies that led to BNI Alberta South receiving Executive Directors of the Year (2024) at the BNI Canada USA Conference; personally recognized by regional leadership for behind-the-scenes support.",
-      url: "",
-      gitLink: "",
-      src: "/images/Moji.png",
-      stacks: [""],
-    },
-    {
-      id: "port1",
-      title: "Detail",
-      description:
         "Quickbooks certification",
       url: "",
       gitLink: "",
@@ -248,6 +238,26 @@ export const Recognition = {
       url: "",
       gitLink: "",
       src: "/images/Moji.png",
+      stacks: [""],
+    },
+    {
+      id: "port2",
+      title: "Detail",
+      description:
+        "Contributed to the operational and member engagement strategies that led to BNI Alberta South receiving Executive Directors of the Year (2024) at the BNI Canada USA Conference; personally recognized by regional leadership for behind-the-scenes support.",
+      url: "",
+      gitLink: "",
+      src: "/images/Asana.png",
+      stacks: [""],
+    },
+    {
+      id: "port2",
+      title: "Detail",
+      description:
+        "Received a congratulatory message from Aarti (ARTHY) Ahluwalia, Founder of BizStartup Inc., recognizing my 5-year anniversary at BNI Alberta South — part of the world's leading referral marketing organization. This acknowledgment reflects my consistent presence, collaboration, and impact within my professional network.",
+      url: "",
+      gitLink: "",
+      src: "/images/Arti.png",
       stacks: [""],
     },
      ],
