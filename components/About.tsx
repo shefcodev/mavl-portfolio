@@ -41,7 +41,7 @@ const About = () => {
           <motion.div {...motionValues}>
             {/* {aboutDesc.map((desc, idx) => <li key={idx}><p className="about-desc">{desc}</p></li>)} */}
             <p className="about-desc mb-2"><span className="font-bold">Marvellous</span> — your strategic partner in operations, technology, and growth.</p>
-            <p className="about-desc mb-2">With a powerful blend of administrative expertise, tech-savviness, and data-driven insight, I help ethical, growth-minded entrepreneurs streamline operations, eliminate inefficiencies, and unlock hidden opportunities. my mission is to help lean teams run like enterprise-grade machines.</p>
+            <p className="about-desc mb-2">With a powerful blend of administrative expertise, tech-savviness, and data-driven insight, I Reduced client operational costs by 30% and increased productivity by 40% for 15+ businesses in the past 5 years, eliminate inefficiencies, and unlock hidden opportunities. my mission is to help lean teams run like enterprise-grade machines.</p>
             <p className="about-desc mb-2">I go far beyond traditional admin work, integrating <span className="font-bold">automation, IT support, customer service,</span> and <span className="font-bold">creative problem-solving</span> into every aspect of your business. My diverse skill set spans:
             </p>
             <ul className="mb-2 list">
