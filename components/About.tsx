@@ -45,11 +45,13 @@ const About = () => {
             <p className="about-desc mb-2">I go far beyond traditional admin work—integrating <span className="font-bold">automation, IT support, customer service,</span> and <span className="font-bold">creative problem-solving</span> into every aspect of your business. My diverse skill set spans:
             </p>
             <ul className="mb-2 list">
-              <li className="about-desc font-bold">Project & Product Management</li>
-              <li className="about-desc font-bold">Technical & IT Support</li>
-              <li className="about-desc font-bold">Graphic Design & Social Media Management</li>
-               <li className="about-desc font-bold">Typeform Programmer / Alchemer Specialist</li>
-               <li className="about-desc font-bold">COMMUNITY MANAGER / WEB3</li>
+              <li className="about-desc font-bold">PROJECT & PRODUCT MANAGEMENT</li>
+              <li className="about-desc font-bold">TECHNICAL & IT SUPPORT</li>
+              <li className="about-desc font-bold">GRAPHIC DESIGN & SOCIAL MEDIA MANAGEMENT</li>
+              <li className="about-desc font-bold">TYPEFORM PROGRAMMER / ALCHEMER SPECIALIST</li>
+              <li className="about-desc font-bold">GOHIGHLEVEL SPECIALIST</li>
+              <li className="about-desc font-bold">ZAPIER AUTOMATION EXPERT</li>
+              <li className="about-desc font-bold">GOOGLE WORKSPACE CERTIFIED</li>
             </ul>
             <p className="about-desc mb-2">This versatility enables me to translate big ideas into actionable strategies tailored to your unique goals and challenges.</p>
             <p className="about-desc mb-2">My proactive, collaborative approach extends your reach, strengthens your systems, and lays the foundation for long-term, sustainable growth.
@@ -58,10 +60,6 @@ const About = () => {
             <p className="about-desc mb-2 italic">When I’m not creatively optimizing back-office systems, you’ll find me on the soccer field or vibing to Afrobeats, Amapiano, and Jazz.</p>
             <p className="about-desc mb-2">Let me know if you want a shorter or more niche-specific version too (e.g. SaaS-focused, creative entrepreneurs, Web3, etc).
             </p>
-          
-
-
-
             <p className="about-desc font-bold">PROVEN RESULTS:</p>
             <p className="about-desc mb-2"> • Helped BNI Alberta South achieve #1 REGION IN CANADA</p>
             <p className="about-desc mb-2"> • Supported 2 Executive Directors to #1 GLOBALLY (out of 157 worldwide) in 2024</p>
