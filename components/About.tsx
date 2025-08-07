@@ -54,10 +54,9 @@ const About = () => {
               <li className="about-desc font-bold">GOOGLE WORKSPACE CERTIFIED</li>
             </ul>
             <p className="about-desc mb-2">This versatility enables me to translate big ideas into actionable strategies tailored to your unique goals and challenges.</p>
-            <p className="about-desc mb-2">My proactive, collaborative approach extends your reach, strengthens your systems, and lays the foundation for long-term, sustainable growth.
-            </p>
-            <p className="about-desc mb-2">Let’s connect and build something remarkable together.</p>
+            <p className="about-desc mb-2">My proactive, collaborative approach extends your reach, strengthens your systems, and lays the foundation for long-term, sustainable growth.</p>
             <p className="about-desc mb-2 italic">When I’m not creatively optimizing back-office systems, you’ll find me on the soccer field or vibing to Afrobeats, Amapiano, and Jazz.</p>
+            <p className="about-desc mb-2">Let’s connect and build something remarkable together.</p>
             <p className="about-desc mb-2">
               <p className="about-desc mb-2"></p>
               <p className="about-desc mb-2"></p>
