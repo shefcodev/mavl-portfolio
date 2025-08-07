@@ -184,6 +184,16 @@ export const projects = {
       id: "port6",
       title: "Detail",
       description:
+        "Monitored  performance of executive access in at Backend .",
+      url: "",
+      gitLink: "",
+      src: "/images/BNI Backend.png",
+      stacks: [""],
+    },
+    {
+      id: "port6",
+      title: "Detail",
+      description:
         "Monitored automation performance and email campaigns to improve open rates and automate repetitive tasks across chapters.",
       url: "",
       gitLink: "",
