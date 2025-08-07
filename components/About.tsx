@@ -58,7 +58,10 @@ const About = () => {
             <p className="about-desc mb-2 italic">When I’m not creatively optimizing back-office systems, you’ll find me on the soccer field or vibing to Afrobeats, Amapiano, and Jazz.</p>
             <p className="about-desc mb-2">Let me know if you want a shorter or more niche-specific version too (e.g. SaaS-focused, creative entrepreneurs, Web3, etc).
             </p>
-            <p className="about-desc mb-2">Achievement Hero.</p>
+          
+
+
+          
             <p className="about-desc mb-2">PROVEN RESULTS:</p>
             <p className="about-desc mb-2"> • Helped BNI Alberta South achieve #1 REGION IN CANADA</p>
             <p className="about-desc mb-2"> • Supported 2 Executive Directors to #1 GLOBALLY (out of 157 worldwide) in 2024</p>
