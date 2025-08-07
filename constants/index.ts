@@ -134,6 +134,16 @@ export const projects = {
       id: "port3", 
       title: "Detail",
       description:
+        "Utilized Zapier to automate all the workflow i created ",
+      url: "",
+      gitLink: "",
+      src: "/images/Zapier.png",
+      stacks: [""],
+    },
+    {
+      id: "port3", 
+      title: "Detail",
+      description:
         "Led the LinkedIn strategy for all 18 BNI chapters. Created and scheduled member highlights, event promotions, and leadership messages to build professional credibility and increase community visibility.",
       url: "",
       gitLink: "",
@@ -157,7 +167,7 @@ export const projects = {
         "Handled full-cycle bookkeeping and reconciliations across 18 BNI chapters using QuickBooks. Maintained up-to-date financials, streamlined payment processing,and ensured financial accuracy chapter-wide.",
       url: "",
       gitLink: "",
-      src: "/images/Quickbooks dasboard.png",
+      src: "/images/Quickbooks1.png",
       stacks: [""],
     },
     {
@@ -187,7 +197,7 @@ export const projects = {
         "Designed and deployed member feedback surveys using Alchemer. Collected valuable insights for improving chapter operations and member experiences.",
       url: "",
       gitLink: "",
-      src: "/images/alchemer.png",
+      src: "/images/Alchemer11.png",
       stacks: [""],
     },
     {
@@ -197,7 +207,7 @@ export const projects = {
         "Built CRM pipelines and automation sequences using GoHighLevel. Supported lead tracking, membership follow-ups, and appointment bookings.",
       url: "",
       gitLink: "",
-      src: "/images/Gohighlevel2.png",
+      src: "/images/Gohighlevel1.png",
       stacks: [""],
     },
     {
@@ -258,6 +268,56 @@ export const Recognition = {
       url: "",
       gitLink: "",
       src: "/images/arti.png",
+      stacks: [""],
+    },
+    {
+      id: "port3",
+      title: "Detail",
+      description:
+        "",
+      url: "",
+      gitLink: "",
+      src: "/images/Arthy333.png",
+      stacks: [""],
+    },
+    {
+      id: "port3",
+      title: "Detail",
+      description:
+        "",
+      url: "",
+      gitLink: "",
+      src: "/images/Arthy22.png",
+      stacks: [""],
+    },
+    {
+      id: "port3",
+      title: "Detail",
+      description:
+        "",
+      url: "",
+      gitLink: "",
+      src: "/images/Megan.png",
+      stacks: [""],
+    },
+    {
+      id: "port3",
+      title: "Detail",
+      description:
+        "",
+      url: "",
+      gitLink: "",
+      src: "/images/Sarah.png",
+      stacks: [""],
+    },
+    {
+      id: "port3",
+      title: "Detail",
+      description:
+        "",
+      url: "",
+      gitLink: "",
+      src: "/images/Arthy44.png",
       stacks: [""],
     },
      ],
