@@ -58,7 +58,9 @@ const About = () => {
             </p>
             <p className="about-desc mb-2">Let’s connect and build something remarkable together.</p>
             <p className="about-desc mb-2 italic">When I’m not creatively optimizing back-office systems, you’ll find me on the soccer field or vibing to Afrobeats, Amapiano, and Jazz.</p>
-            <p className="about-desc mb-2">Let me know if you want a shorter or more niche-specific version too (e.g. SaaS-focused, creative entrepreneurs, Web3, etc).
+            <p className="about-desc mb-2">
+              <p className="about-desc mb-2"></p>
+              <p className="about-desc mb-2"></p>
             </p>
             <p className="about-desc font-bold">PROVEN RESULTS:</p>
             <p className="about-desc mb-2"> • Helped BNI Alberta South achieve #1 REGION IN CANADA</p>
