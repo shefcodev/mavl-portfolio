@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import About from "@/components/About";
 import Stacks from "@/components/Stacks";
+import Recognition from "@/components/Recognition";
 import Projects from "@/components/Projects";
 import Designs from "@/components/Designs";
 import Resume from "@/components/Resume";
