@@ -8,12 +8,12 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/ui/carousel';
-import { RecognitionProp } from '@/constants';
+import { Recognition } from '@/constants';
 import Project from '@/components/Project';
 import { motionValues } from '@/lib/utils';
 
 const Projects = () => {
-  const { title, description, projects: projects_ } = RecognitionProp;
+  const { title, description, projects: projects_ } = Recognition;
 
   return (
     <section id='recognition' className='section section_px section-gap'>
