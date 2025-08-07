@@ -3,9 +3,16 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { IoEyeOutline } from 'react-icons/io5';
 import { IoMdArrowDropdown, IoMdArrowDropup } from 'react-icons/io';
+import { FaReact } from 'react-icons/fa';
+import { FiGithub } from 'react-icons/fi';
+import { BiLogoTypescript } from 'react-icons/bi';
+import { RiNextjsFill, RiTailwindCssFill } from 'react-icons/ri';
+import { SiShadcnui, SiRedux, SiAppwrite } from 'react-icons/si';
 import Card from './ui/Card';
 import Button from './ui/UIButton';
+
 
 // ✅ Add this type if not imported
 type RecognitionProps = {
