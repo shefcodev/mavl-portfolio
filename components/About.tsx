@@ -42,7 +42,7 @@ const About = () => {
             {/* {aboutDesc.map((desc, idx) => <li key={idx}><p className="about-desc">{desc}</p></li>)} */}
             <p className="about-desc mb-2"><span className="font-bold">Marvellous</span> — your strategic partner in operations, technology, and growth.</p>
             <p className="about-desc mb-2">With a powerful blend of administrative expertise, tech-savviness, and data-driven insight, I help ethical, growth-minded entrepreneurs streamline operations, eliminate inefficiencies, and unlock hidden opportunities. my mission is to help lean teams run like enterprise-grade machines.</p>
-            <p className="about-desc mb-2">I go far beyond traditional admin work—integrating <span className="font-bold">automation, IT support, customer service,</span> and <span className="font-bold">creative problem-solving</span> into every aspect of your business. My diverse skill set spans:
+            <p className="about-desc mb-2">I go far beyond traditional admin work, integrating <span className="font-bold">automation, IT support, customer service,</span> and <span className="font-bold">creative problem-solving</span> into every aspect of your business. My diverse skill set spans:
             </p>
             <ul className="mb-2 list">
               <li className="about-desc font-bold">PROJECT & PRODUCT MANAGEMENT</li>
@@ -63,10 +63,10 @@ const About = () => {
               <p className="about-desc mb-2"></p>
             </p>
             <p className="about-desc font-bold">PROVEN RESULTS:</p>
-            <p className="about-desc mb-2"> • Helped BNI Alberta South achieve #1 REGION IN CANADA</p>
-            <p className="about-desc mb-2"> • Supported 2 Executive Directors to #1 GLOBALLY (out of 157 worldwide) in 2024</p>
-            <p className="about-desc mb-2"> • 45% reduction in manual processes through automation</p>
-            <p className="about-desc mb-2"> • 85% client retention rate across 550+ accounts</p>
+            <p className="about-desc font-bold"> • Helped BNI Alberta South achieve #1 REGION IN CANADA</p>
+            <p className="about-desc font-bold"> • Supported 2 Executive Directors to #1 GLOBALLY (out of 157 worldwide) in 2024</p>
+            <p className="about-desc font-bold"> • 45% reduction in manual processes through automation</p>
+            <p className="about-desc font-bold"> • 85% client retention rate across 550+ accounts</p>
           </motion.div>
         </div>
 
