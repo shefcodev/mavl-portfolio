@@ -16,6 +16,7 @@ export default function Home() {
     <Fragment>
       <About />
       <Stacks />
+      <Recognition />
       <Projects />
       <Designs />
       <Work />
