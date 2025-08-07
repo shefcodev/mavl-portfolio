@@ -1,9 +1,9 @@
 import { Fragment } from "react";
 import About from "@/components/About";
 import Stacks from "@/components/Stacks";
-import Recognition from "@/components/Recognition";
 import Projects from "@/components/Projects";
 import Designs from "@/components/Designs";
+import Recognition from "@/components/Recognition";
 import Resume from "@/components/Resume";
 import Contact from "@/components/Contact";
 import Work from "@/components/Work";
@@ -16,7 +16,6 @@ export default function Home() {
     <Fragment>
       <About />
       <Stacks />
-      <Recognition />
       <Projects />
       <Designs />
       <Work />
