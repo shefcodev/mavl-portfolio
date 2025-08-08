@@ -227,7 +227,7 @@ export const projects = {
         "Built my portfolio with JavaScript (ES6+) and ReactJS.",
       url: "",
       gitLink: "",
-      src: "/images/React.png",
+      src: "/images/Marvel.png",
       stacks: [""],
     },
     {
