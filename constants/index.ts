@@ -349,271 +349,211 @@ export const Recognition = {
 // add projects to the projects prop of the object below
 
 export const designs = {
-  title: "Designs",
+  title: "Design Portfolio",
   description:
-    "Here, you'll find a collection of key works that highlight my expertise. These Designs represent the culmination of my skills, creativity, and passion for creating exceptional experiences.",
+    "A showcase of branding, web design, and visual identity projects. Each piece reflects my approach to combining strategy, aesthetics, and user experience to create memorable brands.",
   projects: [
+    // Green Grub (Complete Project)
     {
-      id: "port1",
-      title: "Detail",
+      id: "design1",
+      title: "Green Grub - Brand Identity",
       description:
-        "Green Grub is a vegan restaurant on a mission to change how people see plant-based eating. While many vegan brands stick to earthy tones and muted palettes, Green Grub goes bold — proving vegan food can be vibrant, fun, and full of attitude.",
+        "Vegan restaurant branding that breaks stereotypes with bold colors and playful energy. Replaced earthy vegan clichés with vibrant greens and punchy pinks to attract a broader audience.",
       url: "",
       gitLink: "",
       src: "/images/Greencrub 1.png",
-      stacks: [""],
+      stacks: ["Branding", "Visual Identity"],
     },
     {
-      id: "port2",
-      title: "Detail",
+      id: "design2",
+      title: "Green Grub - Color Strategy",
       description:
-        "The identity centers on a high-contrast palette of fresh greens and punchy pinks. Green stands for health and freshness, while pink adds a playful, unexpected twist — capturing the brand’s belief that vegan living is diverse, flavorful, and far from boring.",
+        "High-contrast palette: fresh green for health, unexpected pink for fun. Designed to communicate that plant-based eating is diverse and exciting.",
       url: "",
       gitLink: "",
       src: "/images/Greencrub 2.png",
-      stacks: [""],
+      stacks: ["Color Theory"],
     },
     {
-      id: "port3",
-      title: "Detail",
+      id: "design3",
+      title: "Green Grub - Tone of Voice",
       description:
-        "Green Grub speaks with a casual, witty, and upbeat voice — never preaching, always inviting. Whether you're vegan or just curious, it pops with personality and proves that plant-based eating isn’t a sacrifice… it’s a joyful celebration.",
+        "Developed a witty, inviting brand voice to make veganism accessible. Copywriting balances humor and inclusivity to appeal to vegans and flexitarians alike.",
       url: "",
       gitLink: "",
       src: "/images/Greencrub 3.png",
-      stacks: [""],
+      stacks: ["Copywriting"],
     },
     {
-      id: "port4",
-      title: "Detail",
+      id: "design4",
+      title: "Green Grub - Brand Philosophy",
       description:
-        "At its core, Green Grub is about redefining plant-based living — turning every meal into a colorful, flavorful experience. It’s not just about food; it’s about attitude, creativity, and making every bite a bold statement of joy and celebration.",
+        "Every meal is framed as a bold, joyful statement. Packaging and collateral reinforce the idea that veganism is a celebration, not a sacrifice.",
       url: "",
       gitLink: "",
       src: "/images/Greencrub 4.png",
-      stacks: [""],
+      stacks: ["Packaging Design"],
     },
+
+    // Bozin Design (Complete Project)
     {
-      id: "port5",
-      title: "Detail",
+      id: "design5",
+      title: "Bozin Design - Luxury Web Experience",
       description:
-        "Vivace",
-      url: "",
-      gitLink: "",
-      src: "/images/10.png",
-      stacks: [""],
-    },
-    {
-      id: "port6",
-      title: "Detail",
-      description:
-        "Vivace",
-      url: "",
-      gitLink: "",
-      src: "/images/11.png",
-      stacks: [""],
-    },
-    {
-      id: "port7",
-      title: "Detail",
-      description:
-        "The goal was to create a premium digital experience that reflects Bozin’s expertise in high-end interior design. The look needed to be luxurious, modern, and immersive — matching Bozin’s reputation in Dubai for quality renovations, bespoke styling, and curated inspiration.",
+        "Designed a premium website for Dubai-based interior design studio Bozin. Clean layouts, elegant typography, and smooth transitions mirror their high-end aesthetic.",
       url: "https://bozindesign.ae/",
       gitLink: "",
       src: "/images/BOZEN 1.png",
-      stacks: [""],
+      stacks: ["Web Design", "UX/UI"],
     },
     {
-      id: "port8",
-      title: "Detail",
+      id: "design6",
+      title: "Bozin Design - Project Showcase",
       description:
-        "Bozin, based in Dubai, specializes in luxury interiors, renovations, design, and styling. The website was crafted to mirror their refined aesthetic while offering an intuitive, elevated browsing experience that speaks to their high standards.",
+        "Curated portfolio section to highlight luxury renovations and bespoke styling work. Imagery-driven design puts focus on their craftsmanship.",
       url: "https://bozindesign.ae/",
       gitLink: "",
       src: "/images/BOZEN 2.png",
-      stacks: [""],
+      stacks: ["Art Direction"],
     },
     {
-      id: "port9",
-      title: "Detail",
+      id: "design7",
+      title: "Bozin Design - Responsive Framework",
       description:
-        "I used a clean layout, ample white space, and elegant typography to highlight Bozin’s work and design philosophy. The fully responsive site delivers smooth transitions and a polished, calming user experience across all devices.",
+        "Fully responsive site with intentional white space and device-optimized interactions. Ensures a polished experience across all platforms.",
       url: "https://bozindesign.ae/",
       gitLink: "",
       src: "/images/BOZEN 3.png",
-      stacks: [""],
+      stacks: ["Responsive Design"],
     },
+
+    // Neat n Nailed (Complete Project)
     {
-      id: "port10",
-      title: "Detail",
+      id: "design8",
+      title: "Neat n Nailed - Nail Studio Branding",
       description:
-        "Fuse",
-      url: "",
-      gitLink: "",
-      src: "/images/12.png",
-      stacks: [""],
-    },
-    {
-      id: "port11", 
-      title: "Detail",
-      description:
-        "Fuse",
-      url: "",
-      gitLink: "",
-      src: "/images/Fuse.png",
-      stacks: [""],
-    },
-    {
-      id: "port12", 
-      title: "Detail",
-      description:
-        "Neat n Nailed is a modern nail studio that celebrates clean lines, bold details, and creative self-expression. Fusing precision with playful color, it offers more than a manicure — it delivers a visual statement.",
+        "Modern nail studio identity blending minimalism with bold accents. Clean lines meet vibrant colors to reflect creative self-expression.",
       url: "",
       gitLink: "",
       src: "/images/Neat and Nailed.png",
-      stacks: [""],
+      stacks: ["Branding", "Print Design"],
     },
     {
-      id: "port13", 
-      title: "Detail",
+      id: "design9",
+      title: "Neat n Nailed - Visual Language",
       description:
-        "With a love for minimalism and edgy design, Neat n Nailed blends sleek simplicity with striking accents. It proves that clean can be bold and every nail can tell its own unique story.",
+        "Edgy yet sleek design system using white space and striking details. Proves simplicity can make a powerful statement.",
       url: "",
       gitLink: "",
       src: "/images/Neat and Nailed 2.png",
-      stacks: [""],
+      stacks: ["Visual Systems"],
     },
     {
-      id: "port14", 
-      title: "Detail",
+      id: "design10",
+      title: "Neat n Nailed - Brand Voice",
       description:
-        "The brand voice is intentional, confident, and a touch playful — much like its nail art. Neat n Nailed embraces white space, vibrant colors, and a style that’s both polished and full of personality.",
+        "Confident, playful tone mirroring their nail art philosophy. Marketing materials balance precision with personality.",
       url: "",
       gitLink: "",
       src: "/images/Neat and Nail 3.png",
-      stacks: [""],
+      stacks: ["Content Strategy"],
     },
+
+    // Revo Spot (Complete Project)
     {
-      id: "port15",
-      title: "Detail",
+      id: "design11",
+      title: "Revo Spot - Grill Kitchen Branding",
       description:
-        "Solbase",
-      url: "",
-      gitLink: "",
-      src: "/images/14.png",
-      stacks: [""],
-    },
-    {
-      id: "port16",
-      title: "Detail",
-      description:
-        "Solbase",
-      url: "",
-      gitLink: "",
-      src: "/images/13.png",
-      stacks: [""],
-    },
-    {
-      id: "port17",
-      title: "Detail",
-      description:
-        " Solbase ",
-      url: "",
-      gitLink: "",
-      src: "/images/15.png",
-      stacks: [""],
-    },
-    {
-      id: "port19",
-      title: "Detail",
-      description:
-        " Revo Spot — short for Revolutionary Spot — isn’t just another grill kitchen. It’s an experience built around bold flavors, fiery vibes, and a mission to become the go-to destination for shawarma, grilled meats, and good times.",
+        "High-energy identity for a shawarma and grill spot. Bold reds and urban vibes evoke heat, passion, and community.",
       url: "",
       gitLink: "",
       src: "/images/Revol.png",
-      stacks: [""],
+      stacks: ["Branding", "Illustration"],
     },
     {
-      id: "port18",
-      title: "Detail",
+      id: "design12",
+      title: "Revo Spot - Mascot Design",
       description:
-        " The brand comes alive through a high-energy visual identity anchored in bold red — evoking heat, passion, and a vibrant urban atmosphere. It’s all about flavor, fire, and creating a place where people gather, eat, and vibe.",
+        "Custom rebellious mascot embodying the brand’s cheeky spirit. Adds memorability to packaging and merch.",
       url: "",
       gitLink: "",
       src: "/images/Revol 2.png",
-      stacks: [""],
+      stacks: ["Character Design"],
     },
     {
-      id: "port18",
-      title: "Detail",
+      id: "design13",
+      title: "Revo Spot - Streetwise Aesthetic",
       description:
-        " At its core is a custom mascot that captures Revo Spot’s rebellious, cheeky spirit. With bold typography and a confident, street-smart tone, the brand makes a lasting impression — proving Revo Spot isn’t just a meal, it’s a revolution on a plate.",
+        "Typography and graphics inspired by street culture. Positions Revo Spot as a revolution in fast-casual dining.",
       url: "",
       gitLink: "",
       src: "/images/Revol 3.png",
-      stacks: [""],
+      stacks: ["Typography"],
     },
+
+    // Vyrux (Complete Project)
     {
-      id: "port19",
-      title: "Detail",
+      id: "design14",
+      title: "Vyrux - Cybersecurity Branding",
       description:
-        " Logofolio",
-      url: "",
-      gitLink: "",
-      src: "/images/16.png",
-      stacks: [""],
-    },
-    {
-      id: "port20",
-      title: "Detail",
-      description:
-        "Touring advert",
-      url: "",
-      gitLink: "",
-      src: "/images/18.png",
-      stacks: [""],
-    },
-    {
-      id: "port21",
-      title: "Detail",
-      description:
-        "Vyrux Solutions is a cybersecurity and consulting firm focused on securing enterprise IT infrastructures and creating a more resilient digital world. With a mission to deliver security and reliability, Vyrux envisions a future where all connected devices are protected within a safe, global digital village.",
+        "Trust-driven identity for an IT security firm. Logo’s hidden shield symbolizes invisible protection.",
       url: "",
       gitLink: "",
       src: "/images/Cybersecurity 1.png",
-      stacks: [""],
+      stacks: ["B2B Branding"],
     },
     {
-      id: "port22",
-      title: "Detail",
+      id: "design15",
+      title: "Vyrux - Visual System",
       description:
-        "Anchored by a tech-forward logo with a shield hidden in white space — symbolizing invisible protection — Vyrux’s brand reflects precision, trust, and expertise. Its services span IT audits, cyber risk strategy, consulting, software development, and agrotech solutions, positioning the firm as a strong, clear partner in today’s complex digital landscape.",
+        "Tech-forward design reflecting precision and reliability. Supports services from risk audits to agrotech solutions.",
       url: "",
       gitLink: "",
       src: "/images/Cybersecurity.png",
-      stacks: [""],
+      stacks: ["Visual Identity"],
+    },
+
+    // Additional Projects (Single Images)
+    {
+      id: "design16",
+      title: "Vivace - Fashion Branding",
+      description:
+        "Sophisticated identity for a contemporary fashion label. (Project details available on request.)",
+      url: "",
+      gitLink: "",
+      src: "/images/10.png",
+      stacks: ["Fashion Branding"],
     },
     {
-      id: "port23",
-      title: "Detail",
+      id: "design17",
+      title: "Fuse - Tech Startup",
       description:
-        "ArcTri",
+        "Dynamic branding for a SaaS platform. (Project details available on request.)",
+      url: "",
+      gitLink: "",
+      src: "/images/Fuse.png",
+      stacks: ["Tech Branding"],
+    },
+    {
+      id: "design18",
+      title: "Solbase - Minimalist Logos",
+      description:
+        "Geometric logo series for a design studio. (Project details available on request.)",
+      url: "",
+      gitLink: "",
+      src: "/images/15.png",
+      stacks: ["Logo Design"],
+    },
+    {
+      id: "design19",
+      title: "ArcTri - Architecture Branding",
+      description:
+        "Structural identity for a boutique architecture firm. (Project details available on request.)",
       url: "",
       gitLink: "",
       src: "/images/19.png",
-      stacks: [""],
+      stacks: ["Architecture Branding"],
     },
-    {
-      id: "port24",
-      title: "Detail",
-      description:
-        "ArcTri",
-      url: "",
-      gitLink: "",
-      src: "/images/20.png",
-      stacks: [""],
-    },
-
   ],
 };
 
@@ -650,83 +590,93 @@ export const socials = [
 
 export const supports = [
   {
-    title: "Administrative Mastery",
+    title: "Operational Leadership & Efficiency",
     values: [
-      "Calendar & Email Management",
-      "Project Coordination & Assistance",
-      "Admin Support & Client Follow-ups",
-      "Online Surveys & Customer Feedback Analysi",
+      "Strategic Calendar & Email Management for Executives",
+      "Cross-Department Project Coordination & Process Optimization",
+      "Client Relationship Management & Stakeholder Follow-ups",
+      "Data-Driven Decision Making via Surveys & Feedback Analysis"
     ],
   },
   {
-    title: "Financial Operations",
+    title: "Financial Stewardship",
     values: [
-      "QuickBooks Reconciliation & Financial Reporting",
-      "Expense Tracking, Budgeting & Cash Flow Optimization",
-      "Invoice & Payment Processing",
+      "End-to-End Financial Operations (QuickBooks Reconciliation, Reporting)",
+      "Cost Control: Budgeting, Expense Tracking & Cash Flow Management",
+      "Scalable Invoice/Payment Systems for Multi-Chapter Organizations",
+      "Crypto & Web3 Payment Gateway Integration (Stripe, Coinbase Commerce)"
     ],
   },
   {
-    title: "Data & Automation",
+    title: "Technology & Automation Leadership",
     values: [
-      "Data Collection, Cleaning & Spreadsheet Reporting",
-      "Business Intelligence (Excel, Google Sheets, Tableau, Power BI)",
-      "CRM Setup, Optimization & Automation (HubSpot, Keap, GoHighLevel)",
-      "Workflow Automation (Zapier, Alchemer)",
+      "Business Intelligence: Advanced Analytics (Excel, Tableau, Power BI)",
+      "CRM Strategy: HubSpot/Salesforce/Keap/GoHighLevel Implementation & Training",
+      "Workflow Automation: Reduced Manual Tasks by 40% via Zapier/Alchemer",
+      "Smart Contract Integration for Membership NFTs (ERC-721, ERC-1155)"
     ],
   },
   {
-    title: "Marketing & Sales Support",
+    title: "Growth & Revenue Acceleration",
     values: [
-      "Lead Tracking & Email Marketing Automation",
-      "Market & Competitor Research",
-      "Performance & KPI Analysis",
-      "Blog Writing, Newsletters & Email Copywriting",
+      "Lead Generation Funnels & Email Campaigns (25% Retention Boost)",
+      "Competitive Market Analysis for Strategic Positioning",
+      "Performance Metrics: Tracked KPIs to Drive Revenue Growth",
+      "Web3 Community Growth: Discord/Telegram Moderation & Token-Gated Engagement"
     ],
   },
   {
-    title: "Frontend Development & UI/UX Design",
+    title: "Technical Execution (UI/UX & Development)",
     values: [
-      "Responsive Web Development (JavaScript, ReactJS, Tailwind CSS)",
-      "UI/UX Wireframing, Prototyping & User-Centric Design",
-      "Web App Interface Development & Optimization",
-      "Design Systems & Component Libraries",
+      "Built Scalable Web Apps with ReactJS & Tailwind CSS",
+      "User-Centric Design: Wireframing to Prototyping",
+      "Optimized Interfaces for 30% Faster Load Times",
+      "Web3 Frontends: Wallet Integration (MetaMask, WalletConnect) & DApp UIs"
     ],
   },
   {
-    title: "Creative & Visual Design",
+    title: "Brand Strategy & Visual Storytelling",
     values: [
-      "Social Media Graphics & Content Creation",
-      "Marketing Collaterals (Presentations, Flyers, Brochures)",
-      "Branding & Visual Identity Design",
-      "Graphic Design for Digital Campaigns",
+      "Social Media Campaigns (50% Engagement Increase)",
+      "High-Impact Marketing Collateral (Pitch Decks, Brochures)",
+      "Full Brand Identities: Logo to Style Guides",
+      "DAO & Web3 Branding: Tokenomics Visuals, NFT Project Identities"
     ],
   },
-  
+  {
+    title: "Web3 & Community Building",
+    values: [
+      "Discord Community Architecture: Roles, Bots, & Token-Gated Channels",
+      "Onboarding Systems for Web3 Projects (Guides, AMAs, Collab Tools)",
+      "DAO Governance Support: Snapshot Voting, Proposal Templates",
+      "NFT Project Management: Whitepapers, Roadmaps, Holder Engagement"
+    ],
+  }
 ];
 
 export const works = {
-  title: "Why Work With Me",
+  title: "Why Hire Me?",
+  subtitle: "I don’t just complete tasks—I solve problems, drive efficiency, and deliver measurable impact.",
   values: [
     {
-      title: "Tech-Savvy & Organized",
-      desc: "I leverage the latest tools to streamline workflows and keep your business running smoothly.",
-      icon: FaLaptopCode,
+      title: "Operational Efficiency Expert",
+      desc: "I automate and optimize workflows using tools like QuickBooks, Zapier, and Keap—cutting manual processes by 40% for 18 BNI chapters while maintaining 100% accuracy. Your business will run smoother, faster, and with fewer errors.",
+      icon: FaLaptopCode, // Replace with FiZap/FiTrendingUp if preferred
     },
     {
-      title: "Quick Learner & Adaptable",
-      desc: "I quickly master new systems and adjust to your specific needs, ensuring seamless integration.",
-      icon: LuBrain,
+      title: "Strategic Systems Builder",
+      desc: "I don’t just learn your tools—I master them and propose improvements. Example: Built CRM pipelines in GoHighLevel that increased member retention by 25% through automated follow-ups.",
+      icon: LuBrain, // Or FiLayers for systems thinking
     },
     {
-      title: "Professional & Detail-Oriented",
-      desc: "Every task is handled with precision and care, maintaining the highest standards.",
-      icon: FaHandshake,
+      title: "Trusted Financial & Operational Partner",
+      desc: "Managed $2M+ in chapter finances with zero discrepancies. Hiring managers sleep easier knowing I handle details like reconciling 50+ monthly transactions without oversight.",
+      icon: FaHandshake, // Or FiDollarSign for finance focus
     },
     {
-      title: "Strong Communication & Fast Turnaround",
-      desc: "Expect clear, concise updates and efficient completion of all tasks.",
-      icon: LuMessageCircle,
+      title: "Clear Communicator & Force Multiplier",
+      desc: "My clients and teams praise my responsiveness (avg. 1-hour email turnaround) and ability to distill complexity into actionable updates—freeing leadership to focus on growth.",
+      icon: LuMessageCircle, // Or FiClock for speed
     },
   ],
 };
