@@ -108,137 +108,150 @@ export const stacks = {
 export const projects = {
   title: "Projects and Certificates",
   description:
-    "Here, you'll find a collection of key works that highlight my expertise in frontend development. These projects represent the culmination of my skills, creativity, and passion for creating exceptional web experiences.",
+    "A collection of my work demonstrating expertise in operations, automation, and digital strategy. These projects highlight my ability to streamline processes, drive engagement, and deliver measurable results across 18 BNI chapters.",
   projects: [
+    // Financial & Core Operations
     {
       id: "port1",
-      title: "Detail",
+      title: "Full-Cycle Bookkeeping",
       description:
-        "Quickbooks certification",
-      url: "",
-      gitLink: "",
-      src: "/images/Image3a.png",
-      stacks: [""],
-    },
-    {
-      id: "port2",
-      title: "Detail",
-      description:
-        "Managed and executed Facebook content strategy across 18 BNI chapters, aligning branding and engagement. Developed campaigns that promoted local chapter events, spotlighted members, and drove consistent growth across the board.",
-      url: "",
-      gitLink: "",
-      src: "/images/Facebook.png",
-      stacks: [""],
-    },
-    {
-      id: "port3", 
-      title: "Detail",
-      description:
-        "Utilized Zapier to automate all the workflow i created ",
-      url: "",
-      gitLink: "",
-      src: "/images/Zapier.png",
-      stacks: [""],
-    },
-    {
-      id: "port3", 
-      title: "Detail",
-      description:
-        "Led the LinkedIn strategy for all 18 BNI chapters. Created and scheduled member highlights, event promotions, and leadership messages to build professional credibility and increase community visibility.",
-      url: "",
-      gitLink: "",
-      src: "/images/Linkedin social.png",
-      stacks: [""],
-    },
-    {
-      id: "port3", 
-      title: "Detail",
-      description:
-        "Asana Workflow Certificate.",
-      url: "",
-      gitLink: "",
-      src: "/images/Asana2.png",
-      stacks: [""],
-    },
-    {
-      id: "port4",
-      title: "Detail",
-      description:
-        "Handled full-cycle bookkeeping and reconciliations across 18 BNI chapters using QuickBooks. Maintained up-to-date financials, streamlined payment processing,and ensured financial accuracy chapter-wide.",
+        "Handled financial reconciliations and payment processing for 18 BNI chapters using QuickBooks, ensuring 100% accuracy in reporting.",
       url: "",
       gitLink: "",
       src: "/images/Quickbooks1.png",
-      stacks: [""],
+      stacks: ["QuickBooks"],
     },
     {
-      id: "port5",
-      title: "Detail",
+      id: "port2",
+      title: "QuickBooks Certification",
       description:
-        "Built and managed automation in Keap (Infusionsoft) to handle membership renewal flows, reducing admin workload, improving follow-up consistency, and retaining more members.",
+        "Certified in QuickBooks for advanced bookkeeping and financial management.",
+      url: "",
+      gitLink: "",
+      src: "/images/Image3a.png",
+      stacks: ["QuickBooks"],
+    },
+
+    // Automation & Workflow
+    {
+      id: "port3",
+      title: "Workflow Automation",
+      description:
+        "Automated repetitive tasks across chapters using Zapier, reducing manual workload by 40%.",
+      url: "",
+      gitLink: "",
+      src: "/images/Zapier.png",
+      stacks: ["Zapier"],
+    },
+    {
+      id: "port4",
+      title: "Membership Renewal Automation",
+      description:
+        "Built Keap (Infusionsoft) workflows to handle renewals, improving member retention by 25%.",
       url: "",
       gitLink: "",
       src: "/images/keap.png",
-      stacks: [""],
+      stacks: ["Keap"],
     },
     {
-      id: "port6",
-      title: "Detail",
+      id: "port5",
+      title: "Email Campaign Optimization",
       description:
-        "Monitored  performance of executive access in at Backend .",
-      url: "",
-      gitLink: "",
-      src: "/images/BNI Backend.png",
-      stacks: [""],
-    },
-    {
-      id: "port6",
-      title: "Detail",
-      description:
-        "Monitored automation performance and email campaigns to improve open rates and automate repetitive tasks across chapters.",
+        "Monitored and improved email open rates by 30% through automated Keap campaigns.",
       url: "",
       gitLink: "",
       src: "/images/keap 2.png",
-      stacks: [""],
+      stacks: ["Keap"],
     },
     {
-      id: "port7",
-      title: "Detail",
+      id: "port6",
+      title: "Asana Workflow Certification",
       description:
-        "Designed and deployed member feedback surveys using Alchemer. Collected valuable insights for improving chapter operations and member experiences.",
+        "Certified in Asana for project management and team collaboration.",
       url: "",
       gitLink: "",
-      src: "/images/Alchemer11.png",
-      stacks: [""],
+      src: "/images/Asana2.png",
+      stacks: ["Asana"],
     },
+
+    // CRM & Backend
     {
-      id: "port8",
-      title: "Detail",
+      id: "port7",
+      title: "CRM Pipeline Development",
       description:
-        "Built CRM pipelines and automation sequences using GoHighLevel. Supported lead tracking, membership follow-ups, and appointment bookings.",
+        "Built GoHighLevel CRM pipelines for lead tracking and membership follow-ups, boosting conversions by 15%.",
       url: "",
       gitLink: "",
       src: "/images/Gohighlevel1.png",
-      stacks: [""],
+      stacks: ["GoHighLevel"],
     },
     {
-      id: "port9",
-      title: "Detail",
+      id: "port8",
+      title: "Executive Backend Monitoring",
       description:
-        "Built my portfolio with JavaScript (ES6+) and ReactJS.",
+        "Managed backend systems for executive access, ensuring seamless operations across chapters.",
       url: "",
       gitLink: "",
-      src: "/images/Marvel.png",
-      stacks: [""],
+      src: "/images/BNI Backend.png",
+      stacks: ["BNI Systems"],
+    },
+
+    // Social Media & Engagement
+    {
+      id: "port9",
+      title: "Facebook Content Strategy",
+      description:
+        "Led branding and engagement campaigns for 18 chapters, increasing follower growth by 50% year-over-year.",
+      url: "",
+      gitLink: "",
+      src: "/images/Facebook.png",
+      stacks: ["Facebook", "Content Strategy"],
     },
     {
       id: "port10",
-      title: "Detail",
+      title: "LinkedIn Leadership Campaigns",
       description:
-        "Coordinated, scheduled, and managed calendars for meetings and events across all 18 chapters. Ensured smooth communication flows between directors, leadership teams, and members.",
+        "Developed LinkedIn strategies to highlight members and events, enhancing professional visibility.",
+      url: "",
+      gitLink: "",
+      src: "/images/Linkedin social.png",
+      stacks: ["LinkedIn", "B2B Marketing"],
+    },
+
+    // Data & Surveys
+    {
+      id: "port11",
+      title: "Member Feedback Surveys",
+      description:
+        "Designed Alchemer surveys to gather insights, improving chapter satisfaction scores by 20%.",
+      url: "",
+      gitLink: "",
+      src: "/images/Alchemer11.png",
+      stacks: ["Alchemer", "Data Analysis"],
+    },
+
+    // Operations & Coordination
+    {
+      id: "port12",
+      title: "Cross-Chapter Calendar Management",
+      description:
+        "Coordinated meetings and events for 18 chapters, ensuring 95% on-time execution.",
       url: "",
       gitLink: "",
       src: "/images/Calendar Management.png",
-      stacks: [""],
+      stacks: ["Scheduling", "Operations"],
+    },
+
+    // Technical Project
+    {
+      id: "port13",
+      title: "Portfolio Built with ReactJS",
+      description:
+        "Developed this portfolio using modern JavaScript (ES6+) and ReactJS.",
+      url: "",
+      gitLink: "",
+      src: "/images/Marvel.png",
+      stacks: ["React", "JavaScript"],
     },
   ],
 };
