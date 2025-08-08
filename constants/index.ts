@@ -247,7 +247,7 @@ export const projects = {
       id: "port13",
       title: "Portfolio Built with ReactJS",
       description:
-        "Developed this portfolio using modern JavaScript (ES6+) and ReactJS.",
+        "Developed My portfolio using modern JavaScript (ES6+) and ReactJS.",
       url: "",
       gitLink: "",
       src: "/images/Marvel.png",
