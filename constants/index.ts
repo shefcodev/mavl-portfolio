@@ -261,23 +261,33 @@ export const projects = {
 export const Recognition = {
   title: "Recognition",
   description:
-    "Here, you'll find a collection of key works that highlight my expertise. These Recognitions represent the culmination of my skills, creativity, and passion for creating exceptional experiences.",
+    "A collection of awards, milestones, and professional acknowledgments highlighting my contributions.",
   projects: [
     {
       id: "port1",
-      title: "Detail",
+      title: "BNI Executive Directors of the Year (2024)",
       description:
-        "Contributed to the operational and member engagement strategies that led to BNI Alberta South receiving Executive Directors of the Year (2024) at the BNI Canada USA Conference; personally recognized by regional leadership for behind-the-scenes support.",
+        "Contributed to operational and engagement strategies that led to BNI Alberta South receiving this honor at the BNI Canada USA Conference; personally recognized by regional leadership for behind-the-scenes support.",
       url: "",
       gitLink: "",
       src: "/images/Moji.png",
       stacks: [""],
     },
     {
-      id: "port2",
-      title: "Detail",
+      id: "port1",
+      title: "BNI Alberta South - Canadian Region of the Year (2022)",
       description:
-        "Contributed to the operational and member engagement strategies that led to BNI Alberta South receiving Executive Directors of the Year (2024) at the BNI Canada USA Conference; personally recognized by regional leadership for behind-the-scenes support.",
+        "Played a key operational role in helping our region win this prestigious national award through implementing systems that improved member engagement and chapter performance.",
+      url: "",
+      gitLink: "",
+      src: "/images/BNI.png",
+      stacks: ["Operational Strategy", "Member Engagement"],
+    },
+    {
+      id: "port2",
+      title: "Operational Excellence Recognition",
+      description:
+        "Acknowledged for implementing systems that streamlined chapter operations and member services.",
       url: "",
       gitLink: "",
       src: "/images/Asana111.png",
@@ -285,17 +295,17 @@ export const Recognition = {
     },
     {
       id: "port3",
-      title: "Detail",
+      title: "5-Year Anniversary at BNI",
       description:
-        "Received a congratulatory message from Aarti (ARTHY) Ahluwalia, Founder of BizStartup Inc., recognizing my 5-year anniversary at BNI Alberta South — part of the world's leading referral marketing organization. This acknowledgment reflects my consistent presence, collaboration, and impact within my professional network.",
+        "Received congratulatory message from Aarti (ARTHY) Ahluwalia, Founder of BizStartup Inc., recognizing my sustained contribution to the world's leading referral marketing organization.",
       url: "",
       gitLink: "",
       src: "/images/arti.png",
       stacks: [""],
     },
     {
-      id: "port3",
-      title: "Detail",
+      id: "port4",
+      title: "Leadership Appreciation",
       description:
         "",
       url: "",
@@ -305,7 +315,7 @@ export const Recognition = {
     },
     {
       id: "port3",
-      title: "Detail",
+      title: "Team Recognition",
       description:
         "",
       url: "",
@@ -315,7 +325,7 @@ export const Recognition = {
     },
     {
       id: "port3",
-      title: "Detail",
+      title: "Colleague Testimonial",
       description:
         "",
       url: "",
@@ -325,7 +335,7 @@ export const Recognition = {
     },
     {
       id: "port3",
-      title: "Detail",
+      title: "Professional Endorsement",
       description:
         "",
       url: "",
@@ -335,7 +345,7 @@ export const Recognition = {
     },
     {
       id: "port3",
-      title: "Detail",
+      title: "Client Appreciation",
       description:
         "",
       url: "",
@@ -345,7 +355,6 @@ export const Recognition = {
     },
      ],
 };
-
 // add projects to the projects prop of the object below
 
 export const designs = {
