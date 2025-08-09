@@ -24,8 +24,7 @@ const FailureStoriesandProcessDocumentation = () => {
               "Data recovery protocols implementation"
             ],
             outcome: "Full engagement recovery in 14 days",
-            lesson: "Always pilot initiatives with 2-3 chapters first",
-            documentation: "/docs/social-media-pilot-protocol.pdf"
+            lesson: "Always pilot initiatives with 2-3 chapters first"
           },
           {
             title: "GoHighLevel Automation Failure (2021)",
@@ -38,8 +37,7 @@ const FailureStoriesandProcessDocumentation = () => {
               "Change control procedures"
             ],
             outcome: "Zero repeat incidents since protocol implementation",
-            lesson: "Never deploy automation without testing and training",
-            documentation: "/docs/automation-change-control.docx"
+            lesson: "Never deploy automation without testing and training"
           }
         ]
       },
@@ -178,19 +176,9 @@ const FailureStoriesandProcessDocumentation = () => {
                           <p className="text-gray-700 dark:text-gray-300">{failure.outcome}</p>
                         </div>
                         
-                        <div className="flex flex-wrap justify-between items-center">
-                          <div>
-                            <p className="font-semibold text-gray-800 dark:text-gray-200">Key Lesson:</p>
-                            <p className="text-gray-700 dark:text-gray-300">{failure.lesson}</p>
-                          </div>
-                          <a 
-                            href={failure.documentation} 
-                            className="text-primary-600 dark:text-primary-400 hover:underline"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            View Documentation →
-                          </a>
+                        <div>
+                          <p className="font-semibold text-gray-800 dark:text-gray-200">Key Lesson:</p>
+                          <p className="text-gray-700 dark:text-gray-300">{failure.lesson}</p>
                         </div>
                       </div>
                     ))}
