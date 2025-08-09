@@ -33,7 +33,7 @@ const ProvenResults = () => {
         outcome: "Quantifiable Leadership Results",
         details: [
           "Executive Support Excellence: Provided comprehensive operational support contributing to BNI Alberta South achieving #1 REGION IN CANADA",
-          "C-Suite Partnership: Served as dedicated contractor to 2 Executive Directors who achieved #1 GLOBALLY (out of 157 worldwide) in 2024",
+          "C-Suite Partnership: Served as dedicated contractor to 2 BNI Regional Executive Directors who achieved #1 GLOBALLY (out of 157 worldwide) in 2024",
           "Cross-Chapter Coordination: Supported and facilitated training for 18+ chapter administrators across the region",
           "Financial Operations Support: Assisted with oversight and coordination of $2.3M+ annual revenue across multi-chapter network",
           "Crisis Response Coordination: Supported leadership through 6 major system recovery operations with 100% uptime restoration",
