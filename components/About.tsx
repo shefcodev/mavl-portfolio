@@ -61,11 +61,6 @@ const About = () => {
               <p className="about-desc mb-2"></p>
               <p className="about-desc mb-2"></p>
             </p>
-            <p className="about-desc font-bold">PROVEN RESULTS:</p>
-            <p className="about-desc font-bold"> • Helped BNI Alberta South achieve #1 REGION IN CANADA</p>
-            <p className="about-desc font-bold"> • Supported 2 Executive Directors to #1 GLOBALLY (out of 157 worldwide) in 2024</p>
-            <p className="about-desc font-bold"> • 45% reduction in manual processes through automation</p>
-            <p className="about-desc font-bold"> • 85% client retention rate across 550+ accounts</p>
           </motion.div>
         </div>
 
