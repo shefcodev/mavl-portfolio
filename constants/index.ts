@@ -8,6 +8,7 @@ export const links = [
   { title: "Projects", href: "#projects" },
   { title: "Recognition", href: "#Recognition" },
   { title: "Designs", href: "#designs" },
+  { title: "Failure Stories & Process Documentation", href: "#Failure Stories & Process Documentation" },
   { title: "Contact", href: "#contact" },
 ];
 
