@@ -235,7 +235,7 @@ const HowIHelpYou = () => {
     <section id="SolutionsAndResults" className="py-20 bg-gray-50 dark:bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div {...motionValues} className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4">Problems I Solve & Results I Deliver</h2>
+          <h2 className="text-4xl font-bold mb-4">Problems | Solutions | Delivery </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300">
             Transforming business challenges into measurable success stories
           </p>
