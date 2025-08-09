@@ -16,9 +16,9 @@ export default function Home() {
     <Fragment>
       <About /> {/* Hero introduction */}
       <Stacks /> {/* Show technical prowess first */}
-      <Recognition /> {/* Awards/testimonials - builds trust */}
       <SolutionsAndResults /> {/* Present solutions with credibility established */}
       <Projects /> {/* Concrete implementations */}
+      <Recognition /> {/* Awards/testimonials - builds trust */}
       <Services /> {/* Structured offerings */}
       <Designs /> {/* Visual craftsmanship */}
       <WorkPlans /> {/* Methodology transparency */}
