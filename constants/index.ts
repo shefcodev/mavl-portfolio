@@ -3,7 +3,7 @@ import { LuBrain, LuMessageCircle } from "react-icons/lu";
 
 export const links = [
   { title: "About", href: "#about" },
-  { title: "HowIHelpYou", href: "#How I Help You" },
+  { title: "How I Help You", href: "#How I Help You" },
   { title: "Stacks", href: "#stacks" },
   { title: "Projects", href: "#projects" },
   { title: "Designs", href: "#designs" },
