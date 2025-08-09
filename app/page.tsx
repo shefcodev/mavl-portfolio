@@ -8,7 +8,6 @@ import Services from "@/components/Services";
 import Designs from "@/components/Designs";
 import WorkPlans from "@/components/WorkPlans";
 import Stories from "@/components/Stories";
-import Resume from "@/components/Resume";
 import Contact from "@/components/Contact";
 
 export default function Home() {
@@ -23,7 +22,6 @@ export default function Home() {
       <Designs />
       <WorkPlans />
       <Stories />
-      <Resume />
       <Contact />
     </Fragment>
   );
