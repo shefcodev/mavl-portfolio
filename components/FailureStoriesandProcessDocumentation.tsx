@@ -40,19 +40,23 @@ const FailureStoriesandProcessDocumentation = () => {
       failures: [
         {
           title: "The Multi-Chapter Social Media Disaster (2022)",
-          description: "Launched unified social media strategy across 18 chapters without testing first. Three chapters saw engagement drop 20% due to local audience differences. Lesson: Now always pilot with 2-3 chapters first."
+          description: "Launched unified social media strategy across 18 chapters without testing first. Three chapters saw engagement drop 20% due to local audience differences.",
+          lesson: "Lesson: Now always pilot with 2-3 chapters first."
         },
         {
           title: "The GoHighLevel Integration That Broke Everything (2021)",
-          description: "Built complex automation over weekend without team involvement. Resulted in 200+ misdirected welcome emails and locked-out assistants. Lesson: Never implement automation without testing and training."
+          description: "Built complex automation over weekend without team involvement. Resulted in 200+ misdirected welcome emails and locked-out assistants.",
+          lesson: "Lesson: Never implement automation without testing and training."
         },
         {
           title: "The Web3 Community That Went Silent (MusCatonsol, 2024)",
-          description: "Focused on growing Telegram numbers (56% growth) but neglected conversation quality. Hit 1,000 members but engagement plummeted. Lesson: Prioritize genuine connection over member count."
+          description: "Focused on growing Telegram numbers (56% growth) but neglected conversation quality. Hit 1,000 members but engagement plummeted.",
+          lesson: "Lesson: Prioritize genuine connection over member count."
         },
         {
           title: "The Financial Dashboard Nobody Used (2020)",
-          description: "Created comprehensive QuickBooks dashboards with 15+ metrics. Too overwhelming - executives never used them. Lesson: Focus on 3-4 action-critical metrics only."
+          description: "Created comprehensive QuickBooks dashboards with 15+ metrics. Too overwhelming - executives never used them.",
+          lesson: "Lesson: Focus on 3-4 action-critical metrics only."
         }
       ]
     }
@@ -96,7 +100,10 @@ const FailureStoriesandProcessDocumentation = () => {
                     {caseStudy.failures.map((failure, index) => (
                       <div key={index} className="p-4 bg-white dark:bg-gray-800 rounded-lg shadow-sm">
                         <h6 className="font-bold text-red-600 dark:text-red-400">{failure.title}</h6>
-                        <p className="text-gray-700 dark:text-gray-300">{failure.description}</p>
+                        <p className="text-gray-700 dark:text-gray-300 mb-2">{failure.description}</p>
+                        <p className="text-gray-700 dark:text-gray-300 font-semibold">
+                          <span className="font-bold">{failure.lesson.split(':')[0]}:</span> {failure.lesson.split(':')[1].trim()}
+                        </p>
                       </div>
                     ))}
                   </div>
