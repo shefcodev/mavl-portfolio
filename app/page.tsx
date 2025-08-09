@@ -1,9 +1,9 @@
 import { Fragment } from "react";
 import About from "@/components/About";
 import Stacks from "@/components/Stacks"; // Technical foundation first
-import Recognition from "@/components/Recognition"; // Early social proof
 import SolutionsAndResults from "@/components/SolutionsAndResults"; // Solutions with established credibility
 import Projects from "@/components/Projects"; // Applied examples
+import Recognition from "@/components/Recognition"; // Early social proof
 import Services from "@/components/Services"; // Offerings breakdown
 import Designs from "@/components/Designs"; // Visual proof
 import WorkPlans from "@/components/WorkPlans"; // Process depth
