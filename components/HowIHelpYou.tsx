@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import { motionValues } from "@/lib/utils";
 
-const SolutionsAndResults = () => {
+const HowIHelpYou = () => {
   const caseStudies = [
     {
       id: 1,
@@ -315,4 +315,4 @@ const SolutionsAndResults = () => {
   );
 };
 
-export default SolutionsAndResults;
+export default HowIHelpYou;
