@@ -6,7 +6,7 @@ const ProvenResults = () => {
   const caseStudies = [
     {
       id: 1,
-      title: "Proven Leadership Results",
+      title: "Proven Leadership & Executive Support Impact",
       problem: {
         icon: "🏆",
         header: "LEADERSHIP IMPACT",
@@ -32,14 +32,13 @@ const ProvenResults = () => {
         header: "KEY ACHIEVEMENTS",
         outcome: "Quantifiable Leadership Results",
         details: [
-          "Led operational strategy that drove BNI Alberta South to #1 REGION IN CANADA",
-          "Direct contractor to 2 Executive Directors who achieved #1 GLOBALLY (out of 157 worldwide) in 2024",
-          "Team Leadership: Managed and trained 18+ chapter administrators across the region",
-          "Budget Oversight: $2.3M+ annual revenue management across multi-chapter network",
-          "Crisis Response: Led 6 major system recovery operations with 100% uptime restoration",
-          "Process Excellence: 45% reduction in manual processes through automation leadership",
-          "Client Success: 85% retention rate across 550+ accounts under my operational oversight",
-          "Decision Authority: Autonomous approval rights up to $25K for operational improvements"
+          "Executive Support Excellence: Provided comprehensive operational support contributing to BNI Alberta South achieving #1 REGION IN CANADA",
+          "C-Suite Partnership: Served as dedicated contractor to 2 Executive Directors who achieved #1 GLOBALLY (out of 157 worldwide) in 2024",
+          "Cross-Chapter Coordination: Supported and facilitated training for 18+ chapter administrators across the region",
+          "Financial Operations Support: Assisted with oversight and coordination of $2.3M+ annual revenue across multi-chapter network",
+          "Crisis Response Coordination: Supported leadership through 6 major system recovery operations with 100% uptime restoration",
+          "Process Excellence Support: Contributed to 45% reduction in manual processes through automation implementation",
+          "Client Success Coordination: Supported operations achieving 85% retention rate across 550+ accounts",
         ]
       }
     }

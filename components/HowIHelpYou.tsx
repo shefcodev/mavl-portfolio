@@ -7,42 +7,37 @@ const HowIHelpYou = () => {
     // ... (keep all previous case studies 1-7 exactly as they were) ...
     {
       id: 8,
-      title: "Executive Operations Leadership",
+      title: "Executive Assistant Plus",
       problem: {
         icon: "🔥",
         header: "YOUR CHALLENGE",
-        statement: "When Your Operations Need Executive-Level Leadership",
-        description: "You need someone with proven authority who can lead teams, manage budgets, and make critical decisions without constant oversight. You need operational leadership that reports directly to you but operates with the autonomy of a senior executive."
+        statement: "When You Need More Than Basic Administrative Support",
+        description: "You need an Executive Assistant who can handle complex operational coordination, not just calendar management. You want someone who understands systems, can automate processes, and can work independently on high-level projects while maintaining the reliability of traditional EA support."
       },
       solution: {
         icon: "💡",
         header: "MY SOLUTION",
-        approach: "Proven Executive Operations Leadership",
-        description: "As your senior operations contractor, I bring 5+ years of direct C-suite reporting experience, proven team leadership across 18+ professionals, and autonomous decision-making authority with budgets exceeding $2.3M. I don't just manage tasks—I lead operational strategy, crisis response, and team development.",
+        approach: "Comprehensive Executive Support with Operational Expertise",
+        description: "I provide executive assistant services enhanced by 5+ years of operational coordination experience. I bring systems thinking, automation expertise, and multi-stakeholder management to traditional EA responsibilities—giving you administrative excellence with strategic operational support.",
         services: [
-          "Direct executive reporting relationship with full accountability",
-          "24/7 crisis management authority with escalation protocols",
-          "Team leadership for administrative professionals",
-          "Budget authority with autonomous approval up to $25K",
-          "Strategic planning for operational excellence"
-        ],
-        credentials: [
-          "Direct reporting to Regional Director (5+ years)",
-          "Managed 18+ administrative professionals",
-          "Oversaw budgets exceeding $2.3M annually",
-          "Led initiatives achieving #1 regional ranking nationally",
-          "Autonomous decision-making on operational matters"
+          "Advanced Executive Calendar & Communication Management",
+          "Cross-departmental project coordination and follow-through",
+          "Process automation and workflow optimization",
+          "Financial operations support and reporting coordination",
+          "Crisis response support and escalation management",
+          "Technical troubleshooting and system coordination",
+          "Multi-location administrative oversight"
         ]
       },
       result: {
         icon: "🎯",
         header: "YOUR RESULT",
-        outcome: "Executive-level operations without the full-time salary",
+        outcome: "Executive support that scales with your complexity",
         details: [
-          "Strategic leadership that scales with your organization",
-          "Confidence in crisis management and decision-making",
-          "Proven track record of operational excellence",
-          "Recent achievement: Led team to #1 national ranking in operational metrics"
+          "Administrative excellence with operational sophistication",
+          "Proactive problem-solving that prevents executive interruptions",
+          "Systems and automation that grow with your business",
+          "Recent result: Supported executives to #1 global ranking through comprehensive operational coordination"
         ]
       }
     }
@@ -106,21 +101,6 @@ const HowIHelpYou = () => {
                       ))}
                     </ul>
                   </div>
-
-                  {/* Added credentials section for executive leadership */}
-                  {caseStudy.solution.credentials && (
-                    <div>
-                      <h6 className="font-medium mb-2">Leadership Credentials:</h6>
-                      <ul className="space-y-2">
-                        {caseStudy.solution.credentials.map((credential, index) => (
-                          <li key={index} className="flex items-start">
-                            <span className="mr-2">•</span>
-                            <span className="text-gray-700 dark:text-gray-300">{credential}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
                 </div>
 
                 {/* Result Section */}

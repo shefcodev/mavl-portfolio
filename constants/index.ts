@@ -616,12 +616,14 @@ export const socials = [
 
 export const supports = [
   {
-    title: "Operational Leadership & Efficiency",
+    title: "Executive Operations Support & Coordination",
     values: [
-      "Strategic Calendar & Email Management for Executives",
-      "Cross-Department Project Coordination & Process Optimization",
-      "Client Relationship Management & Stakeholder Follow-ups",
-      "Data-Driven Decision Making via Surveys & Feedback Analysis"
+      "Strategic Calendar & Email Management for C-Suite Executives",
+      "Cross-Department Project Coordination & Process Support",
+      "Client Relationship Management & Executive Stakeholder Communications",
+      "Data-Driven Decision Support via Surveys & Advanced Analytics",
+      "Administrative Oversight of Multi-Location Operations",
+      
     ],
   },
   {
@@ -634,7 +636,7 @@ export const supports = [
     ],
   },
   {
-    title: "Technology & Automation Leadership",
+    title: "Technology & Automation Support",
     values: [
       "Business Intelligence: Advanced Analytics (Excel, Tableau, Power BI)",
       "CRM Strategy: HubSpot/Salesforce/Keap/GoHighLevel Implementation & Training",
@@ -643,7 +645,7 @@ export const supports = [
     ],
   },
   {
-    title: "Growth & Revenue Acceleration",
+    title: "Growth & Marketing Support",
     values: [
       "Lead Generation Funnels & Email Campaigns (25% Retention Boost)",
       "Competitive Market Analysis for Strategic Positioning",
@@ -774,11 +776,11 @@ export const services = {
   desc: "I focus on understanding your unique needs. Then I deliver tailored solutions.",
   values: [
     {
-      title: "Fractional Business Management",
+      title: "Operational Project Coordination",
       desc: "High-level operational leadership without the commitment of a full-time hire. I manage your backend operations, streamline your systems, and lead your team, keeping everything aligned while you focus on growth.",
     },
     {
-      title: "Remote Administration",
+      title: "Executive Administrative Excellence",
       desc: "Reliable, day-to-day administrative support that keeps your business moving. From managing inboxes and documents to handling quotes, invoicing, and follow-ups, I take care of the details behind the scenes.",
     },
     {

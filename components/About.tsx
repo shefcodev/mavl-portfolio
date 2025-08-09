@@ -45,13 +45,16 @@ const About = () => {
             <p className="about-desc mb-2">I go far beyond traditional admin work, integrating <span className="font-bold">automation and Operational Systems Architecture, IT support, customer service,</span> and <span className="font-bold">creative problem-solving</span> into every aspect of your business. My diverse skill set spans:
             </p>
             <ul className="mb-2 list">
-              <li className="about-desc font-bold">PROJECT & PRODUCT MANAGEMENT</li>
-              <li className="about-desc font-bold">TECHNICAL & IT SUPPORT</li>
-              <li className="about-desc font-bold">GRAPHIC DESIGN & SOCIAL MEDIA MANAGEMENT</li>
+              <li className="about-desc font-bold">EXECUTIVE ADMINISTRATIVE EXCELLENCE</li>
+              <li className="about-desc font-bold">PROCESS AUTOMATION & SYSTEMS COORDINATION</li>
+              <li className="about-desc font-bold">FINANCIAL OPERATIONS SUPPORT </li>
+              <li className="about-desc font-bold">TECHNICAL & IT COORDINATION</li>
+              <li className="about-desc font-bold">PROJECT & PROCESS MANAGEMENT</li>
               <li className="about-desc font-bold">TYPEFORM PROGRAMMER / ALCHEMER SPECIALIST</li>
+              <li className="about-desc font-bold">GRAPHIC DESIGN & MARKETING SUPPORT</li>
               <li className="about-desc font-bold">GOHIGHLEVEL SPECIALIST</li>
               <li className="about-desc font-bold">ZAPIER AUTOMATION EXPERT</li>
-              <li className="about-desc font-bold">GOOGLE WORKSPACE CERTIFIED</li>
+      
             </ul>
             <p className="about-desc mb-2">This versatility enables me to translate big ideas into actionable strategies tailored to your unique goals and challenges.</p>
             <p className="about-desc mb-2">My proactive, collaborative approach extends your reach, strengthens your systems, and lays the foundation for long-term, sustainable growth.</p>
