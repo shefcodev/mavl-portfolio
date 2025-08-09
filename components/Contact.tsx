@@ -55,7 +55,7 @@ const ContactForm = () => {
           name="name"
           control={form.control}
           label="Name"
-          placeholder="Marvelous Olabode"
+          placeholder="Marvellous Olabode"
         />
         <FormInput
           name="email"
