@@ -2,15 +2,10 @@
 import { motion } from "framer-motion";
 import { motionValues } from "@/lib/utils";
 
-const Provenresults = () => {
+const ProvenResults = () => {
   const caseStudies = [
     {
       id: 1,
-      title: "Lessons Learned & My Process",
-      // ... (keep all existing content from previous case study 1)
-    },
-    {
-      id: 2,
       title: "Proven Leadership Results",
       problem: {
         icon: "🏆",
@@ -51,10 +46,15 @@ const Provenresults = () => {
   ];
 
   return (
-    <section id="SolutionsAndResults" className="py-20 bg-gray-50 dark:bg-gray-900">
+    <section id="ProvenResults" className="py-20 bg-gray-50 dark:bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* ... (keep existing header content) ... */}
-        
+        <motion.div {...motionValues} className="text-center mb-16">
+          <h2 className="text-4xl font-bold mb-4">Proven Leadership Results</h2>
+          <p className="text-xl text-gray-600 dark:text-gray-300">
+            Documented achievements demonstrating operational excellence and leadership impact
+          </p>
+        </motion.div>
+
         <div className="space-y-24">
           {caseStudies.map((caseStudy) => (
             <motion.div 
@@ -71,72 +71,52 @@ const Provenresults = () => {
                 <h3 className="text-2xl font-bold mb-8">{caseStudy.title}</h3>
 
                 {/* Problem Section */}
-                {caseStudy.problem && (
-                  <div className="mb-10 p-6 bg-red-50 dark:bg-red-900/20 rounded-lg border-l-4 border-red-500">
-                    <div className="flex items-center mb-3">
-                      <span className="text-xl mr-2">{caseStudy.problem.icon}</span>
-                      <h4 className="font-bold text-red-700 dark:text-red-300">{caseStudy.problem.header}</h4>
-                    </div>
-                    <h5 className="text-lg font-semibold mb-2">{caseStudy.problem.statement}</h5>
-                    <p className="text-gray-700 dark:text-gray-300 mb-4">{caseStudy.problem.description}</p>
-                    
-                    {caseStudy.failures && (
-                      <div className="space-y-4">
-                        {caseStudy.failures.map((failure, index) => (
-                          <div key={index} className="p-4 bg-white dark:bg-gray-800 rounded-lg shadow-sm">
-                            <h6 className="font-bold text-red-600 dark:text-red-400">{failure.title}</h6>
-                            <p className="text-gray-700 dark:text-gray-300 mb-2">{failure.description}</p>
-                            <p className="text-gray-700 dark:text-gray-300 font-semibold">
-                              <span className="font-bold">{failure.lesson.split(':')[0]}:</span> {failure.lesson.split(':')[1].trim()}
-                            </p>
-                          </div>
-                        ))}
-                      </div>
-                    )}
+                <div className="mb-10 p-6 bg-red-50 dark:bg-red-900/20 rounded-lg border-l-4 border-red-500">
+                  <div className="flex items-center mb-3">
+                    <span className="text-xl mr-2">{caseStudy.problem.icon}</span>
+                    <h4 className="font-bold text-red-700 dark:text-red-300">{caseStudy.problem.header}</h4>
                   </div>
-                )}
+                  <h5 className="text-lg font-semibold mb-2">{caseStudy.problem.statement}</h5>
+                  <p className="text-gray-700 dark:text-gray-300">{caseStudy.problem.description}</p>
+                </div>
 
                 {/* Solution Section */}
-                {caseStudy.solution && (
-                  <div className="mb-10 p-6 bg-blue-50 dark:bg-blue-900/20 rounded-lg border-l-4 border-blue-500">
-                    <div className="flex items-center mb-3">
-                      <span className="text-xl mr-2">{caseStudy.solution.icon}</span>
-                      <h4 className="font-bold text-blue-700 dark:text-blue-300">{caseStudy.solution.header}</h4>
-                    </div>
-                    <h5 className="text-lg font-semibold mb-2">{caseStudy.solution.approach}</h5>
-                    <p className="text-gray-700 dark:text-gray-300 mb-4">{caseStudy.solution.description}</p>
-                    <div>
-                      <h6 className="font-medium mb-2">Key Leadership Areas:</h6>
-                      <ul className="space-y-2">
-                        {caseStudy.solution.services.map((service, index) => (
-                          <li key={index} className="flex items-start">
-                            <span className="mr-2">•</span>
-                            <span className="text-gray-700 dark:text-gray-300">{service}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
+                <div className="mb-10 p-6 bg-blue-50 dark:bg-blue-900/20 rounded-lg border-l-4 border-blue-500">
+                  <div className="flex items-center mb-3">
+                    <span className="text-xl mr-2">{caseStudy.solution.icon}</span>
+                    <h4 className="font-bold text-blue-700 dark:text-blue-300">{caseStudy.solution.header}</h4>
                   </div>
-                )}
-
-                {/* Result Section */}
-                {caseStudy.result && (
-                  <div className="p-6 bg-green-50 dark:bg-green-900/20 rounded-lg border-l-4 border-green-500">
-                    <div className="flex items-center mb-3">
-                      <span className="text-xl mr-2">{caseStudy.result.icon}</span>
-                      <h4 className="font-bold text-green-700 dark:text-green-300">{caseStudy.result.header}</h4>
-                    </div>
-                    <h5 className="text-lg font-semibold mb-2">{caseStudy.result.outcome}</h5>
+                  <h5 className="text-lg font-semibold mb-2">{caseStudy.solution.approach}</h5>
+                  <p className="text-gray-700 dark:text-gray-300 mb-4">{caseStudy.solution.description}</p>
+                  <div>
+                    <h6 className="font-medium mb-2">Key Leadership Areas:</h6>
                     <ul className="space-y-2">
-                      {caseStudy.result.details.map((detail, index) => (
+                      {caseStudy.solution.services.map((service, index) => (
                         <li key={index} className="flex items-start">
                           <span className="mr-2">•</span>
-                          <span className="text-gray-700 dark:text-gray-300 font-medium">{detail}</span>
+                          <span className="text-gray-700 dark:text-gray-300">{service}</span>
                         </li>
                       ))}
                     </ul>
                   </div>
-                )}
+                </div>
+
+                {/* Result Section */}
+                <div className="p-6 bg-green-50 dark:bg-green-900/20 rounded-lg border-l-4 border-green-500">
+                  <div className="flex items-center mb-3">
+                    <span className="text-xl mr-2">{caseStudy.result.icon}</span>
+                    <h4 className="font-bold text-green-700 dark:text-green-300">{caseStudy.result.header}</h4>
+                  </div>
+                  <h5 className="text-lg font-semibold mb-2">{caseStudy.result.outcome}</h5>
+                  <ul className="space-y-2">
+                    {caseStudy.result.details.map((detail, index) => (
+                      <li key={index} className="flex items-start">
+                        <span className="mr-2">•</span>
+                        <span className="text-gray-700 dark:text-gray-300 font-medium">{detail}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
             </motion.div>
           ))}
@@ -146,4 +126,4 @@ const Provenresults = () => {
   );
 };
 
-export default Provenresults;
+export default ProvenResults;
