@@ -16,7 +16,7 @@ const Projects = () => {
   const { title, description, projects: projects_ } = Recognition;
 
   return (
-    <section id='recognition' className='section section_px section-gap'>
+    <section id='Recognition' className='section section_px section-gap'>
       <main className='flex flex-col gap-8 lg:gap-8'>
         <div className='flex-center flex-col gap-8'>
           <motion.h2 className='section-h2' {...motionValues}>
