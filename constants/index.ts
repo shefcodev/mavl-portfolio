@@ -29,6 +29,7 @@ export const Provenresults = {
   aboutDesc: [
     ""
   ]
+};  
 
 // My expertise lies in crafting clean, efficient code that not only meets but exceeds user expectations.
 
