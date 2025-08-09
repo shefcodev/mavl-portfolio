@@ -575,7 +575,12 @@ export const designs = {
   ],
 };
 
-
+export const FailureStoriesandProcessDocumentation = {
+  FailureStoriesandProcessDocumentationTitle: "Failure Stories & Process Documentation",
+  aboutDesc: [
+    ""
+  ]
+};
 
 export const contact = {
   title: "Contact",

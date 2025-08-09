@@ -42,7 +42,7 @@ const About = () => {
             {/* {aboutDesc.map((desc, idx) => <li key={idx}><p className="about-desc">{desc}</p></li>)} */}
             <p className="about-desc mb-2"><span className="font-bold"></span> </p>
             <p className="about-desc mb-2">With a powerful blend of administrative expertise, tech-savviness, and data-driven insight, I've reduced client operational costs by 30% and increased productivity by 40% for 7+ businesses in the past 5 years, eliminate inefficiencies, and unlock hidden opportunities. my mission is to help lean teams run like enterprise-grade machines.</p>
-            <p className="about-desc mb-2">I go far beyond traditional admin work, integrating <span className="font-bold">automation, IT support, customer service,</span> and <span className="font-bold">creative problem-solving</span> into every aspect of your business. My diverse skill set spans:
+            <p className="about-desc mb-2">I go far beyond traditional admin work, integrating <span className="font-bold">automation and Operational Systems Architecture, IT support, customer service,</span> and <span className="font-bold">creative problem-solving</span> into every aspect of your business. My diverse skill set spans:
             </p>
             <ul className="mb-2 list">
               <li className="about-desc font-bold">PROJECT & PRODUCT MANAGEMENT</li>

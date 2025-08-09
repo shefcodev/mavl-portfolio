@@ -7,7 +7,7 @@ import Recognition from "@/components/Recognition";
 import Services from "@/components/Services";
 import Designs from "@/components/Designs";
 import WorkPlans from "@/components/WorkPlans";
-import Stories from "@/components/Stories";
+import FailureStoriesandProcessDocumentation from "@/components/FailureStoriesandProcessDocumentation";
 import Contact from "@/components/Contact";
 
 export default function Home() {
@@ -21,7 +21,7 @@ export default function Home() {
       <Services />
       <Designs />
       <WorkPlans />
-      <Stories />
+      <FailureStoriesandProcessDocumentation />
       <Contact />
     </Fragment>
   );
