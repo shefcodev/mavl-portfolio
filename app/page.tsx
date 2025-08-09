@@ -1,32 +1,30 @@
 import { Fragment } from "react";
 import About from "@/components/About";
-import Stacks from "@/components/Stacks";
-import SolutionsAndResults from "@/components/SolutionsAndResults"; // Renamed
-import Projects from "@/components/Projects";
-import Designs from "@/components/Designs";
-import Recognition from "@/components/Recognition";
-import Resume from "@/components/Resume";
-import Contact from "@/components/Contact";
-import Work from "@/components/Work";
-import Stories from "@/components/Stories";
-import WorkPlans from "@/components/WorkPlans";
-import Services from "@/components/Services";
+import Stacks from "@/components/Stacks"; // Technical foundation first
+import Recognition from "@/components/Recognition"; // Early social proof
+import SolutionsAndResults from "@/components/SolutionsAndResults"; // Solutions with established credibility
+import Projects from "@/components/Projects"; // Applied examples
+import Services from "@/components/Services"; // Offerings breakdown
+import Designs from "@/components/Designs"; // Visual proof
+import WorkPlans from "@/components/WorkPlans"; // Process depth
+import Stories from "@/components/Stories"; // Narrative context
+import Resume from "@/components/Resume"; // Detailed background
+import Contact from "@/components/Contact"; // Conversion
 
 export default function Home() {
   return (
     <Fragment>
-      <About />
-      <Stacks />
-      <SolutionsAndResults /> {/* Fixed component name */}
-      <Projects />
-      <Designs />
-      <Recognition />
-      <Work />
-      <Stories />
-      <WorkPlans />
-      <Services />
-      <Resume />
-      <Contact />
+      <About /> {/* Hero introduction */}
+      <Stacks /> {/* Show technical prowess first */}
+      <Recognition /> {/* Awards/testimonials - builds trust */}
+      <SolutionsAndResults /> {/* Present solutions with credibility established */}
+      <Projects /> {/* Concrete implementations */}
+      <Services /> {/* Structured offerings */}
+      <Designs /> {/* Visual craftsmanship */}
+      <WorkPlans /> {/* Methodology transparency */}
+      <Stories /> {/* Human context */}
+      <Resume /> {/* Comprehensive background */}
+      <Contact /> {/* Clear call-to-action */}
     </Fragment>
   );
 }
