@@ -6,6 +6,7 @@ export const links = [
   { title: "Stacks", href: "#stacks" },
   { title: "How I Help You", href: "#How I Help You" },
   { title: "Projects", href: "#projects" },
+  { title: "Recognition", href: "#Recognition" },
   { title: "Designs", href: "#designs" },
   { title: "Resume", href: "#resume" },
   { title: "Contact", href: "#contact" },
