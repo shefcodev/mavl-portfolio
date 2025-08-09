@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import About from "@/components/About";
+import Provenresults from "@/components/Provenresults";
 import Stacks from "@/components/Stacks";
 import HowIHelpYou from "@/components/HowIHelpYou";
 import Projects from "@/components/Projects";
@@ -14,6 +15,7 @@ export default function Home() {
   return (
     <Fragment>
       <About />
+      <Provenresults />
       <Stacks />
       <HowIHelpYou />
       <Projects />
