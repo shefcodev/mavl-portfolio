@@ -6,88 +6,79 @@ import { details } from "@/constants";
 import { motionValues } from "@/lib/utils";
 
 const SolutionsAndResults = () => {
-  const { solutionsTitle, solutionsSubtitle } = details;
-
   return (
     <section
       id="solutions"
-      className="section section_px py-20 h-fit bg-gray-100 dark:bg-gray-900"
+      className="section section_px mt-[90px] h-fit lg:h-hero"
     >
-      <main className="max-w-6xl mx-auto">
+      <main className="about"> {/* Keep same class as About */}
         <div className="flex flex-col gap-5 sm:gap-7">
-          <motion.h1 className="text-4xl font-bold mb-6" {...motionValues}>
-            Problems I Solve & Results I Deliver
+          {/* Title with same animation */}
+          <motion.h1 className="about-title" {...motionValues}>
+            {"Problems I Solve & Results I Deliver".split("").map((char, index) => (
+              <motion.span
+                key={index}
+                initial={{ opacity: 1 }}
+                animate={{ opacity: 0 }}
+                transition={{
+                  delay: index * 0.1,
+                  duration: 3,
+                  repeat: Infinity,
+                }}
+              >
+                {char}
+              </motion.span>
+            ))}
           </motion.h1>
 
-          <motion.h2 className="text-xl font-semibold mb-8" {...motionValues}>
-            <span className="text-primary font-black">{"[ "}</span>
-            How I create measurable impact for your business
-            <span className="text-primary font-black">{" ]"}</span>
+          {/* Subtitle with brackets */}
+          <motion.h2 className="about-subtitle" {...motionValues}>
+            <span className="text-white font-black">{"[ "}</span>
+            {"Transforming Business Challenges into Measurable Success"}
+            <span className="text-white font-black">{" ]"}</span>
           </motion.h2>
 
-          <motion.div {...motionValues} className="grid md:grid-cols-2 gap-8">
-            <div>
-              <h3 className="text-2xl font-bold mb-4">Problems I Solve:</h3>
-              <ul className="space-y-4">
-                <li className="flex items-start">
-                  <span className="text-primary mr-2">•</span>
-                  <p><strong>Operational inefficiencies:</strong> Streamlining processes that waste time and money</p>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-primary mr-2">•</span>
-                  <p><strong>Tech overwhelm:</strong> Implementing the right tools without the learning curve</p>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-primary mr-2">•</span>
-                  <p><strong>Growth bottlenecks:</strong> Removing barriers that prevent scaling</p>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-primary mr-2">•</span>
-                  <p><strong>Team limitations:</strong> Extending your capabilities without full-time hires</p>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="text-2xl font-bold mb-4">Results I Deliver:</h3>
-              <ul className="space-y-4">
-                <li className="flex items-start">
-                  <span className="text-primary mr-2">•</span>
-                  <p><strong>30-45% cost reduction</strong> through process optimization</p>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-primary mr-2">•</span>
-                  <p><strong>40%+ productivity gains</strong> via automation</p>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-primary mr-2">•</span>
-                  <p><strong>85% client retention</strong> through superior systems</p>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-primary mr-2">•</span>
-                  <p><strong>#1 rankings</strong> for teams I support (proven track record)</p>
-                </li>
-              </ul>
-            </div>
-          </motion.div>
-
-          <motion.div {...motionValues} className="mt-12 bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
-            <h3 className="text-xl font-bold mb-4">My Approach:</h3>
-            <p className="mb-4">I combine technical expertise with business acumen to create solutions that:</p>
-            <ul className="space-y-2">
-              <li className="flex items-start">
-                <span className="text-primary mr-2">•</span>
-                <p>Solve immediate pain points while building long-term resilience</p>
-              </li>
-              <li className="flex items-start">
-                <span className="text-primary mr-2">•</span>
-                <p>Integrate seamlessly with your existing workflows</p>
-              </li>
-              <li className="flex items-start">
-                <span className="text-primary mr-2">•</span>
-                <p>Deliver measurable ROI within the first 90 days</p>
-              </li>
+          {/* Content with identical styling */}
+          <motion.div {...motionValues}>
+            <p className="about-desc mb-2">
+              I specialize in solving these critical business challenges:
+            </p>
+            
+            <ul className="mb-2 list">
+              <li className="about-desc font-bold">• Problems I Solve & Results I Deliver</li>
+              <li className="about-desc font-bold">• TECH STACK COMPLEXITY slowing productivity by 40%+</li>
+              <li className="about-desc font-bold">• GROWTH BOTTLENECKS from manual processes</li>
+              <li className="about-desc font-bold">• TEAM BANDWIDTH LIMITATIONS preventing scaling</li>
             </ul>
+
+            <p className="about-desc mb-2 mt-6">
+              And deliver these measurable results:
+            </p>
+
+            <ul className="mb-2 list">
+              <li className="about-desc font-bold">✓ 30-45% OPERATIONAL COST REDUCTION</li>
+              <li className="about-desc font-bold">✓ 40%+ PRODUCTIVITY GAINS</li>
+              <li className="about-desc font-bold">✓ 85% CLIENT RETENTION RATE</li>
+              <li className="about-desc font-bold">✓ #1 GLOBAL RANKINGS for teams I support</li>
+            </ul>
+
+            <p className="about-desc font-bold mt-6">PROVEN IMPACT:</p>
+            <p className="about-desc font-bold"> • Helped BNI Alberta South become #1 Region in Canada</p>
+            <p className="about-desc font-bold"> • Supported 2 Directors to #1 Globally (out of 157)</p>
+            <p className="about-desc font-bold"> • 45% reduction in manual processes</p>
+            <p className="about-desc font-bold"> • 85% retention across 550+ accounts</p>
+          </motion.div>
+        </div>
+
+        {/* Keep same image container structure */}
+        <div className="flex-center h-full w-full">
+          <motion.div className="img-container" {...motionValues}>
+            <Image
+              src="/images/solutions-results.png" // Different image
+              alt="Business solutions graphic"
+              width={500}
+              height={500}
+            />
           </motion.div>
         </div>
       </main>
