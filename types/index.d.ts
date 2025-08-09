@@ -48,3 +48,4 @@ declare type MotionValues = {
   initial: string;
   whileInView: string;
 };
+

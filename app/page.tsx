@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import About from "@/components/About";
 import Stacks from "@/components/Stacks";
+import SolutionsAndResults from "@/components/SolutionsAndResults"; // Renamed
 import Projects from "@/components/Projects";
 import Designs from "@/components/Designs";
 import Recognition from "@/components/Recognition";
@@ -16,6 +17,7 @@ export default function Home() {
     <Fragment>
       <About />
       <Stacks />
+      <SolutionsAndResults /> {/* Fixed component name */}
       <Projects />
       <Designs />
       <Recognition />
