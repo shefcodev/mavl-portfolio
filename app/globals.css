@@ -187,7 +187,7 @@ body {
   }
 
   .form-textarea {
-    @apply !bg-transparent border-0 border-b !border-black ring-0 font-montserrat font-light text-sm text-black !placeholder-black resize-none;
+    @apply !bg-transparent border-0 border-b !border-black ring-0 font-montserrat font-light text-sm text-black !placeholder-white resize-none;
   }
 
   .contact-wrapper {
