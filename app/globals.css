@@ -130,11 +130,11 @@ body {
   }
 
   .section-h3_resume {
-    @apply text-sm sm:text-base text-black text-center font-montserrat font-medium max-w-[90%] sm:max-w-[70%] lg:text-left lg:max-w-[50%];
+    @apply text-sm sm:text-base text-white text-center font-montserrat font-medium max-w-[90%] sm:max-w-[70%] lg:text-left lg:max-w-[50%];
   }
 
   .section-p {
-    @apply text-sm sm:text-base text-white text-center font-montserrat font-medium max-w-[90%] sm:max-w-[70%];
+    @apply text-sm sm:text-base text-black text-center font-montserrat font-medium max-w-[90%] sm:max-w-[70%];
   }
 
   .section-p_ {
