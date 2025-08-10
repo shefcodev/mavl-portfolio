@@ -183,7 +183,7 @@ body {
   }
 
   .font-input {
-    @apply !bg-transparent border-0 border-b !border-black ring-0 font-montserrat font-light text-sm text-black !placeholder-black;
+    @apply !bg-transparent border-0 border-b !border-black ring-0 font-montserrat font-light text-sm text-black !placeholder-white;
   }
 
   .form-textarea {
