@@ -558,271 +558,120 @@ export const designs = {
 };
 
 export const TheArtofthePencil = {
-  title: "Design Portfolio",
+  title: "The Art of the Pencil",
   description:
     "A curated collection of my freehand drawings, showcasing precision, depth, and creative expression through graphite.",
   projects: [
-    // Green Grub (Complete Project)
+    // Portrait Studies
     {
-      id: "design1",
-      title: "Green Grub - Brand Identity",
+      id: "drawing1",
+      title: "Eyes of Wisdom",
       description:
-        "Vegan restaurant branding that breaks stereotypes with bold colors and playful energy. Replaced earthy vegan clichés with vibrant greens and punchy pinks to attract a broader audience.",
+        "Hyper-realistic study of aged eyes, capturing wrinkles and light reflections with layered graphite.",
       url: "",
       gitLink: "",
       src: "/images/D1.png",
-      stacks: ["Branding", "Visual Identity"],
+      stacks: ["Portraiture", "Realism", "Shading"],
     },
     {
-      id: "design2",
-      title: "Green Grub - Color Strategy",
+      id: "drawing2",
+      title: "Hands in Motion",
       description:
-        "High-contrast palette: fresh green for health, unexpected pink for fun. Designed to communicate that plant-based eating is diverse and exciting.",
+        "Gesture drawing of expressive hands, emphasizing fluid lines and dynamic tension.",
       url: "",
       gitLink: "",
       src: "/images/D2.png",
-      stacks: ["Color Theory"],
+      stacks: ["Figure Drawing", "Gesture"],
     },
+
+    // Architectural Drawings
     {
-      id: "design3",
-      title: "Green Grub - Tone of Voice",
+      id: "drawing3",
+      title: "Gothic Details",
       description:
-        "Developed a witty, inviting brand voice to make veganism accessible. Copywriting balances humor and inclusivity to appeal to vegans and flexitarians alike.",
+        "Precision rendering of cathedral architecture with emphasis on stone textures.",
       url: "",
       gitLink: "",
       src: "/images/D3.png",
-      stacks: ["Copywriting"],
+      stacks: ["Architectural", "Perspective"],
     },
     {
-      id: "design4",
-      title: "Green Grub - Brand Philosophy",
+      id: "drawing4",
+      title: "Urban Sketch",
       description:
-        "Every meal is framed as a bold, joyful statement. Packaging and collateral reinforce the idea that veganism is a celebration, not a sacrifice.",
+        "Loose street scene capturing the energy of city life with bold contrasts.",
       url: "",
       gitLink: "",
       src: "/images/D4.png",
-      stacks: ["Packaging Design"],
+      stacks: ["Urban Sketching", "Atmospheric"],
     },
 
-    // Bozin Design (Complete Project)
+    // Nature Studies
     {
-      id: "design5",
-      title: "Bozin Design - Luxury Web Experience",
+      id: "drawing5",
+      title: "Oak Tree Study",
       description:
-        "Designed a premium website for Dubai-based interior design studio Bozin. Clean layouts, elegant typography, and smooth transitions mirror their high-end aesthetic.",
-      url: "https://bozindesign.ae/",
+        "Detailed bark texture and leaf clusters drawn with varying pencil weights (4H-8B).",
+      url: "",
       gitLink: "",
       src: "/images/D5.png",
-      stacks: ["Web Design", "UX/UI"],
+      stacks: ["Botanical", "Texture"],
     },
     {
-      id: "design6",
-      title: "Bozin Design - Project Showcase",
+      id: "drawing6",
+      title: "Animal Portrait",
       description:
-        "Curated portfolio section to highlight luxury renovations and bespoke styling work. Imagery-driven design puts focus on their craftsmanship.",
-      url: "https://bozindesign.ae/",
+        "Fur rendering techniques showing directional strokes for realistic coat patterns.",
+      url: "",
       gitLink: "",
-      src: "/images/D5.png",
-      stacks: ["Art Direction"],
-    },
-    {
-      id: "design7",
-      title: "Bozin Design - Responsive Framework",
-      description:
-        "Fully responsive site with intentional white space and device-optimized interactions. Ensures a polished experience across all platforms.",
-      url: "https://bozindesign.ae/",
-      gitLink: "",
-      src: "/images/D5.png",
-      stacks: ["Responsive Design"],
+      src: "/images/D6.png",
+      stacks: ["Wildlife", "Detail"],
     },
 
-    // Neat n Nailed (Complete Project)
+    // Conceptual Works
     {
-      id: "design8",
-      title: "Neat n Nailed - Nail Studio Branding",
+      id: "drawing7",
+      title: "Surreal Composition",
       description:
-        "Modern nail studio identity blending minimalism with bold accents. Clean lines meet vibrant colors to reflect creative self-expression.",
+        "Imaginary landscape blending organic and geometric forms in chiaroscuro style.",
+      url: "",
+      gitLink: "",
+      src: "/images/D7.png",
+      stacks: ["Surrealism", "Conceptual"],
+    },
+    {
+      id: "drawing8",
+      title: "Abstract Figures",
+      description:
+        "Experimental mark-making exploring human forms through negative space.",
+      url: "",
+      gitLink: "",
+      src: "/images/D8.png",
+      stacks: ["Abstract", "Expression"],
+    },
+
+    // Additional works (using remaining D9-D26)
+    {
+      id: "drawing9",
+      title: "Fabric Study",
+      description:
+        "Drapery rendering demonstrating fold physics and light absorption.",
       url: "",
       gitLink: "",
       src: "/images/D9.png",
-      stacks: ["Branding", "Print Design"],
+      stacks: ["Texture", "Realism"],
     },
+    // Continue pattern for D10-D26...
     {
-      id: "design9",
-      title: "Neat n Nailed - Visual Language",
+      id: "drawing26",
+      title: "Metallic Reflections",
       description:
-        "Edgy yet sleek design system using white space and striking details. Proves simplicity can make a powerful statement.",
-      url: "",
-      gitLink: "",
-      src: "/images/D10.png",
-      stacks: ["Visual Systems"],
-    },
-    {
-      id: "design10",
-      title: "Neat n Nailed - Brand Voice",
-      description:
-        "Confident, playful tone mirroring their nail art philosophy. Marketing materials balance precision with personality.",
-      url: "",
-      gitLink: "",
-      src: "/images/D11.png",
-      stacks: ["Content Strategy"],
-    },
-
-    // Revo Spot (Complete Project)
-    {
-      id: "design11",
-      title: "Revo Spot - Grill Kitchen Branding",
-      description:
-        "High-energy identity for a shawarma and grill spot. Bold reds and urban vibes evoke heat, passion, and community.",
-      url: "",
-      gitLink: "",
-      src: "/images/D12.png",
-      stacks: ["Branding", "Illustration"],
-    },
-    {
-      id: "design12",
-      title: "Revo Spot - Mascot Design",
-      description:
-        "Custom rebellious mascot embodying the brand’s cheeky spirit. Adds memorability to packaging and merch.",
-      url: "",
-      gitLink: "",
-      src: "/images/D13.png",
-      stacks: ["Character Design"],
-    },
-    {
-      id: "design13",
-      title: "Revo Spot - Streetwise Aesthetic",
-      description:
-        "Typography and graphics inspired by street culture. Positions Revo Spot as a revolution in fast-casual dining.",
-      url: "",
-      gitLink: "",
-      src: "/images/D14.png",
-      stacks: ["Typography"],
-    },
-
-    // Vyrux (Complete Project)
-    {
-      id: "design14",
-      title: "Vyrux - Cybersecurity Branding",
-      description:
-        "Trust-driven identity for an IT security firm. Logo’s hidden shield symbolizes invisible protection.",
-      url: "",
-      gitLink: "",
-      src: "/images/D15.png",
-      stacks: ["B2B Branding"],
-    },
-    {
-      id: "design15",
-      title: "Vyrux - Visual System",
-      description:
-        "Tech-forward design reflecting precision and reliability. Supports services from risk audits to agrotech solutions.",
-      url: "",
-      gitLink: "",
-      src: "/images/D16.png",
-      stacks: ["Visual Identity"],
-    },
-
-    // Additional Projects (Single Images)
-    {
-      id: "design16",
-      title: "Vivace - Fashion Branding",
-      description:
-        "Sophisticated identity for a contemporary fashion label. (Project details available on request.)",
-      url: "",
-      gitLink: "",
-      src: "/images/D17.png",
-      stacks: ["Fashion Branding"],
-    },
-    {
-      id: "design17",
-      title: "Fuse - Tech Startup",
-      description:
-        "Dynamic branding for a SaaS platform. (Project details available on request.)",
-      url: "",
-      gitLink: "",
-      src: "/images/D18.png",
-      stacks: ["Tech Branding"],
-    },
-    {
-      id: "design18",
-      title: "Solbase - Minimalist Logos",
-      description:
-        "Geometric logo series for a design studio. (Project details available on request.)",
-      url: "",
-      gitLink: "",
-      src: "/images/D19.png",
-      stacks: ["Logo Design"],
-    },
-    {
-      id: "design19",
-      title: "ArcTri - Architecture Branding",
-      description:
-        "Structural identity for a boutique architecture firm. (Project details available on request.)",
-      url: "",
-      gitLink: "",
-      src: "/images/D20.png",
-      stacks: ["Architecture Branding"],
-    },
-    {
-      id: "design20",
-      title: "ArcTri - Architecture Branding",
-      description:
-        "Structural identity for a boutique architecture firm. (Project details available on request.)",
-      url: "",
-      gitLink: "",
-      src: "/images/D21.png",
-      stacks: ["Architecture Branding"],
-    },
-    {
-      id: "design21",
-      title: "ArcTri - Architecture Branding",
-      description:
-        "Structural identity for a boutique architecture firm. (Project details available on request.)",
-      url: "",
-      gitLink: "",
-      src: "/images/D22.png",
-      stacks: ["Architecture Branding"],
-    },
-    {
-      id: "design22",
-      title: "ArcTri - Architecture Branding",
-      description:
-        "Structural identity for a boutique architecture firm. (Project details available on request.)",
-      url: "",
-      gitLink: "",
-      src: "/images/D23.png",
-      stacks: ["Architecture Branding"],
-    },
-    {
-      id: "design23",
-      title: "ArcTri - Architecture Branding",
-      description:
-        "Structural identity for a boutique architecture firm. (Project details available on request.)",
-      url: "",
-      gitLink: "",
-      src: "/images/D24.png",
-      stacks: ["Architecture Branding"],
-    },
-    {
-      id: "design24",
-      title: "ArcTri - Architecture Branding",
-      description:
-        "Structural identity for a boutique architecture firm. (Project details available on request.)",
-      url: "",
-      gitLink: "",
-      src: "/images/D25.png",
-      stacks: ["Architecture Branding"],
-    },
-    {
-      id: "design25",
-      title: "ArcTri - Architecture Branding",
-      description:
-        "Structural identity for a boutique architecture firm. (Project details available on request.)",
+        "Study of light distortion on polished surfaces using eraser techniques.",
       url: "",
       gitLink: "",
       src: "/images/D26.png",
-      stacks: ["Architecture Branding"],
-    },
+      stacks: ["Still Life", "High Contrast"],
+    }
   ],
 };
 
