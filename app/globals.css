@@ -136,11 +136,11 @@ body {
   }
 
   .section-h4 {
-    @apply text-sm sm:text-base text-black text-left font-montserrat font-medium max-w-[90%] sm:max-w-[70%] lg:max-w-[100%];
+    @apply text-sm sm:text-base text-white text-left font-montserrat font-medium max-w-[90%] sm:max-w-[70%] lg:max-w-[100%];
   }
 
   .section-h3_resume {
-    @apply text-sm sm:text-base text-black text-center font-montserrat font-medium max-w-[90%] sm:max-w-[70%] lg:text-left lg:max-w-[50%];
+    @apply text-sm sm:text-base text-white text-center font-montserrat font-medium max-w-[90%] sm:max-w-[70%] lg:text-left lg:max-w-[50%];
   }
 
   /* Paragraphs */
@@ -166,25 +166,25 @@ body {
   }
 
   .project-h3 {
-    @apply text-sm sm:text-base text-color-1 font-montserrat font-bold text-left;
+    @apply text-sm sm:text-base text-white font-montserrat font-bold text-left;
   }
 
   .project-p {
-    @apply text-xs md:text-sm text-black font-montserrat font-normal text-left;
+    @apply text-xs md:text-sm text-white font-montserrat font-normal text-left;
   }
 
   /* Carousel Controls */
   .carousel-left_button {
-    @apply text-color-1 z-10 left-0;
+    @apply text-white z-10 left-0;
   }
 
   .carousel-right_button {
-    @apply text-color-1 z-10 right-0;
+    @apply text-white z-10 right-0;
   }
 
   /* Resume */
   .resume-card {
-    @apply w-full sm:w-[574px] lg:max-w-[50%] bg-transparent border border-black rounded-xl flex-center gap-2 sm:gap-4 md:gap-6 lg:gap-2 px-2 py-2.5 lg:py-3;
+    @apply w-full sm:w-[574px] lg:max-w-[50%] bg-transparent border border-white rounded-xl flex-center gap-2 sm:gap-4 md:gap-6 lg:gap-2 px-2 py-2.5 lg:py-3;
   }
 
   .resume-p {
@@ -193,7 +193,7 @@ body {
 
   /* Forms */
   .form-label {
-    @apply text-color-1 text-base font-montserrat font-bold;
+    @apply text-white text-base font-montserrat font-bold;
   }
 
   .font-input {
@@ -219,22 +219,12 @@ body {
   }
 
   .footer-p {
-    @apply text-sm text-color-6 font-montserrat font-normal;
+    @apply text-sm text-white font-montserrat font-normal;
   }
 
   /* Lists */
   .list {
     list-style-type: circle;
-  }
-
-  /* Visibility Safeguards for Dark/Light Backgrounds */
-  .text-black {
-    text-shadow: 0 0 2px white; /* makes black text visible on dark backgrounds */
-  }
-
-  .text-white {
-    text-shadow: 0 0 2px black; /* makes white text visible on light backgrounds */
+    color: white;
   }
 }
-
-
