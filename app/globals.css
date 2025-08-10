@@ -13,7 +13,9 @@ html {
 }
 
 body {
-  background-color: #f1e880;
+  background: linear-gradient(135deg, #f1e880 0%, #fdf6c2 100%);
+  font-family: 'Montserrat', sans-serif;
+  transition: background 0.3s ease-in-out;
 }
 
 /* ======================
@@ -21,7 +23,9 @@ body {
    ====================== */
 @layer utilities {
 
-  /* Layout Helpers */
+  /* ======================
+     Layout Helpers
+  ====================== */
   .section {
     @apply mx-auto max-w-[1400px];
   }
@@ -38,30 +42,21 @@ body {
     @apply mt-10 sm:mt-16 lg:mt-20;
   }
 
-  /* Flex Helpers */
-  .flex-center {
-    @apply flex justify-center items-center;
-  }
+  /* ======================
+     Flex Helpers
+  ====================== */
+  .flex-center { @apply flex justify-center items-center; }
+  .flex-between { @apply flex justify-between items-center; }
+  .flex-end { @apply flex justify-end items-center; }
+  .flex-start-center { @apply flex justify-start items-center; }
+  .flex-center-start { @apply flex justify-center items-start; }
 
-  .flex-between {
-    @apply flex justify-between items-center;
-  }
-
-  .flex-end {
-    @apply flex justify-end items-center;
-  }
-
-  .flex-start-center {
-    @apply flex justify-start items-center;
-  }
-
-  .flex-center-start {
-    @apply flex justify-center items-start;
-  }
-
-  /* Header + Nav */
+  /* ======================
+     Header + Nav
+  ====================== */
   .header {
-    @apply fixed top-0 left-0 right-0 z-50 bg-white;
+    @apply fixed top-0 left-0 right-0 z-50 bg-white shadow-md;
+    backdrop-filter: blur(6px);
   }
 
   .nav-bar {
@@ -69,7 +64,7 @@ body {
   }
 
   .link {
-    @apply text-color-6 font-montserrat font-medium block;
+    @apply text-color-6 font-medium block transition-colors duration-300 hover:text-color-4;
   }
 
   .link-active {
@@ -77,162 +72,118 @@ body {
   }
 
   .mobile-nav {
-    @apply hidden max-lg:flex justify-center items-center absolute top-[90px] -z-10 w-full h-[33vh] bg-white bg-opacity-70 backdrop-blur-lg py-6;
+    @apply hidden max-lg:flex justify-center items-center absolute top-[90px] -z-10 w-full h-[33vh] bg-white bg-opacity-80 backdrop-blur-lg py-6 shadow-lg rounded-lg;
+    animation: slideDown 0.4s ease-out;
   }
 
   .mobile-nav_link-active {
     @apply text-2xl text-transparent bg-clip-text bg-gradient-to-b from-white to-color-6 font-black px-1 py-3;
   }
 
-  /* Borders */
-  .border_round {
-    @apply border-[0.1px] border-black rounded-full;
-  }
+  /* ======================
+     Borders
+  ====================== */
+  .border_round { @apply border border-black rounded-full; }
+  .border_b { @apply border-b border-color-3; }
+  .border_t { @apply border-t border-color-4; }
 
-  .border_b {
-    @apply border-b-[0.1px] border-color-3;
-  }
-
-  .border_t {
-    @apply border-t-[0.1px] border-color-4;
-  }
-
-  /* About Section */
+  /* ======================
+     About Section
+  ====================== */
   .about {
     @apply flex-center flex-col lg:flex-row gap-10 sm:gap-10 lg:gap-10 w-full h-full pt-14;
   }
 
   .about-title {
-    @apply text-black text-5xl sm:text-6xl md:text-7xl font-montserrat font-black tracking-wider max-w-[100%];
+    @apply text-black text-5xl sm:text-6xl md:text-7xl font-black tracking-wider;
+    background: linear-gradient(90deg, #000, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .about-subtitle {
-    @apply text-black text-xl sm:text-2xl md:text-3xl font-montserrat font-bold tracking-normal max-w-[100%];
+    @apply text-xl sm:text-2xl md:text-3xl font-bold tracking-normal text-gray-700;
   }
 
   .about-desc {
-    @apply text-sm sm:text-base text-black font-montserrat sm:max-w-[100%];
+    @apply text-sm sm:text-base text-gray-800 opacity-90;
   }
 
   .img-container {
-    @apply flex-center bg-transparent border_round w-full h-full;
+    @apply flex-center bg-transparent border_round overflow-hidden shadow-lg;
+    transition: transform 0.3s ease;
+  }
+  .img-container:hover {
+    transform: scale(1.03);
   }
 
-  /* Headings */
+  /* ======================
+     Headings
+  ====================== */
   .section-h2 {
-    @apply text-xl sm:text-2xl text-black text-center font-montserrat font-bold;
+    @apply text-xl sm:text-2xl text-black text-center font-bold relative;
+  }
+  .section-h2::after {
+    content: '';
+    @apply block w-12 h-1 bg-color-6 mx-auto mt-2 rounded-full;
   }
 
   .section-h3 {
-    @apply text-sm sm:text-base text-white text-center font-montserrat font-medium max-w-[90%] sm:max-w-[70%] lg:max-w-[50%];
+    @apply text-sm sm:text-base text-white text-center font-medium max-w-[90%] sm:max-w-[70%] lg:max-w-[50%];
   }
 
-  .section-h3_ {
-    @apply text-lg sm:text-lg text-black text-left font-montserrat font-semibold max-w-[90%] sm:max-w-[70%] lg:max-w-[100%];
-  }
-
-  .section-h3__ {
-    @apply text-lg sm:text-lg text-black text-center font-montserrat font-semibold;
-  }
-
-  .section-h4 {
-    @apply text-sm sm:text-base text-white text-left font-montserrat font-medium max-w-[90%] sm:max-w-[70%] lg:max-w-[100%];
-  }
-
-  .section-h3_resume {
-    @apply text-sm sm:text-base text-white text-center font-montserrat font-medium max-w-[90%] sm:max-w-[70%] lg:text-left lg:max-w-[50%];
-  }
-
-  /* Paragraphs */
-  .section-p {
-    @apply text-sm sm:text-base text-white text-center font-montserrat font-medium max-w-[90%] sm:max-w-[70%];
-  }
-
-  .section-p_ {
-    @apply text-sm sm:text-base text-white text-left font-montserrat font-medium max-w-[90%] sm:max-w-[70%];
-  }
-
-  .section-p__ {
-    @apply text-sm sm:text-base text-white text-center font-montserrat font-medium;
-  }
-
-  /* Project */
+  /* ======================
+     Project Cards
+  ====================== */
   .project-wrapper {
-    @apply flex flex-col gap-5 lg:flex-col lg:gap-10;
+    @apply flex flex-col gap-5 lg:gap-10;
   }
 
   .project-detail_wrapper {
-    @apply bg-white bg-opacity-10 h-fit rounded-xl p-2 border border-white flex flex-col gap-5 lg:flex-1 lg:min-w-[516px];
+    @apply bg-white bg-opacity-10 h-fit rounded-xl p-2 border border-white flex flex-col gap-5 lg:flex-1 lg:min-w-[516px] shadow-md transition-transform duration-300 hover:scale-[1.02];
   }
 
-  .project-h3 {
-    @apply text-sm sm:text-base text-color-1 font-montserrat font-bold text-left;
-  }
-
-  .project-p {
-    @apply text-xs md:text-sm text-black font-montserrat font-normal text-left;
-  }
-
-  /* Carousel Controls */
-  .carousel-left_button {
-    @apply text-color-1 z-10 left-0;
-  }
-
-  .carousel-right_button {
-    @apply text-color-1 z-10 right-0;
-  }
-
-  /* Resume */
+  /* ======================
+     Resume
+  ====================== */
   .resume-card {
-    @apply w-full sm:w-[574px] lg:max-w-[50%] bg-transparent border border-black rounded-xl flex-center gap-2 sm:gap-4 md:gap-6 lg:gap-2 px-2 py-2.5 lg:py-3;
+    @apply w-full sm:w-[574px] lg:max-w-[50%] bg-transparent border border-black rounded-xl flex-center gap-4 px-2 py-2.5 lg:py-3 shadow-sm hover:shadow-lg transition-all duration-300;
   }
 
-  .resume-p {
-    @apply text-sm sm:text-base text-white font-montserrat font-medium text-left;
+  /* ======================
+     Forms
+  ====================== */
+  .form-label { @apply text-color-1 text-base font-bold; }
+
+  .font-input, .form-textarea {
+    @apply !bg-transparent border-0 border-b !border-white ring-0 font-light text-sm text-white !placeholder-white;
+    transition: border-color 0.3s ease;
+  }
+  .font-input:focus, .form-textarea:focus {
+    border-color: #f1e880;
   }
 
-  /* Forms */
-  .form-label {
-    @apply text-color-1 text-base font-montserrat font-bold;
-  }
-
-  .font-input {
-    @apply !bg-transparent border-0 border-b !border-white ring-0 font-montserrat font-light text-sm text-white !placeholder-white;
-  }
-
-  .form-textarea {
-    @apply !bg-transparent border-0 border-b !border-white ring-0 font-montserrat font-light text-sm text-white !placeholder-white resize-none;
-  }
-
-  /* Contact + Social */
-  .contact-wrapper {
-    @apply w-full flex-center flex-col lg:flex-row lg:flex-between gap-10;
-  }
-
-  .social-wrapper {
-    @apply flex-center basis-1/2 gap-1 sm:gap-2 md:gap-3 lg:gap-4;
-  }
-
-  /* Footer */
+  /* ======================
+     Footer
+  ====================== */
   .footer {
-    @apply bg-white mt-10 sm:mt-16 lg:mt-20;
+    @apply bg-white mt-10 sm:mt-16 lg:mt-20 shadow-inner;
   }
-
   .footer-p {
-    @apply text-sm text-color-6 font-montserrat font-normal;
+    @apply text-sm text-color-6 font-normal;
   }
 
-  /* Lists */
-  .list {
-    list-style-type: circle;
-  }
+  /* ======================
+     Accessibility & Visibility Fixes
+  ====================== */
+  .text-black { text-shadow: 0 0 2px white; }
+  .text-white { text-shadow: 0 0 2px black; }
 
-  /* Visibility Safeguards for Dark/Light Backgrounds */
-  .text-black {
-    text-shadow: 0 0 2px white; /* makes black text visible on dark backgrounds */
-  }
-
-  .text-white {
-    text-shadow: 0 0 2px black; /* makes white text visible on light backgrounds */
+  /* ======================
+     Animations
+  ====================== */
+  @keyframes slideDown {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
   }
 }
