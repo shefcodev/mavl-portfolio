@@ -138,7 +138,7 @@ body {
   }
 
   .section-p_ {
-    @apply text-sm sm:text-base text-white text-left font-montserrat font-medium max-w-[90%] sm:max-w-[70%];
+    @apply text-sm sm:text-base text-black text-left font-montserrat font-medium max-w-[90%] sm:max-w-[70%];
   }
 
   .section-p__ {
