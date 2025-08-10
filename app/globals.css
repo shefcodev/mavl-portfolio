@@ -13,9 +13,11 @@ html {
 }
 
 body {
-  background: linear-gradient(135deg, #f1e880 0%, #fdf6c2 100%);
+  /* Fortune 500-level yellow with gradient depth */
+  background: linear-gradient(135deg, #FFD43B 0%, #FFE873 50%, #FFF8D6 100%);
   font-family: 'Montserrat', sans-serif;
   transition: background 0.3s ease-in-out;
+  color: #111; /* Ensures maximum readability */
 }
 
 /* ======================
@@ -55,8 +57,9 @@ body {
      Header + Nav
   ====================== */
   .header {
-    @apply fixed top-0 left-0 right-0 z-50 bg-white shadow-md;
+    @apply fixed top-0 left-0 right-0 z-50 bg-white shadow-lg;
     backdrop-filter: blur(6px);
+    border-bottom: 2px solid rgba(0,0,0,0.05);
   }
 
   .nav-bar {
@@ -64,45 +67,39 @@ body {
   }
 
   .link {
-    @apply text-color-6 font-medium block transition-colors duration-300 hover:text-color-4;
+    @apply text-gray-800 font-medium block transition-all duration-300 hover:text-black hover:scale-[1.05];
   }
 
   .link-active {
-    @apply text-2xl text-transparent bg-clip-text bg-gradient-to-r from-black to-color-6 font-black px-3 py-1;
+    @apply text-2xl bg-clip-text bg-gradient-to-r from-black to-gray-700 font-black px-3 py-1;
   }
 
   .mobile-nav {
-    @apply hidden max-lg:flex justify-center items-center absolute top-[90px] -z-10 w-full h-[33vh] bg-white bg-opacity-80 backdrop-blur-lg py-6 shadow-lg rounded-lg;
+    @apply hidden max-lg:flex justify-center items-center absolute top-[90px] -z-10 w-full h-[33vh] bg-white bg-opacity-90 backdrop-blur-lg py-6 shadow-lg rounded-lg;
     animation: slideDown 0.4s ease-out;
-  }
-
-  .mobile-nav_link-active {
-    @apply text-2xl text-transparent bg-clip-text bg-gradient-to-b from-white to-color-6 font-black px-1 py-3;
   }
 
   /* ======================
      Borders
   ====================== */
   .border_round { @apply border border-black rounded-full; }
-  .border_b { @apply border-b border-color-3; }
-  .border_t { @apply border-t border-color-4; }
+  .border_b { @apply border-b border-gray-300; }
+  .border_t { @apply border-t border-gray-400; }
 
   /* ======================
      About Section
   ====================== */
   .about {
-    @apply flex-center flex-col lg:flex-row gap-10 sm:gap-10 lg:gap-10 w-full h-full pt-14;
+    @apply flex-center flex-col lg:flex-row gap-10 w-full h-full pt-14;
   }
 
   .about-title {
     @apply text-black text-5xl sm:text-6xl md:text-7xl font-black tracking-wider;
-    background: linear-gradient(90deg, #000, #333);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.15);
   }
 
   .about-subtitle {
-    @apply text-xl sm:text-2xl md:text-3xl font-bold tracking-normal text-gray-700;
+    @apply text-xl sm:text-2xl md:text-3xl font-bold text-gray-700;
   }
 
   .about-desc {
@@ -111,10 +108,11 @@ body {
 
   .img-container {
     @apply flex-center bg-transparent border_round overflow-hidden shadow-lg;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   .img-container:hover {
     transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
   }
 
   /* ======================
@@ -125,42 +123,40 @@ body {
   }
   .section-h2::after {
     content: '';
-    @apply block w-12 h-1 bg-color-6 mx-auto mt-2 rounded-full;
+    @apply block w-14 h-1 rounded-full;
+    background: linear-gradient(to right, #FFD43B, #FFA500);
+    margin: 0.5rem auto 0 auto;
   }
 
   .section-h3 {
-    @apply text-sm sm:text-base text-white text-center font-medium max-w-[90%] sm:max-w-[70%] lg:max-w-[50%];
+    @apply text-sm sm:text-base text-black text-center font-medium max-w-[90%] sm:max-w-[70%] lg:max-w-[50%];
   }
 
   /* ======================
      Project Cards
   ====================== */
-  .project-wrapper {
-    @apply flex flex-col gap-5 lg:gap-10;
-  }
-
   .project-detail_wrapper {
-    @apply bg-white bg-opacity-10 h-fit rounded-xl p-2 border border-white flex flex-col gap-5 lg:flex-1 lg:min-w-[516px] shadow-md transition-transform duration-300 hover:scale-[1.02];
+    @apply bg-white bg-opacity-90 rounded-xl p-4 border border-gray-200 shadow-md hover:shadow-xl transition-transform duration-300 hover:scale-[1.02];
   }
 
   /* ======================
      Resume
   ====================== */
   .resume-card {
-    @apply w-full sm:w-[574px] lg:max-w-[50%] bg-transparent border border-black rounded-xl flex-center gap-4 px-2 py-2.5 lg:py-3 shadow-sm hover:shadow-lg transition-all duration-300;
+    @apply w-full sm:w-[574px] lg:max-w-[50%] bg-white border border-gray-300 rounded-xl flex-center gap-4 px-3 py-4 shadow-sm hover:shadow-lg transition-all duration-300;
   }
 
   /* ======================
      Forms
   ====================== */
-  .form-label { @apply text-color-1 text-base font-bold; }
+  .form-label { @apply text-black font-bold; }
 
   .font-input, .form-textarea {
-    @apply !bg-transparent border-0 border-b !border-white ring-0 font-light text-sm text-white !placeholder-white;
+    @apply bg-transparent border-0 border-b border-black text-black placeholder-gray-500;
     transition: border-color 0.3s ease;
   }
   .font-input:focus, .form-textarea:focus {
-    border-color: #f1e880;
+    border-color: #FFD43B;
   }
 
   /* ======================
@@ -170,14 +166,8 @@ body {
     @apply bg-white mt-10 sm:mt-16 lg:mt-20 shadow-inner;
   }
   .footer-p {
-    @apply text-sm text-color-6 font-normal;
+    @apply text-sm text-gray-700;
   }
-
-  /* ======================
-     Accessibility & Visibility Fixes
-  ====================== */
-  .text-black { text-shadow: 0 0 2px white; }
-  .text-white { text-shadow: 0 0 2px black; }
 
   /* ======================
      Animations
