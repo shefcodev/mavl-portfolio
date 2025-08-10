@@ -2,49 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ======================
+   BASE STYLES
+   ====================== */
 html {
   scroll-behavior: smooth;
+  @apply bg-gradient-to-br from-yellow-100 to-yellow-200;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  @apply m-0 p-0 box-border;
 }
 
 body {
-  background-color: #f1e880; /* Warm, welcoming base */
-  font-family: 'Montserrat', sans-serif;
-  color: #222; /* Default text color for clarity */
+  @apply bg-gradient-to-br from-yellow-100 to-yellow-200 min-h-screen font-sans;
+  background-attachment: fixed;
 }
 
 /* ======================
-   UTILITIES LAYER
+   CUSTOM UTILITIES LAYER
    ====================== */
 @layer utilities {
-
-  /* ------------------------------
-     Section Wrappers
-  ------------------------------ */
-  .section {
-    @apply mx-auto max-w-[1400px];
+  /* =============
+     LAYOUT SYSTEM
+     ============= */
+  .container {
+    @apply mx-auto max-w-[1400px] w-full;
   }
 
-  .section_px {
-    @apply px-3 sm:px-4 md:px-5 lg:px-7 mw:px-0;
+  .section-spacing {
+    @apply px-4 sm:px-6 md:px-8 lg:px-10 xl:px-0;
   }
 
-  .section_py {
-    @apply py-[25px];
+  .section-padding {
+    @apply py-8 md:py-12 lg:py-16;
   }
 
   .section-gap {
-    @apply mt-10 sm:mt-16 lg:mt-20;
+    @apply mt-12 sm:mt-16 lg:mt-20 xl:mt-24;
   }
 
-  /* ------------------------------
-     Flex Utilities
-  ------------------------------ */
+  .content-block {
+    @apply rounded-xl p-6 backdrop-blur-sm bg-white/80 shadow-lg;
+  }
+
+  /* ===========
+     FLEX SYSTEM
+     =========== */
   .flex-center {
     @apply flex justify-center items-center;
   }
@@ -53,219 +57,181 @@ body {
     @apply flex justify-between items-center;
   }
 
+  .flex-start {
+    @apply flex justify-start items-center;
+  }
+
   .flex-end {
     @apply flex justify-end items-center;
   }
 
-  .flex-start-center {
-    @apply flex justify-start items-center;
+  .flex-col-center {
+    @apply flex flex-col justify-center items-center;
   }
 
-  .flex-center-start {
-    @apply flex justify-center items-start;
+  /* ===========
+     TYPOGRAPHY
+     =========== */
+  .text-display {
+    @apply text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight;
   }
 
-  /* ------------------------------
-     Header & Navigation
-  ------------------------------ */
-  .header {
-    @apply fixed top-0 left-0 right-0 z-50 bg-white shadow-lg;
-    backdrop-filter: blur(10px);
+  .text-heading {
+    @apply text-3xl sm:text-4xl md:text-5xl font-bold;
   }
 
-  .nav-bar {
-    @apply flex-between section section_px section_py relative z-50 bg-white;
+  .text-subheading {
+    @apply text-xl sm:text-2xl md:text-3xl font-semibold;
   }
 
-  .link {
-    @apply text-color-6 font-medium transition-all duration-300 hover:text-black hover:scale-105;
+  .text-body {
+    @apply text-base sm:text-lg leading-relaxed;
   }
 
-  .link-active {
-    @apply text-2xl text-transparent bg-clip-text bg-gradient-to-r from-black to-color-6 font-black px-3 py-1;
+  .text-caption {
+    @apply text-sm sm:text-base opacity-80;
+  }
+
+  /* Text shadows for visibility */
+  .text-dark {
+    @apply text-gray-900;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+  }
+
+  .text-light {
+    @apply text-white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+
+  /* ===========
+     NAVIGATION
+     =========== */
+  .navbar {
+    @apply fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md shadow-sm;
+  }
+
+  .nav-container {
+    @apply flex-between container section-spacing section-padding;
+  }
+
+  .nav-link {
+    @apply text-gray-700 hover:text-yellow-600 transition-colors duration-300 font-medium;
+  }
+
+  .nav-link-active {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 to-amber-600 font-bold;
   }
 
   .mobile-nav {
-    @apply hidden max-lg:flex justify-center items-center absolute top-[90px] -z-10 w-full h-[33vh] bg-white bg-opacity-70 backdrop-blur-lg py-6 rounded-b-2xl shadow-xl;
+    @apply fixed top-20 left-0 right-0 h-0 overflow-hidden bg-white/95 backdrop-blur-lg transition-all duration-300;
   }
 
-  .mobile-nav_link-active {
-    @apply text-2xl text-transparent bg-clip-text bg-gradient-to-b from-white to-color-6 font-black px-1 py-3;
+  .mobile-nav-open {
+    @apply h-[50vh] py-8;
   }
 
-  /* ------------------------------
-     Borders & Dividers
-  ------------------------------ */
-  .border_round {
-    @apply border-[0.1px] border-black rounded-full;
+  /* ===========
+     BUTTONS & INTERACTIVES
+     =========== */
+  .btn-primary {
+    @apply px-6 py-3 rounded-full bg-gradient-to-r from-yellow-400 to-amber-500 text-white font-medium shadow-md hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300;
   }
 
-  .border_b {
-    @apply border-b-[0.1px] border-color-3;
+  .btn-outline {
+    @apply px-6 py-3 rounded-full border-2 border-amber-500 text-amber-600 font-medium hover:bg-amber-50 transition-colors duration-300;
   }
 
-  .border_t {
-    @apply border-t-[0.1px] border-color-4;
+  /* ===========
+     CARDS & SURFACES
+     =========== */
+  .card {
+    @apply rounded-xl p-6 bg-white/90 backdrop-blur-sm shadow-md hover:shadow-lg transition-shadow duration-300;
   }
 
-  /* ------------------------------
-     About Section
-  ------------------------------ */
-  .about {
-    @apply flex-center flex-col lg:flex-row gap-10 sm:gap-10 lg:gap-10 w-full h-full pt-14;
+  .glass-card {
+    @apply rounded-xl p-6 bg-white/30 backdrop-blur-md border border-white/20 shadow-sm;
   }
 
-  .about-title {
-    @apply text-black text-5xl sm:text-6xl md:text-7xl font-black tracking-wider max-w-[100%];
-    text-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  /* ===========
+     ABOUT SECTION
+     =========== */
+  .about-section {
+    @apply flex flex-col lg:flex-row items-center gap-12 lg:gap-16 pt-24;
   }
 
-  .about-subtitle {
-    @apply text-black text-xl sm:text-2xl md:text-3xl font-bold tracking-normal max-w-[100%];
+  .about-image {
+    @apply rounded-full p-1 bg-gradient-to-br from-yellow-300 to-amber-400 shadow-xl;
   }
 
-  .about-desc {
-    @apply text-sm sm:text-base text-black sm:max-w-[100%];
-    line-height: 1.6;
+  /* ===========
+     PROJECTS
+     =========== */
+  .project-card {
+    @apply glass-card hover:bg-white/40 transition-all duration-500;
   }
 
-  .img-container {
-    @apply flex-center bg-gradient-to-br from-white to-color-6 border_round w-full h-full shadow-xl;
+  .project-tag {
+    @apply inline-block px-3 py-1 rounded-full bg-amber-100 text-amber-800 text-xs font-medium;
   }
 
-  /* ------------------------------
-     Headings
-  ------------------------------ */
-  .section-h2 {
-    @apply text-xl sm:text-2xl text-black text-center font-bold;
+  /* ===========
+     CONTACT FORM
+     =========== */
+  .form-input {
+    @apply w-full bg-transparent border-b-2 border-amber-400/50 focus:border-amber-500 py-2 px-1 text-gray-800 placeholder-amber-400/70 focus:outline-none transition-colors duration-300;
   }
 
-  .section-h3 {
-    @apply text-sm sm:text-base text-white text-center font-medium max-w-[90%] sm:max-w-[70%] lg:max-w-[50%];
-  }
-
-  .section-h3_ {
-    @apply text-lg text-black text-left font-semibold max-w-[90%] sm:max-w-[70%] lg:max-w-[100%];
-  }
-
-  .section-h3__ {
-    @apply text-lg text-black text-center font-semibold;
-  }
-
-  .section-h4 {
-    @apply text-sm sm:text-base text-white text-left font-medium max-w-[90%] sm:max-w-[70%] lg:max-w-[100%];
-  }
-
-  .section-h3_resume {
-    @apply text-sm sm:text-base text-white text-center font-medium max-w-[90%] sm:max-w-[70%] lg:text-left lg:max-w-[50%];
-  }
-
-  /* ------------------------------
-     Paragraph Styles
-  ------------------------------ */
-  .section-p, .section-p_, .section-p__ {
-    @apply text-sm sm:text-base text-white font-medium;
-    line-height: 1.7;
-    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
-  }
-
-  /* ------------------------------
-     Project Cards
-  ------------------------------ */
-  .project-wrapper {
-    @apply flex flex-col gap-5 lg:flex-col lg:gap-10;
-  }
-
-  .project-detail_wrapper {
-    @apply bg-white bg-opacity-10 h-fit rounded-xl p-4 border border-white flex flex-col gap-5 lg:flex-1 lg:min-w-[516px] transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl;
-  }
-
-  .project-h3 {
-    @apply text-sm sm:text-base text-color-1 font-bold text-left;
-  }
-
-  .project-p {
-    @apply text-xs md:text-sm text-black font-normal text-left;
-  }
-
-  /* ------------------------------
-     Carousel Controls
-  ------------------------------ */
-  .carousel-left_button,
-  .carousel-right_button {
-    @apply text-color-1 z-10 bg-white bg-opacity-80 rounded-full p-2 shadow-md transition-transform hover:scale-110;
-  }
-
-  .carousel-left_button { @apply left-0; }
-  .carousel-right_button { @apply right-0; }
-
-  /* ------------------------------
-     Resume Section
-  ------------------------------ */
-  .resume-card {
-    @apply w-full sm:w-[574px] lg:max-w-[50%] bg-transparent border border-black rounded-xl flex-center gap-2 sm:gap-4 md:gap-6 lg:gap-2 px-2 py-2.5 lg:py-3 hover:shadow-lg transition-all;
-  }
-
-  .resume-p {
-    @apply text-sm sm:text-base text-white font-medium text-left;
-  }
-
-  /* ------------------------------
-     Forms
-  ------------------------------ */
-  .form-label {
-    @apply text-color-1 text-base font-bold;
-  }
-
-  .font-input,
   .form-textarea {
-    @apply !bg-transparent border-0 border-b !border-white ring-0 font-light text-sm text-white !placeholder-white;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
-  }
-  .font-input:focus,
-  .form-textarea:focus {
-    border-color: var(--color-accent, #facc15);
-    box-shadow: 0 2px 6px rgba(250, 204, 21, 0.5);
+    @apply form-input min-h-[120px] resize-none;
   }
 
-  /* ------------------------------
-     Contact & Social
-  ------------------------------ */
-  .contact-wrapper {
-    @apply w-full flex-center flex-col lg:flex-row lg:flex-between gap-10;
+  /* ===========
+     ANIMATIONS
+     =========== */
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
   }
 
-  .social-wrapper {
-    @apply flex-center basis-1/2 gap-1 sm:gap-2 md:gap-3 lg:gap-4;
+  .animate-float-delay {
+    animation: float 6s ease-in-out infinite 1s;
   }
 
-  /* ------------------------------
-     Footer
-  ------------------------------ */
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-12px); }
+  }
+
+  /* ===========
+     DECORATIVE ELEMENTS
+     =========== */
+  .ornament {
+    @apply absolute w-20 h-20 opacity-10;
+    background-image: radial-gradient(circle, currentColor 1px, transparent 1px);
+    background-size: 10px 10px;
+  }
+
+  .gradient-circle {
+    @apply absolute rounded-full w-40 h-40 blur-xl opacity-30;
+    background: radial-gradient(circle, var(--gradient-color), transparent 70%);
+  }
+
+  /* ===========
+     FOOTER
+     =========== */
   .footer {
-    @apply bg-gradient-to-t from-color-6 to-white mt-10 sm:mt-16 lg:mt-20 py-6;
+    @apply bg-white/90 backdrop-blur-md border-t border-gray-100 mt-20;
   }
 
-  .footer-p {
-    @apply text-sm text-color-6 font-normal;
+  .social-icon {
+    @apply w-10 h-10 rounded-full bg-amber-100 flex-center text-amber-600 hover:bg-amber-200 transition-all duration-300;
   }
+}
 
-  /* ------------------------------
-     Lists
-  ------------------------------ */
-  .list {
-    list-style-type: circle;
-    padding-left: 1.5rem;
-  }
-
-  /* ------------------------------
-     Color & Visibility Helpers
-  ------------------------------ */
-  .text-black {
-    text-shadow: 0 0 2px white;
-  }
-
-  .text-white {
-    text-shadow: 0 0 2px black;
-  }
+/* ======================
+   THEME VARIABLES
+   ====================== */
+:root {
+  --color-primary: 252, 211, 77; /* amber-300 */
+  --color-secondary: 245, 158, 11; /* amber-500 */
+  --color-accent: 234, 88, 12; /* orange-600 */
 }
