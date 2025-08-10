@@ -158,7 +158,7 @@ body {
   }
 
   .project-p {
-    @apply text-xs md:text-sm text-white font-montserrat font-normal text-left;
+    @apply text-xs md:text-sm text-black font-montserrat font-normal text-left;
   }
 
   .carousel-left_button {
