@@ -67,7 +67,7 @@ body {
   }
 
   .link-active {
-    @apply text-2xl text-transparent bg-clip-text bg-gradient-to-r from-white to-color-6 font-white px-3 py-1;
+    @apply text-2xl text-white bg-clip-text bg-gradient-to-r from-white to-color-6 font-white px-3 py-1;
   }
 
   .mobile-nav {
@@ -75,7 +75,7 @@ body {
   }
 
   .mobile-nav_link-active {
-    @apply text-2xl text-transparent bg-clip-text bg-gradient-to-b from-white to-color-6 font-white px-1 py-3;
+    @apply text-2xl text-white bg-clip-text bg-gradient-to-b from-white to-color-6 font-white px-1 py-3;
   }
 
   .border_round {
