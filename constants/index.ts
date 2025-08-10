@@ -559,118 +559,200 @@ export const designs = {
 
 export const TheArtofthePencil = {
   title: "The Art of the Pencil",
-  description:
-    "A curated collection of my freehand drawings, showcasing precision, depth, and creative expression through graphite.",
+  description: "A curated collection of my freehand drawings, showcasing precision, depth, and creative expression through graphite.",
   projects: [
-    // Portrait Studies
+    // Hyper-Realistic Portraits
     {
       id: "drawing1",
       title: "Eyes of Wisdom",
-      description:
-        "Hyper-realistic study of aged eyes, capturing wrinkles and light reflections with layered graphite.",
-      url: "",
-      gitLink: "",
+      description: "Detailed study of aged eyes, capturing wrinkles, moisture, and light reflection using layered graphite (4H-8B).",
       src: "/images/D1.jpg",
-      stacks: ["Portraiture", "Realism", "Shading"],
+      stacks: ["Portraiture", "Hyper-Realism", "Shading"],
     },
     {
       id: "drawing2",
-      title: "Hands in Motion",
-      description:
-        "Gesture drawing of expressive hands, emphasizing fluid lines and dynamic tension.",
-      url: "",
-      gitLink: "",
+      title: "Weathered Hands",
+      description: "Study of aged hands, emphasizing texture, veins, and the play of light on wrinkled skin.",
       src: "/images/D2.jpg",
-      stacks: ["Figure Drawing", "Gesture"],
+      stacks: ["Anatomy", "Realism"],
     },
 
-    // Architectural Drawings
+    // Architectural & Perspective Drawings
     {
       id: "drawing3",
-      title: "Gothic Details",
-      description:
-        "Precision rendering of cathedral architecture with emphasis on stone textures.",
-      url: "",
-      gitLink: "",
+      title: "Gothic Arches",
+      description: "Precision rendering of cathedral architecture with stone textures and dramatic shadows.",
       src: "/images/D3.jpg",
-      stacks: ["Architectural", "Perspective"],
+      stacks: ["Architectural", "Perspective", "Ink & Graphite"],
     },
     {
       id: "drawing4",
       title: "Urban Sketch",
-      description:
-        "Loose street scene capturing the energy of city life with bold contrasts.",
-      url: "",
-      gitLink: "",
+      description: "Loose, expressive street scene capturing movement and depth with bold contrasts.",
       src: "/images/D4.jpg",
       stacks: ["Urban Sketching", "Atmospheric"],
     },
 
-    // Nature Studies
+    // Nature & Wildlife
     {
       id: "drawing5",
-      title: "Oak Tree Study",
-      description:
-        "Detailed bark texture and leaf clusters drawn with varying pencil weights (4H-8B).",
-      url: "",
-      gitLink: "",
+      title: "Majestic Oak",
+      description: "Detailed bark texture and foliage rendered with varying pencil weights.",
       src: "/images/D5.jpg",
       stacks: ["Botanical", "Texture"],
     },
     {
       id: "drawing6",
-      title: "Animal Portrait",
-      description:
-        "Fur rendering techniques showing directional strokes for realistic coat patterns.",
-      url: "",
-      gitLink: "",
+      title: "Wolf Portrait",
+      description: "Fur study showing directional strokes for realistic coat patterns and depth.",
       src: "/images/D6.jpg",
       stacks: ["Wildlife", "Detail"],
     },
 
-    // Conceptual Works
+    // Still Life & Objects
     {
       id: "drawing7",
-      title: "Surreal Composition",
-      description:
-        "Imaginary landscape blending organic and geometric forms in chiaroscuro style.",
-      url: "",
-      gitLink: "",
+      title: "Glass & Light",
+      description: "Study of transparency and refraction in glass objects using eraser highlights.",
       src: "/images/D7.jpg",
-      stacks: ["Surrealism", "Conceptual"],
+      stacks: ["Still Life", "Chiaroscuro"],
     },
     {
       id: "drawing8",
-      title: "Abstract Figures",
-      description:
-        "Experimental mark-making exploring human forms through negative space.",
-      url: "",
-      gitLink: "",
+      title: "Fabric Drapery",
+      description: "Rendering of silk folds, demonstrating light absorption and shadow play.",
       src: "/images/D8.jpg",
+      stacks: ["Texture", "Realism"],
+    },
+
+    // Conceptual & Abstract
+    {
+      id: "drawing9",
+      title: "Surreal Landscape",
+      description: "Imaginary world blending organic and geometric forms in high contrast.",
+      src: "/images/D9.jpg",
+      stacks: ["Surrealism", "Conceptual"],
+    },
+    {
+      id: "drawing10",
+      title: "Fragmented Portrait",
+      description: "Experimental deconstruction of a face using negative space and sharp edges.",
+      src: "/images/D10.jpg",
       stacks: ["Abstract", "Expression"],
     },
 
-    // Additional works (using remaining D9-D26)
+    // Additional Works (D11-D26)
     {
-      id: "drawing9",
-      title: "Fabric Study",
-      description:
-        "Drapery rendering demonstrating fold physics and light absorption.",
-      url: "",
-      gitLink: "",
-      src: "/images/D9.jpg",
-      stacks: ["Texture", "Realism"],
+      id: "drawing11",
+      title: "Animal Sketch",
+      description: "Quick study of a resting feline, focusing on proportions and fur texture.",
+      src: "/images/D11.jpg",
+      stacks: ["Gesture", "Wildlife"],
     },
-    // Continue pattern for D10-D26...
+    {
+      id: "drawing12",
+      title: "Metallic Reflections",
+      description: "Chrome surface study showing distorted reflections with precise highlights.",
+      src: "/images/D12.jpg",
+      stacks: ["Still Life", "High Contrast"],
+    },
+    {
+      id: "drawing13",
+      title: "Portrait in Profile",
+      description: "Side-view study capturing facial structure and subtle shadow transitions.",
+      src: "/images/D13.jpg",
+      stacks: ["Portraiture", "Line Work"],
+    },
+    {
+      id: "drawing14",
+      title: "Rustic Still Life",
+      description: "Composition of weathered objects showcasing varied surface textures.",
+      src: "/images/D14.jpg",
+      stacks: ["Still Life", "Texture"],
+    },
+    {
+      id: "drawing15",
+      title: "Dynamic Figure",
+      description: "Action pose emphasizing muscle tension and movement through shading.",
+      src: "/images/D15.jpg",
+      stacks: ["Figure Drawing", "Anatomy"],
+    },
+    {
+      id: "drawing16",
+      title: "Botanical Detail",
+      description: "Close-up of flower petals with delicate vein structures highlighted.",
+      src: "/images/D16.jpg",
+      stacks: ["Botanical", "Detail"],
+    },
+    {
+      id: "drawing17",
+      title: "Architectural Detail",
+      description: "Ornate column capital rendered with precise line work and shading.",
+      src: "/images/D17.jpg",
+      stacks: ["Architectural", "Technical Drawing"],
+    },
+    {
+      id: "drawing18",
+      title: "Expressive Portrait",
+      description: "Emotional study using bold strokes and dramatic lighting.",
+      src: "/images/D18.jpg",
+      stacks: ["Portraiture", "Expressionism"],
+    },
+    {
+      id: "drawing19",
+      title: "Feather Study",
+      description: "Delicate rendering showing individual barbules and light interaction.",
+      src: "/images/D19.jpg",
+      stacks: ["Nature Study", "Detail"],
+    },
+    {
+      id: "drawing20",
+      title: "Mechanical Object",
+      description: "Precision drawing of gears and metallic surfaces with reflections.",
+      src: "/images/D20.jpg",
+      stacks: ["Technical Drawing", "Still Life"],
+    },
+    {
+      id: "drawing21",
+      title: "Water Surface",
+      description: "Study of light distortion and ripple patterns on water.",
+      src: "/images/D21.jpg",
+      stacks: ["Nature Study", "Texture"],
+    },
+    {
+      id: "drawing22",
+      title: "Abstract Composition",
+      description: "Geometric shapes interplaying with organic shadows.",
+      src: "/images/D22.jpg",
+      stacks: ["Abstract", "Form Study"],
+    },
+    {
+      id: "drawing23",
+      title: "Animal Anatomy",
+      description: "Muscle structure study of a horse in motion.",
+      src: "/images/D23.jpg",
+      stacks: ["Anatomy", "Wildlife"],
+    },
+    {
+      id: "drawing24",
+      title: "Historical Costume",
+      description: "Detailed rendering of fabric folds and decorative elements.",
+      src: "/images/D24.jpg",
+      stacks: ["Costume Study", "Texture"],
+    },
+    {
+      id: "drawing25",
+      title: "Cloud Formation",
+      description: "Atmospheric study of cumulus clouds with soft edges.",
+      src: "/images/D25.jpg",
+      stacks: ["Nature Study", "Atmospheric"],
+    },
     {
       id: "drawing26",
-      title: "Metallic Reflections",
-      description:
-        "Study of light distortion on polished surfaces using eraser techniques.",
-      url: "",
-      gitLink: "",
+      title: "Hand Study",
+      description: "Multiple angles of hands demonstrating gesture and structure.",
       src: "/images/D26.jpg",
-      stacks: ["Still Life", "High Contrast"],
+      stacks: ["Anatomy", "Gesture Drawing"],
     }
   ],
 };
