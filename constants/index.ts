@@ -570,7 +570,7 @@ export const TheArtofthePencil = {
         "Hyper-realistic study of aged eyes, capturing wrinkles and light reflections with layered graphite.",
       url: "",
       gitLink: "",
-      src: "/images/D1.png",
+      src: "/images/D1.jpg",
       stacks: ["Portraiture", "Realism", "Shading"],
     },
     {
@@ -580,7 +580,7 @@ export const TheArtofthePencil = {
         "Gesture drawing of expressive hands, emphasizing fluid lines and dynamic tension.",
       url: "",
       gitLink: "",
-      src: "/images/D2.png",
+      src: "/images/D2.jpg",
       stacks: ["Figure Drawing", "Gesture"],
     },
 
@@ -592,7 +592,7 @@ export const TheArtofthePencil = {
         "Precision rendering of cathedral architecture with emphasis on stone textures.",
       url: "",
       gitLink: "",
-      src: "/images/D3.png",
+      src: "/images/D3.jpg",
       stacks: ["Architectural", "Perspective"],
     },
     {
@@ -602,7 +602,7 @@ export const TheArtofthePencil = {
         "Loose street scene capturing the energy of city life with bold contrasts.",
       url: "",
       gitLink: "",
-      src: "/images/D4.png",
+      src: "/images/D4.jpg",
       stacks: ["Urban Sketching", "Atmospheric"],
     },
 
@@ -614,7 +614,7 @@ export const TheArtofthePencil = {
         "Detailed bark texture and leaf clusters drawn with varying pencil weights (4H-8B).",
       url: "",
       gitLink: "",
-      src: "/images/D5.png",
+      src: "/images/D5.jpg",
       stacks: ["Botanical", "Texture"],
     },
     {
@@ -624,7 +624,7 @@ export const TheArtofthePencil = {
         "Fur rendering techniques showing directional strokes for realistic coat patterns.",
       url: "",
       gitLink: "",
-      src: "/images/D6.png",
+      src: "/images/D6.jpg",
       stacks: ["Wildlife", "Detail"],
     },
 
@@ -636,7 +636,7 @@ export const TheArtofthePencil = {
         "Imaginary landscape blending organic and geometric forms in chiaroscuro style.",
       url: "",
       gitLink: "",
-      src: "/images/D7.png",
+      src: "/images/D7.jpg",
       stacks: ["Surrealism", "Conceptual"],
     },
     {
@@ -646,7 +646,7 @@ export const TheArtofthePencil = {
         "Experimental mark-making exploring human forms through negative space.",
       url: "",
       gitLink: "",
-      src: "/images/D8.png",
+      src: "/images/D8.jpg",
       stacks: ["Abstract", "Expression"],
     },
 
@@ -658,7 +658,7 @@ export const TheArtofthePencil = {
         "Drapery rendering demonstrating fold physics and light absorption.",
       url: "",
       gitLink: "",
-      src: "/images/D9.png",
+      src: "/images/D9.jpg",
       stacks: ["Texture", "Realism"],
     },
     // Continue pattern for D10-D26...
@@ -669,7 +669,7 @@ export const TheArtofthePencil = {
         "Study of light distortion on polished surfaces using eraser techniques.",
       url: "",
       gitLink: "",
-      src: "/images/D26.png",
+      src: "/images/D26.jpg",
       stacks: ["Still Life", "High Contrast"],
     }
   ],
