@@ -22,14 +22,14 @@ const Stacks = () => {
             <h3 className="section-h3_">Here's How I Can Support You</h3>
             <div className="flex flex-col gap-3">
               {supports.map(({ title, values }, index) => (
-                <div className="space-y-2">
+                <div key={index} className="space-y-2">
                   <h4 className="section-h4">
                     <span>{index + 1}. </span>
                     {title}
                   </h4>
                   <div className="flex flex-col gap-2">
                     {values.map((value, index) => (
-                      <p className="section-p_ ml-4">
+                      <p key={index} className="section-p_ ml-4">
                         <span className="font-bold">• </span>
                         {value}
                       </p>
