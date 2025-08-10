@@ -618,63 +618,43 @@ export const supports = [
   {
     title: "Executive Operations Support & Coordination",
     values: [
-      "From strategic calendar management and cross-department coordination to client relationships and data-driven insights, I handle the executive operations that keep leadership focused on what matters most. I've optimized multi-location operations and created systems that grow with ambitious teams.",
-    
-      
+      "Strategic calendar management, cross-department coordination, client relationships, and data-driven decision support for C-suite executives and multi-location operations.",
     ],
   },
   {
     title: "Financial Stewardship",
     values: [
-      "End-to-End Financial Operations (QuickBooks Reconciliation, Reporting)",
-      "Cost Control: Budgeting, Expense Tracking & Cash Flow Management",
-      "Scalable Invoice/Payment Systems for Multi-Chapter Organizations",
-      "Crypto & Web3 Payment Gateway Integration (Stripe, Coinbase Commerce)"
+      "QuickBooks reconciliation, budgeting, cash flow management, and scalable payment systems including crypto integration (Stripe, Coinbase Commerce).",
     ],
   },
   {
     title: "Technology & Automation Support",
     values: [
-      "Business Intelligence: Advanced Analytics (Excel, Tableau, Power BI)",
-      "CRM Strategy: HubSpot/Salesforce/Keap/GoHighLevel Implementation & Training",
-      "Workflow Automation: Reduced Manual Tasks by 40% via Zapier/Alchemer",
-      "Smart Contract Integration for Membership NFTs (ERC-721, ERC-1155)"
+      "Zapier workflows, CRM implementation (HubSpot, Salesforce, GoHighLevel), and advanced analytics that reduce manual tasks by 40%.",
     ],
   },
   {
     title: "Growth & Marketing Support",
     values: [
-      "Lead Generation Funnels & Email Campaigns (25% Retention Boost)",
-      "Competitive Market Analysis for Strategic Positioning",
-      "Performance Metrics: Tracked KPIs to Drive Revenue Growth",
-      "Web3 Community Growth: Discord/Telegram Moderation & Token-Gated Engagement"
+      "Lead generation funnels, email campaigns, competitive analysis, and performance tracking that boost retention by 25%.",
     ],
   },
   {
     title: "Technical Execution (UI/UX & Development)",
     values: [
-      "Built Scalable Web Apps with ReactJS & Tailwind CSS",
-      "User-Centric Design: Wireframing to Prototyping",
-      "Optimized Interfaces for 30% Faster Load Times",
-      "Web3 Frontends: Wallet Integration (MetaMask, WalletConnect) & DApp UIs"
+      "ReactJS web applications, UI/UX design, and Web3 integrations with 30% faster load times.",
     ],
   },
   {
     title: "Brand Strategy & Visual Storytelling",
     values: [
-      "Social Media Campaigns (50% Engagement Increase)",
-      "High-Impact Marketing Collateral (Pitch Decks, Brochures)",
-      "Full Brand Identities: Logo to Style Guides",
-      "DAO & Web3 Branding: Tokenomics Visuals, NFT Project Identities"
+      "Complete brand identities, marketing collateral, and social campaigns with 50% engagement increases",
     ],
   },
   {
     title: "Web3 & Community Building",
     values: [
-      "Discord Community Architecture: Roles, Bots, & Token-Gated Channels",
-      "Onboarding Systems for Web3 Projects (Guides, AMAs, Collab Tools)",
-      "DAO Governance Support: Snapshot Voting, Proposal Templates",
-      "NFT Project Management: Whitepapers, Roadmaps, Holder Engagement"
+      "Discord architecture, DAO governance, NFT project management, and token-gated engagement systems.",
     ],
   }
 ];
