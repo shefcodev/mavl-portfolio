@@ -618,11 +618,8 @@ export const supports = [
   {
     title: "Executive Operations Support & Coordination",
     values: [
-      "Strategic Calendar & Email Management for C-Suite Executives",
-      "Cross-Department Project Coordination & Process Support",
-      "Client Relationship Management & Executive Stakeholder Communications",
-      "Data-Driven Decision Support via Surveys & Advanced Analytics",
-      "Administrative Oversight of Multi-Location Operations",
+      "From strategic calendar management and cross-department coordination to client relationships and data-driven insights, I handle the executive operations that keep leadership focused on what matters most. I've optimized multi-location operations and created systems that grow with ambitious teams.",
+    
       
     ],
   },
