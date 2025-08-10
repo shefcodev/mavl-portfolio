@@ -78,7 +78,7 @@ body {
   }
 
   .border_round {
-    @apply border-[0.1px] border-white rounded-full;
+    @apply border-[0.1px] border-black rounded-full;
   }
 
   .border_b {
