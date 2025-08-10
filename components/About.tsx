@@ -41,25 +41,19 @@ const About = () => {
           <motion.div {...motionValues}>
             {/* {aboutDesc.map((desc, idx) => <li key={idx}><p className="about-desc">{desc}</p></li>)} */}
             <p className="about-desc mb-2"><span className="font-bold"></span> </p>
-            <p className="about-desc mb-2">With a powerful blend of administrative expertise, tech-savviness, and data-driven insight, I've reduced client operational costs by 30% and increased productivity by 40% for 7+ businesses in the past 5 years, eliminate inefficiencies, and unlock hidden opportunities. my mission is to help lean teams run like enterprise-grade machines.</p>
-            <p className="about-desc mb-2">I go far beyond traditional admin work, integrating <span className="font-bold">Workflow automation, IT support, customer service,</span> and <span className="font-bold">creative problem-solving</span> into every aspect of your business. My diverse skill set spans:
-            </p>
+            <p className="about-desc mb-2">I'm passionate about transforming how businesses operate behind the scenes. Through my work, I help lean teams unlock their full potential with smart automation, streamlined processes, and strategic systems that make everything flow effortlessly.</p>
+            <p className="about-desc mb-2">Over the past 5 years, I've partnered with 7+ businesses to slash operational costs by 30% and boost productivity by 40%. My diverse expertise spans <span className="font-bold">Executive administration, Process automation, Financial Operations Support,</span> and <span className="font-bold">technical coordination, </span> plus specialized skills in GoHighLevel, Zapier automation, Typeform programming, and graphic design.</p>
             <ul className="mb-2 list">
-              <li className="about-desc font-bold">EXECUTIVE ADMINISTRATIVE EXCELLENCE</li>
-              <li className="about-desc font-bold">PROCESS AUTOMATION & SYSTEMS COORDINATION</li>
-              <li className="about-desc font-bold">FINANCIAL OPERATIONS SUPPORT </li>
-              <li className="about-desc font-bold">TECHNICAL & IT COORDINATION</li>
-              <li className="about-desc font-bold">PROJECT & PROCESS MANAGEMENT</li>
-              <li className="about-desc font-bold">TYPEFORM PROGRAMMER / ALCHEMER SPECIALIST</li>
-              <li className="about-desc font-bold">GRAPHIC DESIGN & MARKETING SUPPORT</li>
-              <li className="about-desc font-bold">GOHIGHLEVEL SPECIALIST</li>
-              <li className="about-desc font-bold">ZAPIER AUTOMATION EXPERT</li>
+              <li className="about-desc font-bold"></li>
+            
       
             </ul>
-            <p className="about-desc mb-2">This versatility enables me to translate big ideas into actionable strategies tailored to your unique goals and challenges.</p>
-            <p className="about-desc mb-2">My proactive, collaborative approach extends your reach, strengthens your systems, and lays the foundation for long-term, sustainable growth.</p>
-            <p className="about-desc mb-2 italic">When I’m not creatively optimizing back-office systems, you’ll find me on the soccer field or vibing to Afrobeats, Amapiano, and Jazz.</p>
-            <p className="about-desc mb-2">Let’s connect and build something remarkable together.</p>
+            <p className="about-desc mb-2">This versatility means I can tackle everything from complex workflow automation and project management to creative marketing support and systems coordination. </p>
+            <p className="about-desc mb-2">I love building solutions that make ambitious teams run like enterprise-grade machines without the enterprise overhead.</p>
+            <p className="about-desc mb-2 italic">My approach is simple: identify what's slowing you down, create systems that work smarter, and build sustainable foundations that grow with your vision.</p>
+            <p className="about-desc mb-2">When I'm not crafting operational magic, you'll find me on the soccer field or vibing to Afrobeats and Jazz.</p>
+            <p className="about-desc mb-2">Let's connect and build something remarkable together.</p>
+            <p className="about-desc mb-2">MARVEL IS YOU GUY!!!</p>
             <p className="about-desc mb-2">
               <p className="about-desc mb-2"></p>
               <p className="about-desc mb-2"></p>
