@@ -8,15 +8,15 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/ui/carousel';
-import { Recognition } from '@/constants';
+import { TheArtofthePencil } from '@/constants';
 import Project from '@/components/Project';
 import { motionValues } from '@/lib/utils';
 
 const Projects = () => {
-  const { title, description, projects: projects_ } = Recognition;
+  const { title, description, projects: projects_ } = TheArtofthePencil;
 
   return (
-    <section id='Recognition' className='section section_px section-gap'>
+    <section id='The Art of the Pencil' className='section section_px section-gap'>
       <main className='flex flex-col gap-8 lg:gap-8'>
         <div className='flex-center flex-col gap-8'>
           <motion.h2 className='section-h2' {...motionValues}>
