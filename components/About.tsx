@@ -33,9 +33,9 @@ const About = () => {
           </motion.h1>
 
           <motion.h2 className="about-subtitle" {...motionValues}>
-            <span className="text-white font-black">{"[ "}</span>
+            <span className="text-white font-white">{"[ "}</span>
             {`${aboutSubtitle}`}
-            <span className="text-white font-black">{" ]"}</span>
+            <span className="text-white font-white">{" ]"}</span>
           </motion.h2>
 
           <motion.div {...motionValues}>
