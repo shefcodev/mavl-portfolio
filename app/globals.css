@@ -2,10 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Base Styles */
+/* ====================== */
+/* BACKGROUND COLOR (EDIT THIS) */
+/* ====================== */
+body {
+  background-color: #f1e880; /* Change this hex code to modify background */
+}
+/* ====================== */
+
 html {
   scroll-behavior: smooth;
-  @apply bg-gradient-to-br from-yellow-50 to-yellow-100;
 }
 
 * {
@@ -14,275 +20,67 @@ html {
   box-sizing: border-box;
 }
 
-body {
-  @apply bg-gradient-to-br from-yellow-100 to-yellow-200 min-h-screen;
-  font-family: theme('fontFamily.montserrat'), sans-serif;
+/* Enhanced Design System */
+@layer utilities {
+  /* Section Styles */
+  .section {
+    @apply mx-auto max-w-[1400px];
+  }
+
+  .section_px {
+    @apply px-3 sm:px-4 md:px-5 lg:px-7 mw:px-0;
+  }
+
+  .section_py {
+    @apply py-[25px];
+  }
+
+  /* Typography Improvements */
+  .text-highlight {
+    @apply text-gray-900 font-bold; /* Better contrast */
+  }
+
+  .text-body {
+    @apply text-gray-800; /* Improved readability */
+  }
+
+  /* Card Styles */
+  .card {
+    @apply bg-white bg-opacity-90 rounded-lg shadow-md p-4; /* More opaque background */
+    border: 1px solid rgba(0,0,0,0.1); /* Subtle border */
+  }
+
+  /* Button Styles */
+  .btn-primary {
+    @apply bg-gray-900 text-white px-6 py-2 rounded-full font-medium;
+    transition: all 0.3s ease;
+  }
+
+  .btn-primary:hover {
+    @apply bg-gray-800 shadow-md;
+    transform: translateY(-1px);
+  }
+
+  /* Header Improvements */
+  .header {
+    @apply fixed top-0 left-0 right-0 z-50;
+    background-color: rgba(255,255,255,0.96); /* More opaque */
+    backdrop-filter: blur(8px);
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+  }
+
+  /* Link Hover Effects */
+  .link-hover {
+    @apply transition-colors duration-300 hover:text-yellow-700;
+  }
 }
 
-/* Custom Layers */
-@layer utilities {
-  /* Layout Utilities */
-  .section {
-    @apply mx-auto max-w-[1400px] w-full;
-  }
+/* Animation Enhancements */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
 
-  .section-px {
-    @apply px-3 sm:px-4 md:px-5 lg:px-7 xl:px-8;
-  }
-
-  .section-py {
-    @apply py-6 sm:py-8 md:py-10;
-  }
-
-  .section-gap {
-    @apply mt-10 sm:mt-16 lg:mt-20 xl:mt-24;
-  }
-
-  /* Flex Utilities */
-  .flex-center {
-    @apply flex justify-center items-center;
-  }
-
-  .flex-between {
-    @apply flex justify-between items-center;
-  }
-
-  .flex-end {
-    @apply flex justify-end items-center;
-  }
-
-  .flex-start-center {
-    @apply flex justify-start items-center;
-  }
-
-  .flex-center-start {
-    @apply flex justify-center items-start;
-  }
-
-  .flex-col-center {
-    @apply flex flex-col justify-center items-center;
-  }
-
-  /* Header & Navigation */
-  .header {
-    @apply fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md shadow-sm;
-  }
-
-  .nav-bar {
-    @apply flex-between section section-px section-py relative z-50;
-  }
-
-  .link {
-    @apply text-gray-700 hover:text-yellow-600 font-medium transition-colors duration-300;
-  }
-
-  .link-active {
-    @apply text-2xl bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-yellow-600 font-bold px-3 py-1;
-  }
-
-  .mobile-nav {
-    @apply hidden max-lg:flex flex-col justify-center items-center absolute top-full left-0 w-full h-[calc(100vh-90px)] bg-white/95 backdrop-blur-lg py-6 gap-6 transition-all duration-500 ease-in-out;
-  }
-
-  .mobile-nav_link-active {
-    @apply text-2xl bg-clip-text text-transparent bg-gradient-to-b from-yellow-400 to-yellow-600 font-bold px-1 py-3;
-  }
-
-  /* Borders & Shapes */
-  .border-round {
-    @apply border border-gray-300 rounded-full;
-  }
-
-  .border-b {
-    @apply border-b border-gray-200;
-  }
-
-  .border-t {
-    @apply border-t border-gray-200;
-  }
-
-  .card-border {
-    @apply border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300;
-  }
-
-  /* About Section */
-  .about {
-    @apply flex-col-center lg:flex-row gap-8 sm:gap-10 lg:gap-12 w-full h-full pt-20;
-  }
-
-  .about-title {
-    @apply text-gray-900 text-5xl sm:text-6xl md:text-7xl font-black tracking-tight leading-tight;
-  }
-
-  .about-subtitle {
-    @apply text-gray-800 text-xl sm:text-2xl md:text-3xl font-bold mt-4;
-  }
-
-  .about-desc {
-    @apply text-gray-700 text-sm sm:text-base mt-6 max-w-prose;
-  }
-
-  .img-container {
-    @apply flex-center bg-gradient-to-br from-yellow-300 to-yellow-400 border-round w-full h-full p-1 shadow-lg;
-  }
-
-  /* Typography */
-  .section-h2 {
-    @apply text-2xl sm:text-3xl text-gray-900 text-center font-bold mb-4;
-  }
-
-  .section-h3 {
-    @apply text-lg sm:text-xl text-gray-800 text-center font-semibold max-w-prose mx-auto;
-  }
-
-  .section-h3_left {
-    @apply text-lg sm:text-xl text-gray-800 text-left font-semibold;
-  }
-
-  .section-h3_center {
-    @apply text-lg sm:text-xl text-gray-800 text-center font-semibold;
-  }
-
-  .section-h4 {
-    @apply text-base sm:text-lg text-gray-700 font-medium;
-  }
-
-  .section-p {
-    @apply text-sm sm:text-base text-gray-600 text-center max-w-prose mx-auto;
-  }
-
-  .section-p_left {
-    @apply text-sm sm:text-base text-gray-600 text-left;
-  }
-
-  /* Projects */
-  .project-wrapper {
-    @apply grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-8;
-  }
-
-  .project-card {
-    @apply bg-white/90 rounded-xl p-4 border border-gray-200 shadow-sm hover:shadow-md transition-all duration-300;
-  }
-
-  .project-detail_wrapper {
-    @apply bg-white/80 h-fit rounded-xl p-4 border border-gray-200 shadow-sm flex flex-col gap-4;
-  }
-
-  .project-h3 {
-    @apply text-base sm:text-lg text-gray-900 font-bold;
-  }
-
-  .project-p {
-    @apply text-sm text-gray-700;
-  }
-
-  .project-tag {
-    @apply inline-block px-2 py-1 bg-yellow-100 text-yellow-800 text-xs rounded-full;
-  }
-
-  /* Carousel */
-  .carousel-button {
-    @apply absolute top-1/2 transform -translate-y-1/2 bg-white/80 p-2 rounded-full shadow-md z-10 hover:bg-yellow-100 transition-colors;
-  }
-
-  .carousel-left_button {
-    @apply carousel-button left-4;
-  }
-
-  .carousel-right_button {
-    @apply carousel-button right-4;
-  }
-
-  /* Resume */
-  .resume-card {
-    @apply w-full max-w-lg bg-white/90 border border-gray-200 rounded-xl flex-between gap-4 p-4 hover:shadow-md transition-shadow;
-  }
-
-  .resume-p {
-    @apply text-sm sm:text-base text-gray-700;
-  }
-
-  /* Contact Form */
-  .form-label {
-    @apply block text-gray-700 text-sm font-bold mb-2;
-  }
-
-  .form-input {
-    @apply w-full bg-transparent border-0 border-b border-gray-300 focus:border-yellow-500 outline-none py-2 px-1 text-gray-700 placeholder-gray-400 transition-colors;
-  }
-
-  .form-textarea {
-    @apply form-input resize-none min-h-[100px];
-  }
-
-  .form-submit {
-    @apply bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-6 rounded-full transition-colors shadow-sm hover:shadow-md;
-  }
-
-  /* Contact Section */
-  .contact-wrapper {
-    @apply w-full flex-col-center lg:flex-row lg:justify-between gap-8;
-  }
-
-  .social-wrapper {
-    @apply flex-center gap-3 sm:gap-4;
-  }
-
-  .social-icon {
-    @apply text-gray-700 hover:text-yellow-600 text-2xl transition-colors;
-  }
-
-  /* Footer */
-  .footer {
-    @apply bg-white/90 py-6 border-t border-gray-200;
-  }
-
-  .footer-p {
-    @apply text-sm text-gray-600 text-center;
-  }
-
-  /* Animations */
-  .fade-in {
-    @apply animate-fade-in duration-500 ease-out;
-  }
-
-  .slide-up {
-    @apply animate-slide-up duration-700 ease-out;
-  }
-
-  /* Lists */
-  .list-disc {
-    @apply list-disc pl-5 space-y-1;
-  }
-
-  /* Buttons */
-  .btn-primary {
-    @apply bg-gradient-to-r from-yellow-400 to-yellow-500 text-white font-bold py-2 px-6 rounded-full shadow-sm hover:shadow-md hover:from-yellow-500 hover:to-yellow-600 transition-all;
-  }
-
-  .btn-outline {
-    @apply border border-yellow-500 text-yellow-600 font-medium py-2 px-6 rounded-full hover:bg-yellow-50 transition-colors;
-  }
-
-  /* Gradients */
-  .gradient-text {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-yellow-600;
-  }
-
-  /* Custom Animations */
-  @keyframes fade-in {
-    from { opacity: 0; }
-    to { opacity: 1; }
-  }
-
-  @keyframes slide-up {
-    from { 
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    to { 
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
+.fade-in {
+  animation: fadeIn 0.5s ease-out;
 }
