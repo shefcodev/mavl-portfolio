@@ -58,7 +58,7 @@ body {
   }
 
   .nav-bar {
-    @apply flex-between section section_px section_py relative z-50 bg-white;
+    @apply flex-between section section_px section_py relative z-50 bg-black;
   }
 
   .link {
