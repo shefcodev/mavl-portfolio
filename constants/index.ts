@@ -9,7 +9,8 @@ export const links = [
   { title: "Projects", href: "#projects" },
   { title: "Recognition", href: "#Recognition" },
   { title: "Designs", href: "#designs" },
-  { title: "Failure Stories & Process Documentation", href: "#Failure Stories & Process Documentation" },
+  { title: "Failure & Documentation", href: "#Failure & Documentation" },
+  { title: "TheArtofthePencil", href: "# Boredom" },
   { title: "Contact", href: "#contact" },
 ];
 
