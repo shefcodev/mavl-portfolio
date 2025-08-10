@@ -150,7 +150,7 @@ body {
   }
 
   .project-detail_wrapper {
-    @apply bg-black bg-opacity-10 h-fit rounded-xl p-2 border border-black flex flex-col gap-5 lg:flex-1 lg:min-w-[516px];
+    @apply bg-white bg-opacity-10 h-fit rounded-xl p-2 border border-white flex flex-col gap-5 lg:flex-1 lg:min-w-[516px];
   }
 
   .project-h3 {
