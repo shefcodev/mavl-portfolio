@@ -557,6 +557,275 @@ export const designs = {
   ],
 };
 
+export const TheArtofthePencil = {
+  title: "Design Portfolio",
+  description:
+    "A curated collection of my freehand drawings, showcasing precision, depth, and creative expression through graphite.",
+  projects: [
+    // Green Grub (Complete Project)
+    {
+      id: "design1",
+      title: "Green Grub - Brand Identity",
+      description:
+        "Vegan restaurant branding that breaks stereotypes with bold colors and playful energy. Replaced earthy vegan clichés with vibrant greens and punchy pinks to attract a broader audience.",
+      url: "",
+      gitLink: "",
+      src: "/images/D1.png",
+      stacks: ["Branding", "Visual Identity"],
+    },
+    {
+      id: "design2",
+      title: "Green Grub - Color Strategy",
+      description:
+        "High-contrast palette: fresh green for health, unexpected pink for fun. Designed to communicate that plant-based eating is diverse and exciting.",
+      url: "",
+      gitLink: "",
+      src: "/images/D2.png",
+      stacks: ["Color Theory"],
+    },
+    {
+      id: "design3",
+      title: "Green Grub - Tone of Voice",
+      description:
+        "Developed a witty, inviting brand voice to make veganism accessible. Copywriting balances humor and inclusivity to appeal to vegans and flexitarians alike.",
+      url: "",
+      gitLink: "",
+      src: "/images/D3.png",
+      stacks: ["Copywriting"],
+    },
+    {
+      id: "design4",
+      title: "Green Grub - Brand Philosophy",
+      description:
+        "Every meal is framed as a bold, joyful statement. Packaging and collateral reinforce the idea that veganism is a celebration, not a sacrifice.",
+      url: "",
+      gitLink: "",
+      src: "/images/D4.png",
+      stacks: ["Packaging Design"],
+    },
+
+    // Bozin Design (Complete Project)
+    {
+      id: "design5",
+      title: "Bozin Design - Luxury Web Experience",
+      description:
+        "Designed a premium website for Dubai-based interior design studio Bozin. Clean layouts, elegant typography, and smooth transitions mirror their high-end aesthetic.",
+      url: "https://bozindesign.ae/",
+      gitLink: "",
+      src: "/images/D5.png",
+      stacks: ["Web Design", "UX/UI"],
+    },
+    {
+      id: "design6",
+      title: "Bozin Design - Project Showcase",
+      description:
+        "Curated portfolio section to highlight luxury renovations and bespoke styling work. Imagery-driven design puts focus on their craftsmanship.",
+      url: "https://bozindesign.ae/",
+      gitLink: "",
+      src: "/images/D5.png",
+      stacks: ["Art Direction"],
+    },
+    {
+      id: "design7",
+      title: "Bozin Design - Responsive Framework",
+      description:
+        "Fully responsive site with intentional white space and device-optimized interactions. Ensures a polished experience across all platforms.",
+      url: "https://bozindesign.ae/",
+      gitLink: "",
+      src: "/images/D5.png",
+      stacks: ["Responsive Design"],
+    },
+
+    // Neat n Nailed (Complete Project)
+    {
+      id: "design8",
+      title: "Neat n Nailed - Nail Studio Branding",
+      description:
+        "Modern nail studio identity blending minimalism with bold accents. Clean lines meet vibrant colors to reflect creative self-expression.",
+      url: "",
+      gitLink: "",
+      src: "/images/D9.png",
+      stacks: ["Branding", "Print Design"],
+    },
+    {
+      id: "design9",
+      title: "Neat n Nailed - Visual Language",
+      description:
+        "Edgy yet sleek design system using white space and striking details. Proves simplicity can make a powerful statement.",
+      url: "",
+      gitLink: "",
+      src: "/images/D10.png",
+      stacks: ["Visual Systems"],
+    },
+    {
+      id: "design10",
+      title: "Neat n Nailed - Brand Voice",
+      description:
+        "Confident, playful tone mirroring their nail art philosophy. Marketing materials balance precision with personality.",
+      url: "",
+      gitLink: "",
+      src: "/images/D11.png",
+      stacks: ["Content Strategy"],
+    },
+
+    // Revo Spot (Complete Project)
+    {
+      id: "design11",
+      title: "Revo Spot - Grill Kitchen Branding",
+      description:
+        "High-energy identity for a shawarma and grill spot. Bold reds and urban vibes evoke heat, passion, and community.",
+      url: "",
+      gitLink: "",
+      src: "/images/D12.png",
+      stacks: ["Branding", "Illustration"],
+    },
+    {
+      id: "design12",
+      title: "Revo Spot - Mascot Design",
+      description:
+        "Custom rebellious mascot embodying the brand’s cheeky spirit. Adds memorability to packaging and merch.",
+      url: "",
+      gitLink: "",
+      src: "/images/D13.png",
+      stacks: ["Character Design"],
+    },
+    {
+      id: "design13",
+      title: "Revo Spot - Streetwise Aesthetic",
+      description:
+        "Typography and graphics inspired by street culture. Positions Revo Spot as a revolution in fast-casual dining.",
+      url: "",
+      gitLink: "",
+      src: "/images/D14.png",
+      stacks: ["Typography"],
+    },
+
+    // Vyrux (Complete Project)
+    {
+      id: "design14",
+      title: "Vyrux - Cybersecurity Branding",
+      description:
+        "Trust-driven identity for an IT security firm. Logo’s hidden shield symbolizes invisible protection.",
+      url: "",
+      gitLink: "",
+      src: "/images/D15.png",
+      stacks: ["B2B Branding"],
+    },
+    {
+      id: "design15",
+      title: "Vyrux - Visual System",
+      description:
+        "Tech-forward design reflecting precision and reliability. Supports services from risk audits to agrotech solutions.",
+      url: "",
+      gitLink: "",
+      src: "/images/D16.png",
+      stacks: ["Visual Identity"],
+    },
+
+    // Additional Projects (Single Images)
+    {
+      id: "design16",
+      title: "Vivace - Fashion Branding",
+      description:
+        "Sophisticated identity for a contemporary fashion label. (Project details available on request.)",
+      url: "",
+      gitLink: "",
+      src: "/images/D17.png",
+      stacks: ["Fashion Branding"],
+    },
+    {
+      id: "design17",
+      title: "Fuse - Tech Startup",
+      description:
+        "Dynamic branding for a SaaS platform. (Project details available on request.)",
+      url: "",
+      gitLink: "",
+      src: "/images/D18.png",
+      stacks: ["Tech Branding"],
+    },
+    {
+      id: "design18",
+      title: "Solbase - Minimalist Logos",
+      description:
+        "Geometric logo series for a design studio. (Project details available on request.)",
+      url: "",
+      gitLink: "",
+      src: "/images/D19.png",
+      stacks: ["Logo Design"],
+    },
+    {
+      id: "design19",
+      title: "ArcTri - Architecture Branding",
+      description:
+        "Structural identity for a boutique architecture firm. (Project details available on request.)",
+      url: "",
+      gitLink: "",
+      src: "/images/D20.png",
+      stacks: ["Architecture Branding"],
+    },
+    {
+      id: "design20",
+      title: "ArcTri - Architecture Branding",
+      description:
+        "Structural identity for a boutique architecture firm. (Project details available on request.)",
+      url: "",
+      gitLink: "",
+      src: "/images/D21.png",
+      stacks: ["Architecture Branding"],
+    },
+    {
+      id: "design21",
+      title: "ArcTri - Architecture Branding",
+      description:
+        "Structural identity for a boutique architecture firm. (Project details available on request.)",
+      url: "",
+      gitLink: "",
+      src: "/images/D22.png",
+      stacks: ["Architecture Branding"],
+    },
+    {
+      id: "design22",
+      title: "ArcTri - Architecture Branding",
+      description:
+        "Structural identity for a boutique architecture firm. (Project details available on request.)",
+      url: "",
+      gitLink: "",
+      src: "/images/D23.png",
+      stacks: ["Architecture Branding"],
+    },
+    {
+      id: "design23",
+      title: "ArcTri - Architecture Branding",
+      description:
+        "Structural identity for a boutique architecture firm. (Project details available on request.)",
+      url: "",
+      gitLink: "",
+      src: "/images/D24.png",
+      stacks: ["Architecture Branding"],
+    },
+    {
+      id: "design24",
+      title: "ArcTri - Architecture Branding",
+      description:
+        "Structural identity for a boutique architecture firm. (Project details available on request.)",
+      url: "",
+      gitLink: "",
+      src: "/images/D25.png",
+      stacks: ["Architecture Branding"],
+    },
+    {
+      id: "design25",
+      title: "ArcTri - Architecture Branding",
+      description:
+        "Structural identity for a boutique architecture firm. (Project details available on request.)",
+      url: "",
+      gitLink: "",
+      src: "/images/D26.png",
+      stacks: ["Architecture Branding"],
+    },
+  ],
+};
+
 export const FailureStoriesandProcessDocumentation = {
   FailureStoriesandProcessDocumentationTitle: "Failure Stories & Process Documentation",
   aboutDesc: [
