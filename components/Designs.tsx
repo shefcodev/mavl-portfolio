@@ -28,7 +28,7 @@ const Projects = () => {
           </motion.h3>
         </div>
 
-       <motion.div {...motionValues}>
+      <motion.div {...motionValues}>
           <Carousel 
             className='w-full' 
             orientation='horizontal'
