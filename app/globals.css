@@ -16,7 +16,12 @@ body {
   background-color: #f1e880;
 }
 
+/* ======================
+   CUSTOM UTILITIES LAYER
+   ====================== */
 @layer utilities {
+
+  /* Layout Helpers */
   .section {
     @apply mx-auto max-w-[1400px];
   }
@@ -33,6 +38,7 @@ body {
     @apply mt-10 sm:mt-16 lg:mt-20;
   }
 
+  /* Flex Helpers */
   .flex-center {
     @apply flex justify-center items-center;
   }
@@ -53,6 +59,7 @@ body {
     @apply flex justify-center items-start;
   }
 
+  /* Header + Nav */
   .header {
     @apply fixed top-0 left-0 right-0 z-50 bg-white;
   }
@@ -77,6 +84,7 @@ body {
     @apply text-2xl text-transparent bg-clip-text bg-gradient-to-b from-white to-color-6 font-black px-1 py-3;
   }
 
+  /* Borders */
   .border_round {
     @apply border-[0.1px] border-black rounded-full;
   }
@@ -89,6 +97,7 @@ body {
     @apply border-t-[0.1px] border-color-4;
   }
 
+  /* About Section */
   .about {
     @apply flex-center flex-col lg:flex-row gap-10 sm:gap-10 lg:gap-10 w-full h-full pt-14;
   }
@@ -109,6 +118,7 @@ body {
     @apply flex-center bg-transparent border_round w-full h-full;
   }
 
+  /* Headings */
   .section-h2 {
     @apply text-xl sm:text-2xl text-black text-center font-montserrat font-bold;
   }
@@ -133,6 +143,7 @@ body {
     @apply text-sm sm:text-base text-white text-center font-montserrat font-medium max-w-[90%] sm:max-w-[70%] lg:text-left lg:max-w-[50%];
   }
 
+  /* Paragraphs */
   .section-p {
     @apply text-sm sm:text-base text-white text-center font-montserrat font-medium max-w-[90%] sm:max-w-[70%];
   }
@@ -145,6 +156,7 @@ body {
     @apply text-sm sm:text-base text-white text-center font-montserrat font-medium;
   }
 
+  /* Project */
   .project-wrapper {
     @apply flex flex-col gap-5 lg:flex-col lg:gap-10;
   }
@@ -161,23 +173,25 @@ body {
     @apply text-xs md:text-sm text-black font-montserrat font-normal text-left;
   }
 
+  /* Carousel Controls */
   .carousel-left_button {
-    @apply text-color-1 z-10 left-[0px] sm:left-[0px] md:left-[0px] lg:left-[0px] xl:left-[0px] mw:left-[0px];
+    @apply text-color-1 z-10 left-0;
   }
 
   .carousel-right_button {
-    @apply text-color-1 z-10 right-[0px] sm:right-[0px] md:right-[0px] lg:right-[0px] xl:right-[0px] mw:right-[0px];
+    @apply text-color-1 z-10 right-0;
   }
 
+  /* Resume */
   .resume-card {
     @apply w-full sm:w-[574px] lg:max-w-[50%] bg-transparent border border-black rounded-xl flex-center gap-2 sm:gap-4 md:gap-6 lg:gap-2 px-2 py-2.5 lg:py-3;
   }
 
   .resume-p {
     @apply text-sm sm:text-base text-white font-montserrat font-medium text-left;
-    @apply text-sm sm:text-base text-white font-montserrat font-medium text-left;
   }
 
+  /* Forms */
   .form-label {
     @apply text-color-1 text-base font-montserrat font-bold;
   }
@@ -190,6 +204,7 @@ body {
     @apply !bg-transparent border-0 border-b !border-white ring-0 font-montserrat font-light text-sm text-white !placeholder-white resize-none;
   }
 
+  /* Contact + Social */
   .contact-wrapper {
     @apply w-full flex-center flex-col lg:flex-row lg:flex-between gap-10;
   }
@@ -198,6 +213,7 @@ body {
     @apply flex-center basis-1/2 gap-1 sm:gap-2 md:gap-3 lg:gap-4;
   }
 
+  /* Footer */
   .footer {
     @apply bg-white mt-10 sm:mt-16 lg:mt-20;
   }
@@ -206,8 +222,17 @@ body {
     @apply text-sm text-color-6 font-montserrat font-normal;
   }
 
+  /* Lists */
   .list {
     list-style-type: circle;
   }
-}
 
+  /* Visibility Safeguards for Dark/Light Backgrounds */
+  .text-black {
+    text-shadow: 0 0 2px white; /* makes black text visible on dark backgrounds */
+  }
+
+  .text-white {
+    text-shadow: 0 0 2px black; /* makes white text visible on light backgrounds */
+  }
+}
