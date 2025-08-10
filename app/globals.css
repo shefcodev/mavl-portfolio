@@ -174,8 +174,8 @@ body {
   }
 
   .resume-p {
-    @apply text-sm sm:text-base text-black font-montserrat font-medium text-left;
-    @apply text-sm sm:text-base text-black font-montserrat font-medium text-left;
+    @apply text-sm sm:text-base text-white font-montserrat font-medium text-left;
+    @apply text-sm sm:text-base text-white font-montserrat font-medium text-left;
   }
 
   .form-label {
@@ -183,7 +183,7 @@ body {
   }
 
   .font-input {
-    @apply !bg-transparent border-0 border-b !border-black ring-0 font-montserrat font-light text-sm text-black !placeholder-white;
+    @apply !bg-transparent border-0 border-b !border-black ring-0 font-montserrat font-light text-sm text-white !placeholder-white;
   }
 
   .form-textarea {
