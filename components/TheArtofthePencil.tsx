@@ -29,10 +29,17 @@ const Projects = () => {
         </div>
 
         <motion.div {...motionValues}>
-          <Carousel className='w-full' orientation='horizontal'>
+          <Carousel 
+            className='w-full' 
+            orientation='horizontal'
+            opts={{
+              align: "start",
+              slidesToScroll: "auto",
+            }}
+          >
             <CarouselContent>
               {projects_.map((project: ProjectProp, index: number) => (
-                <CarouselItem key={index} className='flex-center'>
+                <CarouselItem key={index} className='flex-center basis-1/3'> {/* Adjust basis as needed */}
                   <Project project={project} />
                 </CarouselItem>
               ))}
