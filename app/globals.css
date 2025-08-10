@@ -95,15 +95,15 @@ body {
   }
 
   .about-title {
-    @apply text-black text-5xl sm:text-6xl md:text-7xl font-montserrat font-black tracking-wider max-w-[100%];
+    @apply text-white text-5xl sm:text-6xl md:text-7xl font-montserrat font-white tracking-wider max-w-[100%];
   }
 
   .about-subtitle {
-    @apply text-black text-xl sm:text-2xl md:text-3xl font-montserrat font-bold tracking-normal max-w-[100%];
+    @apply text-white text-xl sm:text-2xl md:text-3xl font-montserrat font-bold tracking-normal max-w-[100%];
   }
 
   .about-desc {
-    @apply text-sm sm:text-base text-black font-montserrat sm:max-w-[100%];
+    @apply text-sm sm:text-base text-white font-montserrat sm:max-w-[100%];
   }
 
   .img-container {
