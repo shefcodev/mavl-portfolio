@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import { motionValues } from "@/lib/utils";
 
-const FailureStoriesandProcessDocumentation = () => {
+const FailureandDocumentation = () => {
   const caseStudies = [
     {
       id: 1,
@@ -265,4 +265,4 @@ const FailureStoriesandProcessDocumentation = () => {
   );
 };
 
-export default FailureStoriesandProcessDocumentation;
+export default FailureandDocumentation;

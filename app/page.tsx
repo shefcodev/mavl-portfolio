@@ -8,7 +8,7 @@ import Recognition from "@/components/Recognition";
 import Services from "@/components/Services";
 import Designs from "@/components/Designs";
 import WorkPlans from "@/components/WorkPlans";
-import FailureStoriesandProcessDocumentation from "@/components/FailureStoriesandProcessDocumentation";
+import FailureandDocumentation from "@/components/FailureandDocumentation";
 import TheArtofthePencil from "@/components/TheArtofthePencil";
 import Contact from "@/components/Contact";
 
@@ -24,7 +24,7 @@ export default function Home() {
       <Services />
       <Designs />
       <WorkPlans />
-      <FailureStoriesandProcessDocumentation />
+      <FailureandDocumentation />
       <TheArtofthePencil />
       <Contact />
     </Fragment>

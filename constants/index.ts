@@ -758,7 +758,7 @@ export const TheArtofthePencil = {
   ],
 };
 
-export const FailureStoriesandProcessDocumentation = {
+export const FailureandDocumentation = {
   FailureStoriesandProcessDocumentationTitle: "Failure Stories & Process Documentation",
   aboutDesc: [
     ""
