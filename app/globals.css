@@ -58,7 +58,7 @@ body {
   }
 
   .nav-bar {
-    @apply flex-between section section_px section_py relative z-50 bg-black;
+    @apply flex-between section section_px section_py relative z-50 bg-white;
   }
 
   .link {
@@ -66,7 +66,7 @@ body {
   }
 
   .link-active {
-    @apply text-2xl text-transparent bg-clip-text bg-gradient-to-r from-white to-color-6 font-black px-3 py-1;
+    @apply text-2xl text-transparent bg-clip-text bg-gradient-to-r from-black to-color-6 font-black px-3 py-1;
   }
 
   .mobile-nav {
