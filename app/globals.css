@@ -13,21 +13,19 @@ html {
 }
 
 body {
-  /* Fortune 500-level yellow with gradient depth */
-  background: linear-gradient(135deg, #FFD43B 0%, #FFE873 50%, #FFF8D6 100%);
+  background-color: #f1e880; /* Warm, welcoming base */
   font-family: 'Montserrat', sans-serif;
-  transition: background 0.3s ease-in-out;
-  color: #111; /* Ensures maximum readability */
+  color: #222; /* Default text color for clarity */
 }
 
 /* ======================
-   CUSTOM UTILITIES LAYER
+   UTILITIES LAYER
    ====================== */
 @layer utilities {
 
-  /* ======================
-     Layout Helpers
-  ====================== */
+  /* ------------------------------
+     Section Wrappers
+  ------------------------------ */
   .section {
     @apply mx-auto max-w-[1400px];
   }
@@ -44,22 +42,35 @@ body {
     @apply mt-10 sm:mt-16 lg:mt-20;
   }
 
-  /* ======================
-     Flex Helpers
-  ====================== */
-  .flex-center { @apply flex justify-center items-center; }
-  .flex-between { @apply flex justify-between items-center; }
-  .flex-end { @apply flex justify-end items-center; }
-  .flex-start-center { @apply flex justify-start items-center; }
-  .flex-center-start { @apply flex justify-center items-start; }
+  /* ------------------------------
+     Flex Utilities
+  ------------------------------ */
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
 
-  /* ======================
-     Header + Nav
-  ====================== */
+  .flex-between {
+    @apply flex justify-between items-center;
+  }
+
+  .flex-end {
+    @apply flex justify-end items-center;
+  }
+
+  .flex-start-center {
+    @apply flex justify-start items-center;
+  }
+
+  .flex-center-start {
+    @apply flex justify-center items-start;
+  }
+
+  /* ------------------------------
+     Header & Navigation
+  ------------------------------ */
   .header {
     @apply fixed top-0 left-0 right-0 z-50 bg-white shadow-lg;
-    backdrop-filter: blur(6px);
-    border-bottom: 2px solid rgba(0,0,0,0.05);
+    backdrop-filter: blur(10px);
   }
 
   .nav-bar {
@@ -67,113 +78,194 @@ body {
   }
 
   .link {
-    @apply text-gray-800 font-medium block transition-all duration-300 hover:text-black hover:scale-[1.05];
+    @apply text-color-6 font-medium transition-all duration-300 hover:text-black hover:scale-105;
   }
 
   .link-active {
-    @apply text-2xl bg-clip-text bg-gradient-to-r from-black to-gray-700 font-black px-3 py-1;
+    @apply text-2xl text-transparent bg-clip-text bg-gradient-to-r from-black to-color-6 font-black px-3 py-1;
   }
 
   .mobile-nav {
-    @apply hidden max-lg:flex justify-center items-center absolute top-[90px] -z-10 w-full h-[33vh] bg-white bg-opacity-90 backdrop-blur-lg py-6 shadow-lg rounded-lg;
-    animation: slideDown 0.4s ease-out;
+    @apply hidden max-lg:flex justify-center items-center absolute top-[90px] -z-10 w-full h-[33vh] bg-white bg-opacity-70 backdrop-blur-lg py-6 rounded-b-2xl shadow-xl;
   }
 
-  /* ======================
-     Borders
-  ====================== */
-  .border_round { @apply border border-black rounded-full; }
-  .border_b { @apply border-b border-gray-300; }
-  .border_t { @apply border-t border-gray-400; }
+  .mobile-nav_link-active {
+    @apply text-2xl text-transparent bg-clip-text bg-gradient-to-b from-white to-color-6 font-black px-1 py-3;
+  }
 
-  /* ======================
+  /* ------------------------------
+     Borders & Dividers
+  ------------------------------ */
+  .border_round {
+    @apply border-[0.1px] border-black rounded-full;
+  }
+
+  .border_b {
+    @apply border-b-[0.1px] border-color-3;
+  }
+
+  .border_t {
+    @apply border-t-[0.1px] border-color-4;
+  }
+
+  /* ------------------------------
      About Section
-  ====================== */
+  ------------------------------ */
   .about {
-    @apply flex-center flex-col lg:flex-row gap-10 w-full h-full pt-14;
+    @apply flex-center flex-col lg:flex-row gap-10 sm:gap-10 lg:gap-10 w-full h-full pt-14;
   }
 
   .about-title {
-    @apply text-black text-5xl sm:text-6xl md:text-7xl font-black tracking-wider;
-    text-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    @apply text-black text-5xl sm:text-6xl md:text-7xl font-black tracking-wider max-w-[100%];
+    text-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
   }
 
   .about-subtitle {
-    @apply text-xl sm:text-2xl md:text-3xl font-bold text-gray-700;
+    @apply text-black text-xl sm:text-2xl md:text-3xl font-bold tracking-normal max-w-[100%];
   }
 
   .about-desc {
-    @apply text-sm sm:text-base text-gray-800 opacity-90;
+    @apply text-sm sm:text-base text-black sm:max-w-[100%];
+    line-height: 1.6;
   }
 
   .img-container {
-    @apply flex-center bg-transparent border_round overflow-hidden shadow-lg;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  .img-container:hover {
-    transform: scale(1.03);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    @apply flex-center bg-gradient-to-br from-white to-color-6 border_round w-full h-full shadow-xl;
   }
 
-  /* ======================
+  /* ------------------------------
      Headings
-  ====================== */
+  ------------------------------ */
   .section-h2 {
-    @apply text-xl sm:text-2xl text-black text-center font-bold relative;
-  }
-  .section-h2::after {
-    content: '';
-    @apply block w-14 h-1 rounded-full;
-    background: linear-gradient(to right, #FFD43B, #FFA500);
-    margin: 0.5rem auto 0 auto;
+    @apply text-xl sm:text-2xl text-black text-center font-bold;
   }
 
   .section-h3 {
-    @apply text-sm sm:text-base text-black text-center font-medium max-w-[90%] sm:max-w-[70%] lg:max-w-[50%];
+    @apply text-sm sm:text-base text-white text-center font-medium max-w-[90%] sm:max-w-[70%] lg:max-w-[50%];
   }
 
-  /* ======================
+  .section-h3_ {
+    @apply text-lg text-black text-left font-semibold max-w-[90%] sm:max-w-[70%] lg:max-w-[100%];
+  }
+
+  .section-h3__ {
+    @apply text-lg text-black text-center font-semibold;
+  }
+
+  .section-h4 {
+    @apply text-sm sm:text-base text-white text-left font-medium max-w-[90%] sm:max-w-[70%] lg:max-w-[100%];
+  }
+
+  .section-h3_resume {
+    @apply text-sm sm:text-base text-white text-center font-medium max-w-[90%] sm:max-w-[70%] lg:text-left lg:max-w-[50%];
+  }
+
+  /* ------------------------------
+     Paragraph Styles
+  ------------------------------ */
+  .section-p, .section-p_, .section-p__ {
+    @apply text-sm sm:text-base text-white font-medium;
+    line-height: 1.7;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  }
+
+  /* ------------------------------
      Project Cards
-  ====================== */
+  ------------------------------ */
+  .project-wrapper {
+    @apply flex flex-col gap-5 lg:flex-col lg:gap-10;
+  }
+
   .project-detail_wrapper {
-    @apply bg-white bg-opacity-90 rounded-xl p-4 border border-gray-200 shadow-md hover:shadow-xl transition-transform duration-300 hover:scale-[1.02];
+    @apply bg-white bg-opacity-10 h-fit rounded-xl p-4 border border-white flex flex-col gap-5 lg:flex-1 lg:min-w-[516px] transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl;
   }
 
-  /* ======================
-     Resume
-  ====================== */
+  .project-h3 {
+    @apply text-sm sm:text-base text-color-1 font-bold text-left;
+  }
+
+  .project-p {
+    @apply text-xs md:text-sm text-black font-normal text-left;
+  }
+
+  /* ------------------------------
+     Carousel Controls
+  ------------------------------ */
+  .carousel-left_button,
+  .carousel-right_button {
+    @apply text-color-1 z-10 bg-white bg-opacity-80 rounded-full p-2 shadow-md transition-transform hover:scale-110;
+  }
+
+  .carousel-left_button { @apply left-0; }
+  .carousel-right_button { @apply right-0; }
+
+  /* ------------------------------
+     Resume Section
+  ------------------------------ */
   .resume-card {
-    @apply w-full sm:w-[574px] lg:max-w-[50%] bg-white border border-gray-300 rounded-xl flex-center gap-4 px-3 py-4 shadow-sm hover:shadow-lg transition-all duration-300;
+    @apply w-full sm:w-[574px] lg:max-w-[50%] bg-transparent border border-black rounded-xl flex-center gap-2 sm:gap-4 md:gap-6 lg:gap-2 px-2 py-2.5 lg:py-3 hover:shadow-lg transition-all;
   }
 
-  /* ======================
+  .resume-p {
+    @apply text-sm sm:text-base text-white font-medium text-left;
+  }
+
+  /* ------------------------------
      Forms
-  ====================== */
-  .form-label { @apply text-black font-bold; }
-
-  .font-input, .form-textarea {
-    @apply bg-transparent border-0 border-b border-black text-black placeholder-gray-500;
-    transition: border-color 0.3s ease;
-  }
-  .font-input:focus, .form-textarea:focus {
-    border-color: #FFD43B;
+  ------------------------------ */
+  .form-label {
+    @apply text-color-1 text-base font-bold;
   }
 
-  /* ======================
+  .font-input,
+  .form-textarea {
+    @apply !bg-transparent border-0 border-b !border-white ring-0 font-light text-sm text-white !placeholder-white;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  .font-input:focus,
+  .form-textarea:focus {
+    border-color: var(--color-accent, #facc15);
+    box-shadow: 0 2px 6px rgba(250, 204, 21, 0.5);
+  }
+
+  /* ------------------------------
+     Contact & Social
+  ------------------------------ */
+  .contact-wrapper {
+    @apply w-full flex-center flex-col lg:flex-row lg:flex-between gap-10;
+  }
+
+  .social-wrapper {
+    @apply flex-center basis-1/2 gap-1 sm:gap-2 md:gap-3 lg:gap-4;
+  }
+
+  /* ------------------------------
      Footer
-  ====================== */
+  ------------------------------ */
   .footer {
-    @apply bg-white mt-10 sm:mt-16 lg:mt-20 shadow-inner;
-  }
-  .footer-p {
-    @apply text-sm text-gray-700;
+    @apply bg-gradient-to-t from-color-6 to-white mt-10 sm:mt-16 lg:mt-20 py-6;
   }
 
-  /* ======================
-     Animations
-  ====================== */
-  @keyframes slideDown {
-    from { transform: translateY(-20px); opacity: 0; }
-    to { transform: translateY(0); opacity: 1; }
+  .footer-p {
+    @apply text-sm text-color-6 font-normal;
+  }
+
+  /* ------------------------------
+     Lists
+  ------------------------------ */
+  .list {
+    list-style-type: circle;
+    padding-left: 1.5rem;
+  }
+
+  /* ------------------------------
+     Color & Visibility Helpers
+  ------------------------------ */
+  .text-black {
+    text-shadow: 0 0 2px white;
+  }
+
+  .text-white {
+    text-shadow: 0 0 2px black;
   }
 }
