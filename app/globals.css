@@ -102,7 +102,7 @@ body {
   }
 
   .about-desc {
-    @apply text-sm sm:text-base text-white font-montserrat sm:max-w-[100%];
+    @apply text-sm sm:text-base text-black font-montserrat sm:max-w-[100%];
   }
 
   .img-container {
