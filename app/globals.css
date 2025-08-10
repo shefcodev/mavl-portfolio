@@ -166,7 +166,7 @@ body {
   }
 
   .project-h3 {
-    @apply text-sm sm:text-base text-white font-montserrat font-bold text-left;
+    @apply text-sm sm:text-base text-color-1 font-montserrat font-bold text-left;
   }
 
   .project-p {
@@ -175,11 +175,11 @@ body {
 
   /* Carousel Controls */
   .carousel-left_button {
-    @apply text-white z-10 left-0;
+    @apply text-color-1 z-10 left-0;
   }
 
   .carousel-right_button {
-    @apply text-white z-10 right-0;
+    @apply text-color-1 z-10 right-0;
   }
 
   /* Resume */
@@ -193,7 +193,7 @@ body {
 
   /* Forms */
   .form-label {
-    @apply text-white text-base font-montserrat font-bold;
+    @apply text-color-1 text-base font-montserrat font-bold;
   }
 
   .font-input {
@@ -219,12 +219,20 @@ body {
   }
 
   .footer-p {
-    @apply text-sm text-white font-montserrat font-normal;
+    @apply text-sm text-color-6 font-montserrat font-normal;
   }
 
   /* Lists */
   .list {
     list-style-type: circle;
-    color: white;
+  }
+
+  /* Visibility Safeguards for Dark/Light Backgrounds */
+  .text-black {
+    text-shadow: 0 0 2px white; /* makes black text visible on dark backgrounds */
+  }
+
+  .text-white {
+    text-shadow: 0 0 2px black; /* makes white text visible on light backgrounds */
   }
 }
