@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 import { details } from "@/constants";
 import { motionValues } from "@/lib/utils";
 
-const About = () => {
-  const { aboutTitle, aboutSubtitle, aboutDesc } = details;
+function About() {
+  const { aboutTitle, aboutSubtitle } = details;
 
   return (
     <section
@@ -128,6 +128,6 @@ const About = () => {
       </main>
     </section>
   );
-};
+}
 
 export default About;
