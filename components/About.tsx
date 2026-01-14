@@ -39,14 +39,24 @@ const About = () => {
           </motion.h2>
 
           <motion.div {...motionValues}>
-            <p className="about-desc mb-2">I'm passionate about transforming how businesses operate behind the scenes. Through my work, I help lean teams unlock their full potential with smart automation, streamlined processes, and strategic systems that make everything flow effortlessly.</p>
-            <p className="about-desc mb-2">Over the past 5 years, I've partnered with 3 businesses and, most significantly, supported 1 Canadian Region and 18 chapters of the world's largest and most successful referral networking organization BNI®, being part of the team that grew it to #1 from 2020 to 2025. Through this work, I helped slash operational costs by 30% and boost productivity by 40%. My diverse expertise spans <span className="font-bold">Executive administration, Process automation, Financial Operations Support,</span> and <span className="font-bold">technical coordination, </span> plus specialized skills in GoHighLevel, Zapier automation, Typeform programming, and graphic design.</p>
-            <p className="about-desc mb-2">This versatility means I can tackle everything from complex workflow automation and project management to creative marketing support and systems coordination.</p>
-            <p className="about-desc mb-2">I love building solutions that make ambitious teams run like enterprise-grade machines without the enterprise overhead.</p>
-            <p className="about-desc mb-2 italic">My approach is simple: identify what's slowing you down, create systems that work smarter, and build sustainable foundations that grow with your vision.</p>
+            <p className="about-desc mb-2">I'm passionate about turning operational chaos into high-ROI marketing machines. With 5+ years supporting regional leadership and scaling massive networks, I now pivot fully into digital marketing—blending systems thinking with performance strategies to help businesses attract, engage, and convert at scale.</p>
+            <p className="about-desc mb-2">I've partnered with lean teams and, most notably, supported the Canadian Region plus 18 chapters of BNI® (the world's largest referral networking organization), contributing to the team that propelled it to #1 globally from 2020–2025. Through smart automation, process optimization, and targeted marketing support, I helped cut operational costs by 30%, boost productivity by 40%, and drive massive community/engagement growth. </p>
+            <p className="about-desc mb-2 font-semibold">My expertise spans:</p>
+            <ul className="about-desc mb-2 ml-6 list-disc space-y-1"></ul>
+            <li>Digital marketing strategy & performance marketing</li>
+            <li>Social media marketing & management (LinkedIn, Telegram, etc.)</li>
+            <li>Paid ads (Google Ads, Meta, PPC, display)</li>
+            <li>SEO/SEM, content & influencer marketing</li>
+            <li>Marketing automation (GoHighLevel, Zapier, HubSpot-style tools)</li>
+            <li>Email campaigns, GTM launches, lead generation</li>
+            <li>Data-driven funnel optimization & A/B testing</li>
+            <li>Creative support (graphic design, Typeform programming)</li>
+            <p className="about-desc mb-2">This mix lets me build customer-centric campaigns and systems that run efficiently—no enterprise bloat required.</p>
+            <p className="about-desc mb-2 italic">My approach: Identify bottlenecks, automate smarter, deliver value-first marketing that solves real problems and fuels sustainable growth.</p>
+            <p className="about-desc mb-2">When I'm not crafting marketing magic, catch me on the soccer field or lost in Afrobeats and Jazz vibes.</p>
             <p className="about-desc mb-2">When I'm not crafting operational magic, you'll find me on the soccer field or vibing to Afrobeats and Jazz.</p>
             <p className="about-desc mb-2">Let's connect and build something remarkable together.</p>
-            <p className="about-desc mb-2">MARVEL IS YOU GUY!!!</p>
+            <p className="about-desc mb-2">MARVEL IS YOU GUY!!!!</p>
           </motion.div>
         </div>
 
