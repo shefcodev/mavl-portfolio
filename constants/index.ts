@@ -16,7 +16,7 @@ export const links = [
 
 export const details = {
   aboutTitle: "Hey, I’m Marvellous!",
-  aboutSubtitle: "Executive Assistant | Business Operations Coordinator | 5+ Years Supporting Regional Leadership | Process Automation Expert",
+  aboutSubtitle: "IT Operations Support | Executive Assistant | Business Operations Coordinator | 5+ Years Supporting Regional Leadership | Process Automation Expert",
   aboutDesc: [
     "Offering a blend of administrative acumen, technological proficiency, and data-driven insight to propel businesses toward growth. As a virtual assistant and online business partner, I streamline operations, eliminate inefficiencies, and identify untapped opportunities for ethical, growth-oriented entrepreneurs.",
     "Going beyond traditional administrative support, I leverage automation and IT & Customer support to provide a comprehensive approach to business management. My broad skillset includes PROJECT & PRODUCT management, IT SUPPORT, and creative solutions such as GRAPHIC DESIGN and SOCIAL MEDIA MANAGEMENT. This versatility allows for seamless idea integration into diverse business needs, ensuring a tailored strategy for each client.",
